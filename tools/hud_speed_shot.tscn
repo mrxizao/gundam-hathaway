@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bp2hndccsxhih"]
+
+[ext_resource type="Script" path="res://tools/hud_speed_shot.gd" id="1_hss"]
+
+[node name="HudSpeedShot" type="Node"]
+script = ExtResource("1_hss")

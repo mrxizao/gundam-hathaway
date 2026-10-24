@@ -1,0 +1,1 @@
+FFT wave compute subset adapted from https://github.com/itzMeerkat/Godot-RealisticEnvironments commit 3bec0a3e6e374a018923b32ba2e18890cad33c0c. Original project by itzMeerkat, based on Ethan Truong / 2Retr0 GodotOceanWaves. Both MIT licenses retained. Classes renamed with EnvFFT prefix and resource paths relocated; no ships, buoyancy, sky or demo assets included.

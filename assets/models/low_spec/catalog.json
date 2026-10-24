@@ -1,0 +1,134 @@
+[
+  {
+    "after_max_texture": 1024.0,
+    "before_max_texture": 8192.0,
+    "bytes": 70658143.0,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://assets/models/xi_movie/xi_movie_rigged.scn",
+    "source_sha256": "6e794932eeb3fdf5d6970968173807bae71e74a2b91b27f54142220336fb6859",
+    "target": "res://assets/models/low_spec/3f6bf562b2bd77d54f90c010211243c4.scn",
+    "textures_resized": 1.0
+  },
+  {
+    "after_max_texture": 1024.0,
+    "before_max_texture": 8192.0,
+    "bytes": 2066485.0,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://assets/models/gustav/gustav_fly.glb",
+    "source_sha256": "fd448684bbf96aac60683e024294160123b6420244f4bb4343275d923cad2603",
+    "target": "res://assets/models/low_spec/90cb6e4793c8edac9910c08f73dc5a42.scn",
+    "textures_resized": 1.0
+  },
+  {
+    "after_max_texture": 1024.0,
+    "before_max_texture": 8192.0,
+    "bytes": 3777181.0,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://assets/models/messer/messer_fly.glb",
+    "source_sha256": "d8f5a4b3ee75f4303aedd216cc23be9b5fb535803aef32eca64e5e6b41894c85",
+    "target": "res://assets/models/low_spec/373bbaab4da08393af77d8b59ed074df.scn",
+    "textures_resized": 6.0
+  },
+  {
+    "after_max_texture": 1024.0,
+    "before_max_texture": 8192.0,
+    "bytes": 3952195.0,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://assets/models/messer_f01/messer_f01_fly.glb",
+    "source_sha256": "3ae1f46fa4fc7229c2b961f561d59e4559781b5b1d29be2a28df767d71209e61",
+    "target": "res://assets/models/low_spec/8aaf443ceb39797e4d8e9e707f62f280.scn",
+    "textures_resized": 7.0
+  },
+  {
+    "after_max_texture": 1024.0,
+    "before_max_texture": 8192.0,
+    "bytes": 76540372.0,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://assets/models/xi_final_rebuilt/xi_final_fresh_rig.scn",
+    "source_sha256": "f088e34481317c6dde5a9cc7d9e671fd309f5f37a4d0f4c30f2bf0281e8ccd1d",
+    "target": "res://assets/models/low_spec/6bf965705994fd2b68a279499136d2e5.scn",
+    "textures_resized": 1.0
+  },
+  {
+    "after_max_texture": 1024.0,
+    "before_max_texture": 2048.0,
+    "bytes": 48100807.0,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://data/regz_models/normal.scn",
+    "source_sha256": "f3ad514ec0f0c909741c5408b061ce427d425cc50b6c596edfc3e2b0e032ea8b",
+    "target": "res://assets/models/low_spec/cc92aad35ddfa016d02b23fa113de187.scn",
+    "textures_resized": 1.0
+  },
+  {
+    "after_max_texture": 1024.0,
+    "before_max_texture": 2048.0,
+    "bytes": 48103693.0,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://data/regz_models/cruise.scn",
+    "source_sha256": "9d8f6eeb175f4ca22117bc363218b32a6383ed8e9df272ecfa6aabd50c024077",
+    "target": "res://assets/models/low_spec/b38bcb520a2775408df647f4087be44c.scn",
+    "textures_resized": 1.0
+  },
+  {
+    "after_max_texture": 1024,
+    "before_max_texture": 8192,
+    "bytes": 63672956,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://data/sazabi_models/normal.scn",
+    "source_sha256": "c82c76ca95d7b302003c928c228d3d0a3114eec67de668120143316d33bf7a55",
+    "target": "res://assets/models/low_spec/eb3e3511bd66aeb5380dd961920f50db.scn",
+    "textures_resized": 3
+  },
+  {
+    "after_max_texture": 1024,
+    "before_max_texture": 8192,
+    "bytes": 23446943,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://data/sazabi_models/shotgun.scn",
+    "source_sha256": "e88c6ed104aab0358bc52f3372ccd6eae4a36f7b91b3f5a5e8de2b7ef351c4e4",
+    "target": "res://assets/models/low_spec/e5e277d08bd1fe0ae4361a8f6977066e.scn",
+    "textures_resized": 3
+  },
+  {
+    "after_max_texture": 1024,
+    "before_max_texture": 8192,
+    "bytes": 24271317,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://data/sazabi_models/sniper.scn",
+    "source_sha256": "3e44f1fbbc1e254d5ff380650a6b7fa9287ea340c17b5b8918a48584da9a1c8e",
+    "target": "res://assets/models/low_spec/0646411ab7754a653a95c959d2caf5e8.scn",
+    "textures_resized": 3
+  },
+  {
+    "after_max_texture": 1024,
+    "before_max_texture": 8192,
+    "bytes": 23571554,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://data/sazabi_models/shield.scn",
+    "source_sha256": "1afe6d3c4b27f4b8d5dd8382df14351fad1adb90e1e90d657e42cd973c8ac00f",
+    "target": "res://assets/models/low_spec/8ab2fa713accbf408ac73a95aff0564c.scn",
+    "textures_resized": 3
+  },
+  {
+    "after_max_texture": 1024,
+    "before_max_texture": 8192,
+    "bytes": 24456726,
+    "dependencies": [],
+    "mesh_bone_animation_signature_identical": true,
+    "source": "res://data/sazabi_models/axe.scn",
+    "source_sha256": "c428457cf8c5263a19d784c3baf8f67c091827046fa49fe2af65cb31386dcf90",
+    "target": "res://assets/models/low_spec/b60b57b1f40e806819e33bc4f7cf578f.scn",
+    "textures_resized": 3
+  }
+]

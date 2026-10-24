@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bq1plume2shot"]
+
+[ext_resource type="Script" path="res://tools/plume_shot.gd" id="1_pls"]
+
+[node name="PlumeShot" type="Node"]
+script = ExtResource("1_pls")

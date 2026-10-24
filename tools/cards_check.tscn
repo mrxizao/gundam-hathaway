@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b2acardscheck"]
+
+[ext_resource type="Script" path="res://tools/cards_check.gd" id="1_cc"]
+
+[node name="CardsCheck" type="Node"]
+script = ExtResource("1_cc")

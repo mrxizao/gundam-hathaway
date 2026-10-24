@@ -1,0 +1,1 @@
+GP03D legacy archive. Root is invisible and process-disabled; Mount_* bindings removed. No active game profile references this scene. Replacement: res://assets/models/gp03d_v2/gp03d_v2.scn. Original byte-for-byte asset backup is in the Codex task work/gp03d_v2/backup directory.

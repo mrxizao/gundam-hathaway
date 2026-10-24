@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b6roadview"]
+
+[ext_resource type="Script" path="res://tools/_b6_road_view.gd" id="1_rv"]
+
+[node name="B6RoadView" type="Node"]
+script = ExtResource("1_rv")

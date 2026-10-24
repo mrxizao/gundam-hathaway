@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://bqepa2kto8qlv"
+path="res://.godot/imported/iwave_step.glsl-95ca38b5892323667179c52a725a08e7.res"
+
+[deps]
+
+source_file="res://addons/environment_fft/shaders/compute/iwave_step.glsl"
+dest_files=["res://.godot/imported/iwave_step.glsl-95ca38b5892323667179c52a725a08e7.res"]
+
+[params]
+

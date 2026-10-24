@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://p4hh3gj68emw"]
+
+[ext_resource type="Script" path="res://tools/_launch_cam_probe.gd" id="1_lcp"]
+
+[node name="LaunchCamProbe" type="Node"]
+script = ExtResource("1_lcp")

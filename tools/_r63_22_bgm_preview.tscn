@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_r63_22_bgm_preview.gd" id="1_r6322pv"]
+
+[node name="R63_22BgmPreview" type="Node"]
+script = ExtResource("1_r6322pv")

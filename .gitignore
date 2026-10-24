@@ -1,0 +1,23 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Local build artifacts, historical copies and editor state
+/archive/
+/work/
+/outputs/
+/notes/
+/export_credentials.cfg
+*.exe
+*.pck
+*.tmp
+*.log
+*.bak
+*.bak[0-9]*
+*.bak-*
+*.blend1
+*.blend2
+__pycache__/
+.env
+.env.*
+!.env.example

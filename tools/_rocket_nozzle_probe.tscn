@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bfr5a5oogx5m0"]
+
+[ext_resource type="Script" path="res://tools/_rocket_nozzle_probe.gd" id="1_nz"]
+
+[node name="RocketNozzleProbe" type="Node"]
+script = ExtResource("1_nz")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_r63_9_d4_probe.gd" id="1"]
+
+[node name="R639D4Probe" type="Node"]
+script = ExtResource("1")

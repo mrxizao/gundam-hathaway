@@ -1,0 +1,522 @@
+[
+  {
+    "part": "tripo_part_0",
+    "joint": "Shin.L",
+    "vertices": 32640
+  },
+  {
+    "part": "tripo_part_1",
+    "joint": "Shoulder.L",
+    "vertices": 18738
+  },
+  {
+    "part": "tripo_part_10",
+    "joint": "Thigh.R",
+    "vertices": 26320
+  },
+  {
+    "part": "tripo_part_100",
+    "joint": "Hand.R",
+    "vertices": 1815
+  },
+  {
+    "part": "tripo_part_101",
+    "joint": "Head",
+    "vertices": 1531
+  },
+  {
+    "part": "tripo_part_102",
+    "joint": "Head",
+    "vertices": 1500
+  },
+  {
+    "part": "tripo_part_103",
+    "joint": "Chest",
+    "vertices": 1401
+  },
+  {
+    "part": "tripo_part_11",
+    "joint": "SideArmor.R",
+    "vertices": 19923
+  },
+  {
+    "part": "tripo_part_12",
+    "joint": "Hips",
+    "vertices": 21275
+  },
+  {
+    "part": "tripo_part_13",
+    "joint": "Wing.R",
+    "vertices": 20081
+  },
+  {
+    "part": "tripo_part_14",
+    "joint": "Foot.R",
+    "vertices": 10705
+  },
+  {
+    "part": "tripo_part_15",
+    "joint": "Hand.L",
+    "vertices": 11914
+  },
+  {
+    "part": "tripo_part_16",
+    "joint": "LowerArm.L",
+    "vertices": 14267
+  },
+  {
+    "part": "tripo_part_17",
+    "joint": "Shoulder.R",
+    "vertices": 16769
+  },
+  {
+    "part": "tripo_part_18",
+    "joint": "Shin.L",
+    "vertices": 13714
+  },
+  {
+    "part": "tripo_part_19",
+    "joint": "Wing.R",
+    "vertices": 13333
+  },
+  {
+    "part": "tripo_part_2",
+    "joint": "Tail",
+    "vertices": 38247
+  },
+  {
+    "part": "tripo_part_20",
+    "joint": "Chest",
+    "vertices": 20426
+  },
+  {
+    "part": "tripo_part_21",
+    "joint": "LowerArm.L",
+    "vertices": 16780
+  },
+  {
+    "part": "tripo_part_22",
+    "joint": "Shin.R",
+    "vertices": 13258
+  },
+  {
+    "part": "tripo_part_23",
+    "joint": "Wing.R",
+    "vertices": 12950
+  },
+  {
+    "part": "tripo_part_24",
+    "joint": "Foot.L",
+    "vertices": 9873
+  },
+  {
+    "part": "tripo_part_25",
+    "joint": "Wing.L",
+    "vertices": 13093
+  },
+  {
+    "part": "tripo_part_26",
+    "joint": "LowerArm.L",
+    "vertices": 11282
+  },
+  {
+    "part": "tripo_part_27",
+    "joint": "UpperArm.L",
+    "vertices": 11212
+  },
+  {
+    "part": "tripo_part_28",
+    "joint": "Shin.L",
+    "vertices": 11959
+  },
+  {
+    "part": "tripo_part_29",
+    "joint": "Shin.R",
+    "vertices": 10998
+  },
+  {
+    "part": "tripo_part_3",
+    "joint": "Tail",
+    "vertices": 38081
+  },
+  {
+    "part": "tripo_part_30",
+    "joint": "Foot.L",
+    "vertices": 9331
+  },
+  {
+    "part": "tripo_part_31",
+    "joint": "LowerArm.R",
+    "vertices": 11337
+  },
+  {
+    "part": "tripo_part_32",
+    "joint": "Backpack",
+    "vertices": 10275
+  },
+  {
+    "part": "tripo_part_33",
+    "joint": "LowerArm.L",
+    "vertices": 9574
+  },
+  {
+    "part": "tripo_part_34",
+    "joint": "Foot.R",
+    "vertices": 8638
+  },
+  {
+    "part": "tripo_part_35",
+    "joint": "LowerArm.R",
+    "vertices": 13345
+  },
+  {
+    "part": "tripo_part_36",
+    "joint": "Wing.L",
+    "vertices": 12732
+  },
+  {
+    "part": "tripo_part_37",
+    "joint": "Shoulder.L",
+    "vertices": 7195
+  },
+  {
+    "part": "tripo_part_38",
+    "joint": "Shin.R",
+    "vertices": 6970
+  },
+  {
+    "part": "tripo_part_39",
+    "joint": "Shoulder.L",
+    "vertices": 6624
+  },
+  {
+    "part": "tripo_part_4",
+    "joint": "Hips",
+    "vertices": 24915
+  },
+  {
+    "part": "tripo_part_40",
+    "joint": "UpperArm.L",
+    "vertices": 6700
+  },
+  {
+    "part": "tripo_part_41",
+    "joint": "LowerArm.L",
+    "vertices": 6162
+  },
+  {
+    "part": "tripo_part_42",
+    "joint": "Shoulder.R",
+    "vertices": 20805
+  },
+  {
+    "part": "tripo_part_43",
+    "joint": "Backpack",
+    "vertices": 17243
+  },
+  {
+    "part": "tripo_part_44",
+    "joint": "LowerArm.R",
+    "vertices": 15020
+  },
+  {
+    "part": "tripo_part_45",
+    "joint": "Wing.L",
+    "vertices": 14814
+  },
+  {
+    "part": "tripo_part_46",
+    "joint": "LowerArm.R",
+    "vertices": 14128
+  },
+  {
+    "part": "tripo_part_47",
+    "joint": "Shin.R",
+    "vertices": 13521
+  },
+  {
+    "part": "tripo_part_48",
+    "joint": "Wing.L",
+    "vertices": 12615
+  },
+  {
+    "part": "tripo_part_49",
+    "joint": "Shoulder.L",
+    "vertices": 12254
+  },
+  {
+    "part": "tripo_part_5",
+    "joint": "Shin.R",
+    "vertices": 24614
+  },
+  {
+    "part": "tripo_part_50",
+    "joint": "Shoulder.R",
+    "vertices": 12087
+  },
+  {
+    "part": "tripo_part_51",
+    "joint": "SideArmor.L",
+    "vertices": 11806
+  },
+  {
+    "part": "tripo_part_52",
+    "joint": "Shin.L",
+    "vertices": 11528
+  },
+  {
+    "part": "tripo_part_53",
+    "joint": "Tail",
+    "vertices": 11876
+  },
+  {
+    "part": "tripo_part_54",
+    "joint": "Shin.R",
+    "vertices": 11414
+  },
+  {
+    "part": "tripo_part_55",
+    "joint": "UpperArm.R",
+    "vertices": 11272
+  },
+  {
+    "part": "tripo_part_56",
+    "joint": "UpperArm.R",
+    "vertices": 10395
+  },
+  {
+    "part": "tripo_part_57",
+    "joint": "LowerArm.R",
+    "vertices": 9739
+  },
+  {
+    "part": "tripo_part_58",
+    "joint": "Hand.R",
+    "vertices": 8634
+  },
+  {
+    "part": "tripo_part_59",
+    "joint": "Thruster.R",
+    "vertices": 7746
+  },
+  {
+    "part": "tripo_part_6",
+    "joint": "Chest",
+    "vertices": 29928
+  },
+  {
+    "part": "tripo_part_60",
+    "joint": "Shoulder.L",
+    "vertices": 8080
+  },
+  {
+    "part": "tripo_part_61",
+    "joint": "Hips",
+    "vertices": 8131
+  },
+  {
+    "part": "tripo_part_62",
+    "joint": "Shoulder.R",
+    "vertices": 7943
+  },
+  {
+    "part": "tripo_part_63",
+    "joint": "Wing.L",
+    "vertices": 7238
+  },
+  {
+    "part": "tripo_part_64",
+    "joint": "Shin.R",
+    "vertices": 6930
+  },
+  {
+    "part": "tripo_part_65",
+    "joint": "Shin.L",
+    "vertices": 6734
+  },
+  {
+    "part": "tripo_part_66",
+    "joint": "Wing.R",
+    "vertices": 6537
+  },
+  {
+    "part": "tripo_part_67",
+    "joint": "Chest",
+    "vertices": 6607
+  },
+  {
+    "part": "tripo_part_68",
+    "joint": "Chest",
+    "vertices": 6770
+  },
+  {
+    "part": "tripo_part_69",
+    "joint": "LowerArm.R",
+    "vertices": 6038
+  },
+  {
+    "part": "tripo_part_7",
+    "joint": "Head",
+    "vertices": 19740
+  },
+  {
+    "part": "tripo_part_70",
+    "joint": "Backpack",
+    "vertices": 6038
+  },
+  {
+    "part": "tripo_part_71",
+    "joint": "Shin.L",
+    "vertices": 5579
+  },
+  {
+    "part": "tripo_part_72",
+    "joint": "Shin.L",
+    "vertices": 4932
+  },
+  {
+    "part": "tripo_part_73",
+    "joint": "Thigh.L",
+    "vertices": 4850
+  },
+  {
+    "part": "tripo_part_74",
+    "joint": "Thigh.R",
+    "vertices": 4814
+  },
+  {
+    "part": "tripo_part_75",
+    "joint": "Shoulder.R",
+    "vertices": 4519
+  },
+  {
+    "part": "tripo_part_76",
+    "joint": "Thigh.R",
+    "vertices": 4200
+  },
+  {
+    "part": "tripo_part_77",
+    "joint": "Head",
+    "vertices": 4263
+  },
+  {
+    "part": "tripo_part_78",
+    "joint": "Hand.L",
+    "vertices": 3877
+  },
+  {
+    "part": "tripo_part_79",
+    "joint": "Shoulder.L",
+    "vertices": 4127
+  },
+  {
+    "part": "tripo_part_8",
+    "joint": "Shin.L",
+    "vertices": 19386
+  },
+  {
+    "part": "tripo_part_80",
+    "joint": "Hand.L",
+    "vertices": 3716
+  },
+  {
+    "part": "tripo_part_81",
+    "joint": "Backpack",
+    "vertices": 3762
+  },
+  {
+    "part": "tripo_part_82",
+    "joint": "Head",
+    "vertices": 3771
+  },
+  {
+    "part": "tripo_part_83",
+    "joint": "Foot.L",
+    "vertices": 3453
+  },
+  {
+    "part": "tripo_part_84",
+    "joint": "Head",
+    "vertices": 3661
+  },
+  {
+    "part": "tripo_part_85",
+    "joint": "Shoulder.L",
+    "vertices": 3242
+  },
+  {
+    "part": "tripo_part_86",
+    "joint": "Foot.R",
+    "vertices": 3093
+  },
+  {
+    "part": "tripo_part_87",
+    "joint": "Chest",
+    "vertices": 3275
+  },
+  {
+    "part": "tripo_part_88",
+    "joint": "Chest",
+    "vertices": 3069
+  },
+  {
+    "part": "tripo_part_89",
+    "joint": "Chest",
+    "vertices": 3203
+  },
+  {
+    "part": "tripo_part_9",
+    "joint": "Thigh.L",
+    "vertices": 26126
+  },
+  {
+    "part": "tripo_part_90",
+    "joint": "Chest",
+    "vertices": 3022
+  },
+  {
+    "part": "tripo_part_91",
+    "joint": "Backpack",
+    "vertices": 2982
+  },
+  {
+    "part": "tripo_part_92",
+    "joint": "Shoulder.R",
+    "vertices": 2416
+  },
+  {
+    "part": "tripo_part_93",
+    "joint": "Chest",
+    "vertices": 2336
+  },
+  {
+    "part": "tripo_part_94",
+    "joint": "Head",
+    "vertices": 2291
+  },
+  {
+    "part": "tripo_part_95",
+    "joint": "Chest",
+    "vertices": 2050
+  },
+  {
+    "part": "tripo_part_96",
+    "joint": "Shin.L",
+    "vertices": 1990
+  },
+  {
+    "part": "tripo_part_97",
+    "joint": "Backpack",
+    "vertices": 1858
+  },
+  {
+    "part": "tripo_part_98",
+    "joint": "Head",
+    "vertices": 1732
+  },
+  {
+    "part": "tripo_part_99",
+    "joint": "Hand.R",
+    "vertices": 1705
+  }
+]

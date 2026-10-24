@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_n58_messer_fb_shots.gd" id="1_n58fb"]
+
+[node name="N58MesserFbShots" type="Node"]
+script = ExtResource("1_n58fb")

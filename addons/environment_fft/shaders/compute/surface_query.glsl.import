@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://37snejjgc3lt"
+path="res://.godot/imported/surface_query.glsl-09c7fa8c82e89feeb1c24ac00b201dca.res"
+
+[deps]
+
+source_file="res://addons/environment_fft/shaders/compute/surface_query.glsl"
+dest_files=["res://.godot/imported/surface_query.glsl-09c7fa8c82e89feeb1c24ac00b201dca.res"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://vb4673s1v1pv"
+path="res://.godot/imported/mip_downsample.glsl-b0813c8e1dbc789f2bf4dae01609d7a1.res"
+
+[deps]
+
+source_file="res://addons/environment_fft/shaders/compute/mip_downsample.glsl"
+dest_files=["res://.godot/imported/mip_downsample.glsl-b0813c8e1dbc789f2bf4dae01609d7a1.res"]
+
+[params]
+

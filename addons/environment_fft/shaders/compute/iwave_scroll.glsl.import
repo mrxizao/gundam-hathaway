@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://dulqtc0p6re5f"
+path="res://.godot/imported/iwave_scroll.glsl-359b6159ffdf09ba31a19d56880fcb84.res"
+
+[deps]
+
+source_file="res://addons/environment_fft/shaders/compute/iwave_scroll.glsl"
+dest_files=["res://.godot/imported/iwave_scroll.glsl-359b6159ffdf09ba31a19d56880fcb84.res"]
+
+[params]
+

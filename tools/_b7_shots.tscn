@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b7shots"]
+
+[ext_resource type="Script" path="res://tools/_b7_shots.gd" id="1_b7"]
+
+[node name="B7Shots" type="Node"]
+script = ExtResource("1_b7")

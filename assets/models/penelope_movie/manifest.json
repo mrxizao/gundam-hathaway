@@ -1,0 +1,11 @@
+{
+  "model": "penelope_movie",
+  "source_date": "2026-10-13",
+  "source_folder": "C:\\Users\\MSIPC\\Desktop\\游戏\\闪哈游戏\\柯西与佩涅罗佩\\佩涅罗佩模型\\佩涅罗佩重置",
+  "runtime_scene": "penelope_movie_rigged.scn",
+  "compatible_combat_bones": 39,
+  "rigid_parts": 176,
+  "form_seconds": 0.65,
+  "legacy_archive": "C:\\Users\\MSIPC\\Documents\\gundam\\archive\\hidden_models\\penelope_legacy_20261013",
+  "input_to_form_budget_seconds": 0.7
+}

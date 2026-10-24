@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c0r6abgmprobe"]
+
+[ext_resource type="Script" path="res://tools/_r59_bgm_probe.gd" id="1_r59bgm"]
+
+[node name="R59BgmProbe" type="Node"]
+script = ExtResource("1_r59bgm")

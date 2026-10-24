@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\MSIPC\\Desktop\\游戏\\闪哈游戏\\柯西与佩涅罗佩\\柯西模型\\柯西（最终决战样式）.glb",
+  "source_sha256": "49a74a0d2698c364b8d2655c99a06425d97a44f7125ad9abd8020b5a8c70474b",
+  "runtime_scene": "res://assets/models/xi_final/xi_final_rigged.scn",
+  "runtime_sha256": "78301cebd7f556382f1ad064119ee08416af182598019ecb5cdefb194b77f302",
+  "mesh_parts": 253,
+  "bones": 78,
+  "native_height": 0.9684375,
+  "target_height": 28.0,
+  "missile_magazine": 300,
+  "full_salvo_count": 100,
+  "full_salvo_capacity": 3,
+  "sequential_recharge_seconds": 20.0,
+  "initial_charges": 3,
+  "can_discard_rifle": false,
+  "normal_dash_spin": false,
+  "cruise_baseline": "ordinary Xi; hinges and arm pivots fitted to final model",
+  "distant_lod": "res://assets/models/distant_lod/16ad36344afef4d5f8d5e83db7d14b5c.res",
+  "distant_lod_triangles": 56662,
+  "binding": "connected components; manual arms/palms/rifle; rigid wing assemblies; tiny remote export islands removed"
+}

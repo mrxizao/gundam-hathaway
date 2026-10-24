@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "day4_style_0",
+      "name": "台阶式办公楼",
+      "group": "第四天模块建筑",
+      "scene": "res://assets/models/adelaide_modules/prototypes/style_0.tscn",
+      "detail": "完整通用立面与屋顶 / 第五天",
+      "route_placements": 8
+    },
+    {
+      "id": "day4_style_1",
+      "name": "板式商业楼",
+      "group": "第四天模块建筑",
+      "scene": "res://assets/models/adelaide_modules/prototypes/style_1.tscn",
+      "detail": "完整通用立面与屋顶 / 第五天",
+      "route_placements": 8
+    },
+    {
+      "id": "day4_style_2",
+      "name": "砖石沿街楼",
+      "group": "第四天模块建筑",
+      "scene": "res://assets/models/adelaide_modules/prototypes/style_2.tscn",
+      "detail": "完整通用立面与屋顶 / 第五天",
+      "route_placements": 8
+    },
+    {
+      "id": "day4_style_3",
+      "name": "玻璃幕墙塔楼",
+      "group": "第四天模块建筑",
+      "scene": "res://assets/models/adelaide_modules/prototypes/style_3.tscn",
+      "detail": "完整通用立面与屋顶 / 第五天",
+      "route_placements": 8
+    },
+    {
+      "id": "day4_style_4",
+      "name": "工业厂房",
+      "group": "第四天模块建筑",
+      "scene": "res://assets/models/adelaide_modules/prototypes/style_4.tscn",
+      "detail": "完整通用立面与屋顶 / 第五天",
+      "route_placements": 8
+    },
+    {
+      "id": "day4_style_5",
+      "name": "公共设施楼",
+      "group": "第四天模块建筑",
+      "scene": "res://assets/models/adelaide_modules/prototypes/style_5.tscn",
+      "detail": "完整通用立面与屋顶 / 第五天",
+      "route_placements": 8
+    },
+    {
+      "id": "legacy_brick_streetfront",
+      "name": "原版砖石沿街楼",
+      "group": "经典原版",
+      "scene": "res://assets/models/adelaide_modules/legacy/brick_streetfront.tscn",
+      "variants": [
+        "res://assets/models/adelaide_modules/legacy/brick_streetfront.tscn",
+        "res://assets/models/adelaide_modules/legacy/variants/brick_streetfront_2.tscn",
+        "res://assets/models/adelaide_modules/legacy/variants/brick_streetfront_3.tscn"
+      ],
+      "appearance": "保留修改前实际楼房的几何和材质；独立收录",
+      "source_parcels": [
+        "parcel_24_22",
+        "parcel_17_30",
+        "parcel_17_33"
+      ]
+    },
+    {
+      "id": "legacy_industrial_factory",
+      "name": "原版工业厂房",
+      "group": "经典原版",
+      "scene": "res://assets/models/adelaide_modules/legacy/industrial_factory.tscn",
+      "variants": [
+        "res://assets/models/adelaide_modules/legacy/industrial_factory.tscn",
+        "res://assets/models/adelaide_modules/legacy/variants/industrial_factory_2.tscn",
+        "res://assets/models/adelaide_modules/legacy/variants/industrial_factory_3.tscn"
+      ],
+      "appearance": "保留修改前实际楼房的几何和材质；独立收录",
+      "source_parcels": [
+        "parcel_22_22",
+        "parcel_23_23",
+        "parcel_16_31"
+      ]
+    }
+  ],
+  "detail_module_library": "res://assets/models/adelaide_modules/details/library.tscn",
+  "detail_modules": [
+    {
+      "id": 0,
+      "name": "空调机组",
+      "scene": "res://assets/models/adelaide_modules/details/module_00.tscn",
+      "triangles": 96
+    },
+    {
+      "id": 1,
+      "name": "风管",
+      "scene": "res://assets/models/adelaide_modules/details/module_01.tscn",
+      "triangles": 60
+    },
+    {
+      "id": 2,
+      "name": "检修舱",
+      "scene": "res://assets/models/adelaide_modules/details/module_02.tscn",
+      "triangles": 36
+    },
+    {
+      "id": 3,
+      "name": "天线",
+      "scene": "res://assets/models/adelaide_modules/details/module_03.tscn",
+      "triangles": 48
+    },
+    {
+      "id": 4,
+      "name": "栏杆",
+      "scene": "res://assets/models/adelaide_modules/details/module_04.tscn",
+      "triangles": 60
+    },
+    {
+      "id": 5,
+      "name": "落水管",
+      "scene": "res://assets/models/adelaide_modules/details/module_05.tscn",
+      "triangles": 48
+    },
+    {
+      "id": 6,
+      "name": "门框",
+      "scene": "res://assets/models/adelaide_modules/details/module_06.tscn",
+      "triangles": 36
+    },
+    {
+      "id": 7,
+      "name": "遮檐",
+      "scene": "res://assets/models/adelaide_modules/details/module_07.tscn",
+      "triangles": 36
+    },
+    {
+      "id": 8,
+      "name": "护柱",
+      "scene": "res://assets/models/adelaide_modules/details/module_08.tscn",
+      "triangles": 72
+    },
+    {
+      "id": 9,
+      "name": "排水口",
+      "scene": "res://assets/models/adelaide_modules/details/module_09.tscn",
+      "triangles": 72
+    },
+    {
+      "id": 10,
+      "name": "维修盖",
+      "scene": "res://assets/models/adelaide_modules/details/module_10.tscn",
+      "triangles": 24
+    },
+    {
+      "id": 11,
+      "name": "配电箱",
+      "scene": "res://assets/models/adelaide_modules/details/module_11.tscn",
+      "triangles": 24
+    }
+  ]
+}

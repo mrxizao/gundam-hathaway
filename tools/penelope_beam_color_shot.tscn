@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/penelope_beam_color_shot.gd" id="1_pbc"]
+
+[node name="PenelopeBeamColorShot" type="Node"]
+script = ExtResource("1_pbc")

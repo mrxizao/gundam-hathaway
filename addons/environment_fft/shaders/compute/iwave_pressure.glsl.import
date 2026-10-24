@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://2tsbm364ruq0"
+path="res://.godot/imported/iwave_pressure.glsl-7ca48fd6b5b1abcd2b4afa2aef24c766.res"
+
+[deps]
+
+source_file="res://addons/environment_fft/shaders/compute/iwave_pressure.glsl"
+dest_files=["res://.godot/imported/iwave_pressure.glsl-7ca48fd6b5b1abcd2b4afa2aef24c766.res"]
+
+[params]
+

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b23pedalyawchoices"]
+
+[ext_resource type="Script" path="res://tools/pedal_yaw_choices.gd" id="1_py"]
+
+[node name="PedalYawChoices" type="Node"]
+script = ExtResource("1_py")

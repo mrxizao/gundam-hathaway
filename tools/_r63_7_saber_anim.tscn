@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_r63_7_saber_anim.gd" id="1_r637"]
+
+[node name="R637SaberAnim" type="Node"]
+script = ExtResource("1_r637")

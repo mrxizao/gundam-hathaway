@@ -1,0 +1,122 @@
+{
+  "parts": {
+    "tripo_part_169": 29,
+    "tripo_part_204": 29,
+    "tripo_part_205": 29,
+    "tripo_part_207": 29,
+    "tripo_part_208": 29,
+    "tripo_part_209": 29,
+    "tripo_part_25": 30,
+    "tripo_part_26": 30,
+    "tripo_part_42": 30,
+    "tripo_part_43": 30,
+    "tripo_part_44": 30,
+    "tripo_part_121": 30,
+    "tripo_part_122": 30,
+    "tripo_part_135": 30,
+    "tripo_part_190": 30,
+    "tripo_part_28": 31,
+    "tripo_part_29": 31,
+    "tripo_part_191": 31,
+    "tripo_part_24": 32,
+    "tripo_part_81": 21,
+    "tripo_part_183": 21,
+    "tripo_part_184": 21,
+    "tripo_part_185": 21,
+    "tripo_part_186": 21,
+    "tripo_part_187": 21,
+    "tripo_part_188": 21,
+    "tripo_part_189": 21,
+    "tripo_part_37": 22,
+    "tripo_part_38": 22,
+    "tripo_part_39": 22,
+    "tripo_part_40": 22,
+    "tripo_part_41": 22,
+    "tripo_part_68": 22,
+    "tripo_part_70": 22,
+    "tripo_part_71": 22,
+    "tripo_part_73": 22,
+    "tripo_part_117": 22,
+    "tripo_part_139": 22,
+    "tripo_part_140": 22,
+    "tripo_part_141": 22,
+    "tripo_part_10": 22,
+    "tripo_part_11": 22,
+    "tripo_part_12": 22,
+    "tripo_part_13": 22,
+    "tripo_part_14": 22,
+    "tripo_part_15": 22,
+    "tripo_part_16": 22,
+    "tripo_part_108": 23,
+    "tripo_part_109": 23,
+    "tripo_part_111": 23,
+    "tripo_part_156": 23
+  },
+  "pivots": {
+    "Movie_tripo_part_32": [
+      0.18,
+      0.79,
+      0.23
+    ],
+    "Movie_tripo_part_47": [
+      -0.18,
+      0.79,
+      0.23
+    ],
+    "Movie_BackWingLeftRigidPivot": [
+      0.067,
+      0.84,
+      -0.045
+    ],
+    "Movie_BackWingRightRigidPivot": [
+      -0.07,
+      0.84,
+      -0.045
+    ],
+    "UpperArm.R": [
+      -0.18,
+      0.79,
+      0.23
+    ],
+    "LowerArm.R": [
+      -0.17,
+      0.68,
+      0.22
+    ],
+    "Hand.R": [
+      -0.12,
+      0.43,
+      0.225
+    ],
+    "UpperArm.L": [
+      0.18,
+      0.79,
+      0.23
+    ],
+    "LowerArm.L": [
+      0.19,
+      0.665,
+      0.235
+    ],
+    "Hand.L": [
+      0.11,
+      0.43,
+      0.225
+    ],
+    "hand_R": [
+      -0.12,
+      0.406,
+      0.214
+    ],
+    "hand_L": [
+      0.125,
+      0.401,
+      0.21
+    ]
+  },
+  "semantic_assemblies": {
+    "RearWingLeftAligned": "Movie_BackWingLeftRigidPivot",
+    "RearWingRightAligned": "Movie_BackWingRightRigidPivot",
+    "TailAligned": "Backpack"
+  }
+}

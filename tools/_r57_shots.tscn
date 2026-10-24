@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c0r57podstr"]
+
+[ext_resource type="Script" path="res://tools/_r57_shots.gd" id="1_r57"]
+
+[node name="R57Shots" type="Node"]
+script = ExtResource("1_r57")

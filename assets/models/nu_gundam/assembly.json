@@ -1,0 +1,597 @@
+{
+  "bones": [
+    "Root",
+    "Hips",
+    "Spine",
+    "Chest",
+    "Backpack",
+    "thruster_L",
+    "thruster_R",
+    "Neck",
+    "Head",
+    "head",
+    "vulcan_port",
+    "vulcan_stbd",
+    "Shoulder.L",
+    "Binder.L",
+    "UpperArm.L",
+    "LowerArm.L",
+    "Hand.L",
+    "hand_L",
+    "muzzle_L",
+    "shield_L",
+    "Shoulder.R",
+    "Binder.R",
+    "UpperArm.R",
+    "LowerArm.R",
+    "Hand.R",
+    "hand_R",
+    "muzzle_R",
+    "shield_R",
+    "chest",
+    "TailStab",
+    "Thigh.L",
+    "Shin.L",
+    "Foot.L",
+    "Toe.L",
+    "Thigh.R",
+    "Shin.R",
+    "Foot.R",
+    "Toe.R",
+    "waist",
+    "NuRifle",
+    "NuShield",
+    "NuBazooka",
+    "NuDock0",
+    "NuDock1",
+    "NuDock2",
+    "NuDock3",
+    "NuDock4",
+    "NuDock5"
+  ],
+  "parts": [
+    {
+      "source": 0,
+      "name": "Hips_tripo_part_0",
+      "bone": "Hips"
+    },
+    {
+      "source": 1,
+      "name": "Chest_tripo_part_1",
+      "bone": "Chest"
+    },
+    {
+      "source": 2,
+      "name": "Chest_tripo_part_2",
+      "bone": "Chest"
+    },
+    {
+      "source": 3,
+      "name": "Chest_tripo_part_3",
+      "bone": "Chest"
+    },
+    {
+      "source": 4,
+      "name": "Shoulder.L_tripo_part_4",
+      "bone": "Shoulder.L"
+    },
+    {
+      "source": 5,
+      "name": "Foot.R_tripo_part_5",
+      "bone": "Foot.R"
+    },
+    {
+      "source": 6,
+      "name": "Foot.L_tripo_part_6",
+      "bone": "Foot.L"
+    },
+    {
+      "source": 7,
+      "name": "Shoulder.R_tripo_part_7",
+      "bone": "Shoulder.R"
+    },
+    {
+      "source": 8,
+      "name": "Hips_tripo_part_8",
+      "bone": "Hips"
+    },
+    {
+      "source": 9,
+      "name": "Hips_tripo_part_10",
+      "bone": "Hips"
+    },
+    {
+      "source": 10,
+      "name": "Hips_tripo_part_11",
+      "bone": "Hips"
+    },
+    {
+      "source": 11,
+      "name": "Backpack_tripo_part_12",
+      "bone": "Backpack"
+    },
+    {
+      "source": 12,
+      "name": "LowerArm.L_tripo_part_13",
+      "bone": "LowerArm.L"
+    },
+    {
+      "source": 13,
+      "name": "Foot.R_tripo_part_14",
+      "bone": "Foot.R"
+    },
+    {
+      "source": 14,
+      "name": "Hips_tripo_part_15",
+      "bone": "Hips"
+    },
+    {
+      "source": 15,
+      "name": "Hips_tripo_part_16",
+      "bone": "Hips"
+    },
+    {
+      "source": 16,
+      "name": "Backpack_tripo_part_17",
+      "bone": "Backpack"
+    },
+    {
+      "source": 17,
+      "name": "Hips_tripo_part_18",
+      "bone": "Hips"
+    },
+    {
+      "source": 18,
+      "name": "LowerArm.R_tripo_part_19",
+      "bone": "LowerArm.R"
+    },
+    {
+      "source": 19,
+      "name": "Hips_tripo_part_20",
+      "bone": "Hips"
+    },
+    {
+      "source": 20,
+      "name": "Hips_tripo_part_21",
+      "bone": "Hips"
+    },
+    {
+      "source": 21,
+      "name": "Hand.R_tripo_part_22",
+      "bone": "Hand.R"
+    },
+    {
+      "source": 22,
+      "name": "LowerArm.L_tripo_part_23",
+      "bone": "LowerArm.L"
+    },
+    {
+      "source": 23,
+      "name": "Backpack_tripo_part_24",
+      "bone": "Backpack"
+    },
+    {
+      "source": 24,
+      "name": "Foot.L_tripo_part_25",
+      "bone": "Foot.L"
+    },
+    {
+      "source": 25,
+      "name": "Thigh.R_tripo_part_26",
+      "bone": "Thigh.R"
+    },
+    {
+      "source": 26,
+      "name": "Thigh.L_tripo_part_27",
+      "bone": "Thigh.L"
+    },
+    {
+      "source": 27,
+      "name": "Thigh.R_tripo_part_28",
+      "bone": "Thigh.R"
+    },
+    {
+      "source": 28,
+      "name": "Backpack_tripo_part_29",
+      "bone": "Backpack"
+    },
+    {
+      "source": 29,
+      "name": "LowerArm.R_tripo_part_30",
+      "bone": "LowerArm.R"
+    },
+    {
+      "source": 30,
+      "name": "UpperArm.L_tripo_part_32",
+      "bone": "UpperArm.L"
+    },
+    {
+      "source": 31,
+      "name": "Thigh.R_tripo_part_33",
+      "bone": "Thigh.R"
+    },
+    {
+      "source": 32,
+      "name": "Hips_tripo_part_34",
+      "bone": "Hips"
+    },
+    {
+      "source": 33,
+      "name": "Thigh.L_tripo_part_35",
+      "bone": "Thigh.L"
+    },
+    {
+      "source": 34,
+      "name": "Backpack_tripo_part_36",
+      "bone": "Backpack"
+    },
+    {
+      "source": 35,
+      "name": "Foot.L_tripo_part_37",
+      "bone": "Foot.L"
+    },
+    {
+      "source": 36,
+      "name": "Foot.R_tripo_part_38",
+      "bone": "Foot.R"
+    },
+    {
+      "source": 37,
+      "name": "Thigh.L_tripo_part_39",
+      "bone": "Thigh.L"
+    },
+    {
+      "source": 38,
+      "name": "Hand.L_tripo_part_40",
+      "bone": "Hand.L"
+    },
+    {
+      "source": 39,
+      "name": "UpperArm.L_tripo_part_41",
+      "bone": "UpperArm.L"
+    },
+    {
+      "source": 40,
+      "name": "UpperArm.R_tripo_part_42",
+      "bone": "UpperArm.R"
+    },
+    {
+      "source": 41,
+      "name": "UpperArm.R_tripo_part_43",
+      "bone": "UpperArm.R"
+    },
+    {
+      "source": 42,
+      "name": "Chest_tripo_part_44",
+      "bone": "Chest"
+    },
+    {
+      "source": 43,
+      "name": "Chest_tripo_part_45",
+      "bone": "Chest"
+    },
+    {
+      "source": 44,
+      "name": "LowerArm.R_tripo_part_46",
+      "bone": "LowerArm.R"
+    },
+    {
+      "source": 45,
+      "name": "Chest_tripo_part_47",
+      "bone": "Chest"
+    },
+    {
+      "source": 46,
+      "name": "LowerArm.L_tripo_part_48",
+      "bone": "LowerArm.L"
+    },
+    {
+      "source": 47,
+      "name": "Chest_tripo_part_49",
+      "bone": "Chest"
+    },
+    {
+      "source": 48,
+      "name": "Chest_tripo_part_50",
+      "bone": "Chest"
+    },
+    {
+      "source": 49,
+      "name": "Chest_tripo_part_51",
+      "bone": "Chest"
+    },
+    {
+      "source": 50,
+      "name": "Chest_tripo_part_52",
+      "bone": "Chest"
+    },
+    {
+      "source": 51,
+      "name": "Chest_tripo_part_53",
+      "bone": "Chest"
+    },
+    {
+      "source": 53,
+      "name": "NuDock0_tripo_part_27.002",
+      "bone": "NuDock0"
+    },
+    {
+      "source": 54,
+      "name": "NuDock0_tripo_part_29.002",
+      "bone": "NuDock0"
+    },
+    {
+      "source": 55,
+      "name": "NuDock0_tripo_part_43.002",
+      "bone": "NuDock0"
+    },
+    {
+      "source": 56,
+      "name": "NuDock0_tripo_part_48.002",
+      "bone": "NuDock0"
+    },
+    {
+      "source": 57,
+      "name": "NuDock0_tripo_part_71.001",
+      "bone": "NuDock0"
+    },
+    {
+      "source": 58,
+      "name": "NuDock0_tripo_part_105.001",
+      "bone": "NuDock0"
+    },
+    {
+      "source": 60,
+      "name": "NuDock2_tripo_part_27.003",
+      "bone": "NuDock2"
+    },
+    {
+      "source": 61,
+      "name": "NuDock2_tripo_part_29.003",
+      "bone": "NuDock2"
+    },
+    {
+      "source": 62,
+      "name": "NuDock2_tripo_part_43.003",
+      "bone": "NuDock2"
+    },
+    {
+      "source": 63,
+      "name": "NuDock2_tripo_part_48.003",
+      "bone": "NuDock2"
+    },
+    {
+      "source": 64,
+      "name": "NuDock2_tripo_part_71.002",
+      "bone": "NuDock2"
+    },
+    {
+      "source": 65,
+      "name": "NuDock2_tripo_part_105.002",
+      "bone": "NuDock2"
+    },
+    {
+      "source": 67,
+      "name": "NuDock4_tripo_part_27.004",
+      "bone": "NuDock4"
+    },
+    {
+      "source": 68,
+      "name": "NuDock4_tripo_part_29.004",
+      "bone": "NuDock4"
+    },
+    {
+      "source": 69,
+      "name": "NuDock4_tripo_part_43.004",
+      "bone": "NuDock4"
+    },
+    {
+      "source": 70,
+      "name": "NuDock4_tripo_part_48.004",
+      "bone": "NuDock4"
+    },
+    {
+      "source": 71,
+      "name": "NuDock4_tripo_part_71.003",
+      "bone": "NuDock4"
+    },
+    {
+      "source": 72,
+      "name": "NuDock4_tripo_part_105.003",
+      "bone": "NuDock4"
+    },
+    {
+      "source": 75,
+      "name": "NuDock1_tripo_part_6.002",
+      "bone": "NuDock1"
+    },
+    {
+      "source": 76,
+      "name": "NuDock1_tripo_part_14.002",
+      "bone": "NuDock1"
+    },
+    {
+      "source": 77,
+      "name": "NuDock1_tripo_part_22.002",
+      "bone": "NuDock1"
+    },
+    {
+      "source": 78,
+      "name": "NuDock1_tripo_part_51.002",
+      "bone": "NuDock1"
+    },
+    {
+      "source": 79,
+      "name": "NuDock1_tripo_part_72.001",
+      "bone": "NuDock1"
+    },
+    {
+      "source": 80,
+      "name": "NuDock1_tripo_part_106.001",
+      "bone": "NuDock1"
+    },
+    {
+      "source": 82,
+      "name": "NuShield_tripo_node_0cd7da02-2b0a-4797-910c-c86eaf05a5d0",
+      "bone": "NuShield"
+    },
+    {
+      "source": 83,
+      "name": "NuRifle_tripo_node_01787f7a-59d4-4d8b-9175-1280dbe11f5c",
+      "bone": "NuRifle"
+    },
+    {
+      "source": 84,
+      "name": "NuBazooka_tripo_node_bca46ce1-b5ef-493c-8d63-df9ad4407624",
+      "bone": "NuBazooka"
+    },
+    {
+      "source": 85,
+      "name": "Head_tripo_node_dd5f9dec-0d5b-4e11-adcd-a31e749aa77f",
+      "bone": "Head"
+    },
+    {
+      "source": 86,
+      "name": "NuDock3_tripo_part_6.001",
+      "bone": "NuDock3"
+    },
+    {
+      "source": 87,
+      "name": "NuDock3_tripo_part_14.001",
+      "bone": "NuDock3"
+    },
+    {
+      "source": 88,
+      "name": "NuDock3_tripo_part_22.001",
+      "bone": "NuDock3"
+    },
+    {
+      "source": 89,
+      "name": "NuDock5_tripo_part_27.001",
+      "bone": "NuDock5"
+    },
+    {
+      "source": 90,
+      "name": "NuDock5_tripo_part_29.001",
+      "bone": "NuDock5"
+    },
+    {
+      "source": 91,
+      "name": "NuDock5_tripo_part_43.001",
+      "bone": "NuDock5"
+    },
+    {
+      "source": 92,
+      "name": "NuDock5_tripo_part_48.001",
+      "bone": "NuDock5"
+    },
+    {
+      "source": 93,
+      "name": "Head_tripo_part_50.001",
+      "bone": "Head"
+    },
+    {
+      "source": 94,
+      "name": "NuDock3_tripo_part_51.001",
+      "bone": "NuDock3"
+    },
+    {
+      "source": 95,
+      "name": "NuDock5_tripo_part_71",
+      "bone": "NuDock5"
+    },
+    {
+      "source": 96,
+      "name": "NuDock3_tripo_part_72",
+      "bone": "NuDock3"
+    },
+    {
+      "source": 97,
+      "name": "NuDock3_tripo_part_86",
+      "bone": "NuDock3"
+    },
+    {
+      "source": 98,
+      "name": "NuDock3_tripo_part_99",
+      "bone": "NuDock3"
+    },
+    {
+      "source": 99,
+      "name": "NuDock5_tripo_part_105",
+      "bone": "NuDock5"
+    },
+    {
+      "source": 100,
+      "name": "NuDock3_tripo_part_106",
+      "bone": "NuDock3"
+    }
+  ],
+  "dock_groups": [
+    [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ],
+    [
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    [
+      86,
+      87,
+      88,
+      94,
+      96,
+      97,
+      98,
+      100
+    ],
+    [
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ],
+    [
+      89,
+      90,
+      91,
+      92,
+      95,
+      99
+    ]
+  ],
+  "body_native_height": 0.935,
+  "head": [
+    -0.06000000000000001,
+    0.8690000000000001,
+    -0.07000000000000002
+  ],
+  "rifle_muzzle": [
+    0.112,
+    0.15,
+    -0.215
+  ],
+  "bazooka_muzzle": [
+    -0.06600000000000002,
+    0.04899999999999988,
+    0.14000000000000004
+  ]
+}

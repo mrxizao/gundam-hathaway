@@ -1,0 +1,128 @@
+[
+  {
+    "category": "brick_streetfront",
+    "collision_triangles": 24,
+    "id": "parcel_24_22",
+    "label": "原版砖石沿街楼",
+    "original_world_origin": [
+      344.95703125,
+      25.0,
+      -19861.052734375
+    ],
+    "scene": "res://assets/models/adelaide_modules/legacy/brick_streetfront.tscn",
+    "size": [
+      639.969604492188,
+      511.408874511719,
+      688.63671875
+    ],
+    "surfaces": 14,
+    "triangles": 2466,
+    "validated": true,
+    "variant": 0.0
+  },
+  {
+    "category": "brick_streetfront",
+    "collision_triangles": 12,
+    "id": "parcel_17_30",
+    "label": "原版砖石沿街楼",
+    "original_world_origin": [
+      -9607.255859375,
+      25.0,
+      -7882.037109375
+    ],
+    "scene": "res://assets/models/adelaide_modules/legacy/variants/brick_streetfront_2.tscn",
+    "size": [
+      873.62646484375,
+      408.632507324219,
+      804.448486328125
+    ],
+    "surfaces": 20,
+    "triangles": 2520,
+    "validated": true,
+    "variant": 1.0
+  },
+  {
+    "category": "brick_streetfront",
+    "collision_triangles": 12,
+    "id": "parcel_17_33",
+    "label": "原版砖石沿街楼",
+    "original_world_origin": [
+      -9576.666015625,
+      25.0,
+      -3941.32495117188
+    ],
+    "scene": "res://assets/models/adelaide_modules/legacy/variants/brick_streetfront_3.tscn",
+    "size": [
+      754.886535644531,
+      309.553100585938,
+      871.891723632813
+    ],
+    "surfaces": 20,
+    "triangles": 2640,
+    "validated": true,
+    "variant": 2.0
+  },
+  {
+    "category": "industrial_factory",
+    "collision_triangles": 12,
+    "id": "parcel_22_22",
+    "label": "原版工业厂房",
+    "original_world_origin": [
+      -2316.63037109375,
+      25.0,
+      -19809.953125
+    ],
+    "scene": "res://assets/models/adelaide_modules/legacy/industrial_factory.tscn",
+    "size": [
+      527.723327636719,
+      283.092926025391,
+      779.820739746094
+    ],
+    "surfaces": 19,
+    "triangles": 2244,
+    "validated": true,
+    "variant": 0.0
+  },
+  {
+    "category": "industrial_factory",
+    "collision_triangles": 12,
+    "id": "parcel_23_23",
+    "label": "原版工业厂房",
+    "original_world_origin": [
+      -838.0517578125,
+      25.0,
+      -18213.32421875
+    ],
+    "scene": "res://assets/models/adelaide_modules/legacy/variants/industrial_factory_2.tscn",
+    "size": [
+      646.140563964844,
+      393.353149414063,
+      926.062683105469
+    ],
+    "surfaces": 20,
+    "triangles": 2520,
+    "validated": true,
+    "variant": 1.0
+  },
+  {
+    "category": "industrial_factory",
+    "collision_triangles": 12,
+    "id": "parcel_16_31",
+    "label": "原版工业厂房",
+    "original_world_origin": [
+      -11108.3623046875,
+      25.0,
+      -6898.1123046875
+    ],
+    "scene": "res://assets/models/adelaide_modules/legacy/variants/industrial_factory_3.tscn",
+    "size": [
+      837.544738769531,
+      317.795715332031,
+      723.973327636719
+    ],
+    "surfaces": 19,
+    "triangles": 2424,
+    "validated": true,
+    "variant": 2.0
+  }
+]

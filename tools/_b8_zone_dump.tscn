@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b80onedump"]
+
+[ext_resource type="Script" path="res://tools/_b8_zone_dump.gd" id="1_b8"]
+
+[node name="B8ZoneDump" type="Node"]
+script = ExtResource("1_b8")

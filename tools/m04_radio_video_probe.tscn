@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://tools/m04_radio_video_probe.gd" id="1"]
+[node name="M04RadioVideo" type="Node"]
+script=ExtResource("1")

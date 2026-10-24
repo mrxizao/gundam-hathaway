@@ -1,0 +1,465 @@
+extends RefCounted
+## Imported character speech only; stage directions are source material, not commands.
+const COMMS:=preload("res://scripts/data/comms.gd")
+const SOURCE:="res://data/script/m09_precision_defense_source.txt"
+const LINES := [
+  {
+    "id": "m09_script_001",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "呜……！怎么回事！"
+  },
+  {
+    "id": "m09_script_002",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "还没离开机场，就让他们打到这里了……！"
+  },
+  {
+    "id": "m09_script_003",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "机械臂支撑。主引擎点火！"
+  },
+  {
+    "id": "m09_script_004",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "那个广播里的人……只会说漂亮话。要是人人都能照自己的意思动用武力，世界早就乱了。"
+  },
+  {
+    "id": "m09_script_005",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "冷静。不能因为讨厌一个人，就乱了机师的判断。"
+  },
+  {
+    "id": "m09_script_006",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "先不变形。能飞起来就行！"
+  },
+  {
+    "id": "m09_script_007",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "走了！"
+  },
+  {
+    "id": "m09_script_008",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "连自己人的导弹也……！"
+  },
+  {
+    "id": "m09_script_009",
+    "act": 1,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "还有振动？……先飞出去！"
+  },
+  {
+    "id": "m09_script_010",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "MS形态，竟然能以那种速度飞行……包在机体外面的光，是防御壁？"
+  },
+  {
+    "id": "m09_script_011",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "珀涅罗珀还没完全解决的技术，他们已经做到了？"
+  },
+  {
+    "id": "m09_script_012",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "下一批会从哪里来？他们不会以为，只靠一架高达就能结束战斗。"
+  },
+  {
+    "id": "m09_script_013",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "琪琪被带走以后，一切都不顺。难道运气真跟着她去了？"
+  },
+  {
+    "id": "m09_script_014",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "别想这种事。能依靠的只有事实。"
+  },
+  {
+    "id": "m09_script_015",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "……那是什么？"
+  },
+  {
+    "id": "m09_script_016",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "在城市里！已经进去了！"
+  },
+  {
+    "id": "m09_script_017",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "我一直盯着高达来的方向……他们根本没从那里来！"
+  },
+  {
+    "id": "m09_script_018",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "通讯",
+    "text": "是城市！正在被攻击！后面！"
+  },
+  {
+    "id": "m09_script_019",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "跟上来！"
+  },
+  {
+    "id": "m09_script_020",
+    "act": 2,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "还来得及吗……！"
+  },
+  {
+    "id": "m09_script_021",
+    "act": 3,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "在这里不能直接打。先把他们引出去。"
+  },
+  {
+    "id": "m09_script_022",
+    "act": 3,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "太狂妄了！"
+  },
+  {
+    "id": "m09_script_023",
+    "act": 3,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "加速过头了……稳住！"
+  },
+  {
+    "id": "m09_script_024",
+    "act": 3,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "我应该把它逼到郊外再击坠。下面还有城市……！"
+  },
+  {
+    "id": "m09_script_025",
+    "act": 3,
+    "speaker": "加乌曼",
+    "kind": "通讯",
+    "text": "多梅斯奇被干掉了！快躲开！"
+  },
+  {
+    "id": "m09_script_026",
+    "act": 3,
+    "speaker": "加乌曼",
+    "kind": "座舱",
+    "text": "是那台吗！"
+  },
+  {
+    "id": "m09_script_027",
+    "act": 3,
+    "speaker": "加乌曼",
+    "kind": "座舱",
+    "text": "下去吧！"
+  },
+  {
+    "id": "m09_script_028",
+    "act": 3,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "不会让你躲开的！"
+  },
+  {
+    "id": "m09_script_029",
+    "act": 3,
+    "speaker": "加乌曼",
+    "kind": "座舱",
+    "text": "畜生！"
+  },
+  {
+    "id": "m09_script_030",
+    "act": 3,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "右脚……被碰到了？"
+  },
+  {
+    "id": "m09_script_031",
+    "act": 3,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "机场又怎么了！"
+  },
+  {
+    "id": "m09_script_032",
+    "act": 3,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "可恶……让他跑了！"
+  },
+  {
+    "id": "m09_script_033",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "还有一批！"
+  },
+  {
+    "id": "m09_script_034",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "别分心。这一次，集中到一个目标上。"
+  },
+  {
+    "id": "m09_script_035",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "……可以的！"
+  },
+  {
+    "id": "m09_script_036",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "呜……！"
+  },
+  {
+    "id": "m09_script_037",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "哪里出问题了？……步枪还能用！"
+  },
+  {
+    "id": "m09_script_038",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "干得不错嘛！"
+  },
+  {
+    "id": "m09_script_039",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "还有两架……"
+  },
+  {
+    "id": "m09_script_040",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "这感觉……高达！"
+  },
+  {
+    "id": "m09_script_041",
+    "act": 4,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "高达掩护，空母接走MS……他们的动作全接上了。"
+  },
+  {
+    "id": "m09_script_042",
+    "act": 5,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "机体有损伤。导弹也……"
+  },
+  {
+    "id": "m09_script_043",
+    "act": 5,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "现在出去和高达打，只会把其他人一起拖进去。"
+  },
+  {
+    "id": "m09_script_044",
+    "act": 5,
+    "speaker": "哈萨维",
+    "kind": "独白",
+    "text": "珀涅罗珀还在。不能为了追它，丢下正在撤退的同伴。"
+  },
+  {
+    "id": "m09_script_045",
+    "act": 5,
+    "speaker": "哈萨维",
+    "kind": "通讯，改编新增",
+    "text": "空母继续撤退。我来掩护。"
+  },
+  {
+    "id": "m09_script_046",
+    "act": 5,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "他知道我在这里。却把力气全用在掩护撤退上……"
+  },
+  {
+    "id": "m09_script_047",
+    "act": 5,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "……可！恶！"
+  },
+  {
+    "id": "m09_script_048",
+    "act": 5,
+    "speaker": "雷恩",
+    "kind": "座舱",
+    "text": "琪琪……真成了马夫蒂的守护神吗？"
+  },
+  {
+    "id": "m09_script_049",
+    "act": 5,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "三波攻击。幕僚们所在的会场，就这样被炸了。"
+  },
+  {
+    "id": "m09_script_050",
+    "act": 5,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "我说过，只能相信事实。可是人在不知道下一刻会发生什么的时候，究竟靠什么作出判断？"
+  },
+  {
+    "id": "m09_script_051",
+    "act": 5,
+    "speaker": "雷恩",
+    "kind": "独白",
+    "text": "也许我还没懂，他们为什么需要那一点相信。"
+  }
+]
+const INTRO := [[4.1, 2.2, 6], [6.5, 2.15, 1], [9.1, 3.9, 2], [14.0, 3.1, 3], [17.3, 1.7, 7], [19.2, 3.5, 8], [24.0, 4.6, 9]]
+const GROUPS := {
+  "opening": [
+    4,
+    5,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "city": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "engage": [
+    21,
+    22
+  ],
+  "overspeed": [
+    23
+  ],
+  "first_down": [
+    24,
+    25
+  ],
+  "counterattack": [
+    26,
+    27,
+    28,
+    29
+  ],
+  "right_hit": [
+    30
+  ],
+  "airport_hit": [
+    31
+  ],
+  "escape": [
+    32
+  ],
+  "next_targets": [
+    33,
+    34,
+    35
+  ],
+  "hit": [
+    36,
+    37
+  ],
+  "exchange": [
+    38
+  ],
+  "two_left": [
+    39
+  ],
+  "xi_close": [
+    40,
+    41
+  ],
+  "limited": [
+    42,
+    43
+  ],
+  "xi_retreat": [
+    44,
+    45,
+    46,
+    47
+  ],
+  "win": [
+    48,
+    49,
+    50,
+    51
+  ]
+}
+static func entry(number:int)->Dictionary:
+	return LINES[number-1] if number>0 and number<=LINES.size() else {}
+static func display_speaker(line:Dictionary)->String:
+	var enemy:bool=line.speaker!="雷恩"
+	if "独白" in line.kind:return line.speaker+(" · 敌方独白" if enemy else " · 独白")
+	if enemy:return line.speaker+(" · 马夫蒂通讯" if "通讯" in line.kind else " · 敌方座舱")
+	return line.speaker+(" · 通讯" if "通讯" in line.kind else " · 座舱")
+static func packet(number:int)->Dictionary:
+	var line:Dictionary=entry(number)
+	if line.is_empty():return {}
+	var style:String=COMMS.STYLE_SUBTITLE if "独白" in line.kind or line.text.length()>34 else COMMS.STYLE_RADIO
+	return {"id":line.id,"speaker":display_speaker(line),"text":line.text,"src":SOURCE+"#"+line.id,
+		"style":style,"secs":maxf(COMMS.hold_secs(line.text,style),1.2+line.text.length()/5.5)}
+static func intro_lines(clock:float)->Array[Dictionary]:
+	var result:Array[Dictionary]=[]
+	for cue in INTRO:
+		if clock<cue[0] or clock>=cue[0]+cue[1]:continue
+		var line:Dictionary=packet(cue[2]);var age:float=clock-cue[0]
+		line["alpha"]=minf(age/.12,1)*minf((cue[0]+cue[1]-clock)/.18,1)
+		result.append(line)
+	return result

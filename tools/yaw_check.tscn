@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b2ayawcheck"]
+
+[ext_resource type="Script" path="res://tools/yaw_check.gd" id="1_yc"]
+
+[node name="YawCheck" type="Node"]
+script = ExtResource("1_yc")

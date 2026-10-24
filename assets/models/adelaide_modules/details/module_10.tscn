@@ -1,0 +1,73 @@
+[gd_scene format=4]
+
+[ext_resource type="Shader" path="res://shaders/adelaide_building.gdshader" id="1_grhvf"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_diff_2k.png" id="2_mjfpf"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_nor_gl_2k.png" id="3_vtnd3"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_arm_2k.png" id="4_n20by"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/adelaide_trim_atlas_diff_2k.png" id="5_dflmc"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/adelaide_trim_atlas_nor_gl_2k.png" id="6_st262"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/adelaide_trim_atlas_arm_2k.png" id="7_ey0e3"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_mg5y7"]
+render_priority = 0
+shader = ExtResource("1_grhvf")
+shader_parameter/surface_role = 2
+shader_parameter/base_color = Color(0.34, 0.39, 0.41, 1)
+shader_parameter/color_gain = Vector3(4.626408, 4.3542824, 4.1798635)
+shader_parameter/building_quality = 2
+shader_parameter/tile_m = 2.0
+shader_parameter/floor_m = 6.4
+shader_parameter/trim_means = PackedVector3Array(0.3143655, 0.33788595, 0.326002, 0.09345843, 0.1243817, 0.13821271, 0.008462517, 0.010712365, 0.012386561, 0.15290327, 0.17657728, 0.17657728, 0.24965844, 0.22999977, 0.1849102, 0.03922288, 0.05854322, 0.067555964, 0.1311868, 0.15289682, 0.16056731, 0.026909553, 0.032728747, 0.035890047)
+shader_parameter/bay_m = 12.0
+shader_parameter/surface_albedo = ExtResource("2_mjfpf")
+shader_parameter/surface_normal = ExtResource("3_vtnd3")
+shader_parameter/surface_orm = ExtResource("4_n20by")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1w68k"]
+render_priority = 0
+shader = ExtResource("1_grhvf")
+shader_parameter/surface_role = 3
+shader_parameter/base_color = Color(0.92, 0.95, 0.96, 1)
+shader_parameter/color_gain = Vector3(1, 1, 1)
+shader_parameter/building_quality = 2
+shader_parameter/tile_m = 8.0
+shader_parameter/floor_m = 6.4
+shader_parameter/trim_means = PackedVector3Array(0.3143655, 0.33788595, 0.326002, 0.09345843, 0.1243817, 0.13821271, 0.008462517, 0.010712365, 0.012386561, 0.15290327, 0.17657728, 0.17657728, 0.24965844, 0.22999977, 0.1849102, 0.03922288, 0.05854322, 0.067555964, 0.1311868, 0.15289682, 0.16056731, 0.026909553, 0.032728747, 0.035890047)
+shader_parameter/bay_m = 12.0
+shader_parameter/surface_albedo = ExtResource("5_dflmc")
+shader_parameter/surface_normal = ExtResource("6_st262")
+shader_parameter/surface_orm = ExtResource("7_ey0e3")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_fj35k"]
+_surfaces = [{
+"aabb": AABB(-3.5, 0, -3, 7, 0.3, 6),
+"attribute_data": PackedByteArray("AAAA/wAAYMAAAAAAAAAAAAAAAAAAAAD/AABgQJqZmT4AAAAAAACAPwAAAP8AAGDAmpmZPgAAAAAAAIA/AAAA/wAAYMAAAAAAAAAAAAAAAAAAAAD/AABgQAAAAAAAAAAAAAAAAAAAAP8AAGBAmpmZPgAAAAAAAIA/AAAA/wAAYMAAAAAAAAAAAAAAAAAAAAD/AABgQJqZmT4AAAAAAACAPwAAAP8AAGBAAAAAAAAAAAAAAAAAAAAA/wAAYMAAAAAAAAAAAAAAAAAAAAD/AABgwJqZmT4AAAAAAACAPwAAAP8AAGBAmpmZPgAAAAAAAIA/AAAA/wAAQMAAAAAAAAAAAAAAAAAAAAD/AABAQJqZmT4AAAAAAACAPwAAAP8AAEBAAAAAAAAAAAAAAAAAAAAA/wAAQMAAAAAAAAAAAAAAAAAAAAD/AABAwJqZmT4AAAAAAACAPwAAAP8AAEBAmpmZPgAAAAAAAIA/AAAA/wAAQMAAAAAAAAAAAAAAAAAAAAD/AABAQJqZmT4AAAAAAACAPwAAAP8AAEDAmpmZPgAAAAAAAIA/AAAA/wAAQMAAAAAAAAAAAAAAAAAAAAD/AABAQAAAAAAAAAAAAAAAAAAAAP8AAEBAmpmZPgAAAAAAAIA/AAAA/wAAYMAAAEDAAAAAAAAAAAAAAAD/AABgQAAAQEAAAAAAAACAPwAAAP8AAGDAAABAQAAAAAAAAIA/AAAA/wAAYMAAAEDAAAAAAAAAAAAAAAD/AABgQAAAQMAAAAAAAAAAAAAAAP8AAGBAAABAQAAAAAAAAIA/AAAA/wAAYMAAAEDAAAAAAAAAAAAAAAD/AABgQAAAQEAAAAAAAACAPwAAAP8AAGBAAABAwAAAAAAAAAAAAAAA/wAAYMAAAEDAAAAAAAAAAAAAAAD/AABgwAAAQEAAAAAAAACAPwAAAP8AAGBAAABAQAAAAAAAAIA/"),
+"format": 34359738431,
+"material": SubResource("ShaderMaterial_mg5y7"),
+"name": "2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("AABgwAAAAAAAAEDAAABgQJqZmT4AAEDAAABgwJqZmT4AAEDAAABgwAAAAAAAAEDAAABgQAAAAAAAAEDAAABgQJqZmT4AAEDAAABgwAAAAAAAAEBAAABgQJqZmT4AAEBAAABgQAAAAAAAAEBAAABgwAAAAAAAAEBAAABgwJqZmT4AAEBAAABgQJqZmT4AAEBAAABgwAAAAAAAAEDAAABgwJqZmT4AAEBAAABgwAAAAAAAAEBAAABgwAAAAAAAAEDAAABgwJqZmT4AAEDAAABgwJqZmT4AAEBAAABgQAAAAAAAAEDAAABgQJqZmT4AAEBAAABgQJqZmT4AAEDAAABgQAAAAAAAAEDAAABgQAAAAAAAAEBAAABgQJqZmT4AAEBAAABgwJqZmT4AAEDAAABgQJqZmT4AAEBAAABgwJqZmT4AAEBAAABgwJqZmT4AAEDAAABgQJqZmT4AAEDAAABgQJqZmT4AAEBAAABgwAAAAAAAAEDAAABgQAAAAAAAAEBAAABgQAAAAAAAAEDAAABgwAAAAAAAAEDAAABgwAAAAAAAAEBAAABgQAAAAAAAAEBA/////////7//////////v/////////+//////////7//////////v/////////+//3//f////z//f/9/////P/9//3////8//3//f////z//f/9/////P/9//3////8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/////f/9//7////9//3//v////3//f/+/////f/9//7////9//3//v////3//f/+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//38AAP///z//fwAA////P/9/AAD///8//38AAP///z//fwAA////P/9/AAD///8/")
+}, {
+"aabb": AABB(-3, 0.265, -2.5, 6, 0.15000004, 5),
+"attribute_data": PackedByteArray("2gAA/wAAQMAUroc+AAAAAAAAAADaAAD/AABAQOJ61D4AAAAAAACAP9oAAP8AAEDA4nrUPgAAAAAAAIA/2gAA/wAAQMAUroc+AAAAAAAAAADaAAD/AABAQBSuhz4AAAAAAAAAANoAAP8AAEBA4nrUPgAAAAAAAIA/2gAA/wAAQMAUroc+AAAAAAAAAADaAAD/AABAQOJ61D4AAAAAAACAP9oAAP8AAEBAFK6HPgAAAAAAAAAA2gAA/wAAQMAUroc+AAAAAAAAAADaAAD/AABAwOJ61D4AAAAAAACAP9oAAP8AAEBA4nrUPgAAAAAAAIA/2gAA/wAAIMAUroc+AAAAAAAAAADaAAD/AAAgQOJ61D4AAAAAAACAP9oAAP8AACBAFK6HPgAAAAAAAAAA2gAA/wAAIMAUroc+AAAAAAAAAADaAAD/AAAgwOJ61D4AAAAAAACAP9oAAP8AACBA4nrUPgAAAAAAAIA/2gAA/wAAIMAUroc+AAAAAAAAAADaAAD/AAAgQOJ61D4AAAAAAACAP9oAAP8AACDA4nrUPgAAAAAAAIA/2gAA/wAAIMAUroc+AAAAAAAAAADaAAD/AAAgQBSuhz4AAAAAAAAAANoAAP8AACBA4nrUPgAAAAAAAIA/2gAA/wAAQMAAACDAAAAAAAAAAADaAAD/AABAQAAAIEAAAAAAAACAP9oAAP8AAEDAAAAgQAAAAAAAAIA/2gAA/wAAQMAAACDAAAAAAAAAAADaAAD/AABAQAAAIMAAAAAAAAAAANoAAP8AAEBAAAAgQAAAAAAAAIA/2gAA/wAAQMAAACDAAAAAAAAAAADaAAD/AABAQAAAIEAAAAAAAACAP9oAAP8AAEBAAAAgwAAAAAAAAAAA2gAA/wAAQMAAACDAAAAAAAAAAADaAAD/AABAwAAAIEAAAAAAAACAP9oAAP8AAEBAAAAgQAAAAAAAAIA/"),
+"format": 34359738431,
+"material": SubResource("ShaderMaterial_1w68k"),
+"name": "3",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("AABAwBSuhz4AACDAAABAQOJ61D4AACDAAABAwOJ61D4AACDAAABAwBSuhz4AACDAAABAQBSuhz4AACDAAABAQOJ61D4AACDAAABAwBSuhz4AACBAAABAQOJ61D4AACBAAABAQBSuhz4AACBAAABAwBSuhz4AACBAAABAwOJ61D4AACBAAABAQOJ61D4AACBAAABAwBSuhz4AACDAAABAwOJ61D4AACBAAABAwBSuhz4AACBAAABAwBSuhz4AACDAAABAwOJ61D4AACDAAABAwOJ61D4AACBAAABAQBSuhz4AACDAAABAQOJ61D4AACBAAABAQOJ61D4AACDAAABAQBSuhz4AACDAAABAQBSuhz4AACBAAABAQOJ61D4AACBAAABAwOJ61D4AACDAAABAQOJ61D4AACBAAABAwOJ61D4AACBAAABAwOJ61D4AACDAAABAQOJ61D4AACDAAABAQOJ61D4AACBAAABAwBSuhz4AACDAAABAQBSuhz4AACBAAABAQBSuhz4AACDAAABAwBSuhz4AACDAAABAwBSuhz4AACBAAABAQBSuhz4AACBA/////////7//////////v/////////+//////////7//////////v/////////+//3//f////z//f/9/////P/9//3////8//3//f////z//f/9/////P/9//3////8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/////f/9//7////9//3//v////3//f/+/////f/9//7////9//3//v////3//f/+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//38AAP///z//fwAA////P/9/AAD///8//38AAP///z//fwAA////P/9/AAD///8/")
+}]
+metadata/style = 0
+metadata/lod = 0
+metadata/dimensions = Vector3(1, 1, 1)
+metadata/floor_m = 6.4
+metadata/triangles = 24
+
+[node name="Module_10" type="Node3D" unique_id=1600272472]
+metadata/module_name = "维修盖"
+
+[node name="Geometry" type="MeshInstance3D" parent="." unique_id=1724907540]
+mesh = SubResource("ArrayMesh_fj35k")

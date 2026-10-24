@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://co8qqjt7vh0gj"]
+
+[ext_resource type="Script" path="res://tools/_launch_ctrl_probe.gd" id="1_lc"]
+
+[node name="LaunchCtrlProbe" type="Node"]
+script = ExtResource("1_lc")

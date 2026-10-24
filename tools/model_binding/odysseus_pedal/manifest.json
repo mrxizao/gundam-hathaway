@@ -1,0 +1,13 @@
+{
+  "source": "C:\\Users\\MSIPC\\Desktop\\游戏\\闪哈游戏\\柯西与佩涅罗佩\\佩涅罗佩模型\\佩涅罗佩重置\\奥德修斯搭载飞行踏板.glb",
+  "source_sha256": "fab83bed9038fb40c38197ee8d06a3e6b78c21e56239063e4a322ddaf25535a8",
+  "mounted_meshes": 290,
+  "empty_meshes": 237,
+  "body_parts": 52,
+  "added_rifle": "Penelope_Rifle",
+  "native_body_height": 0.88181063,
+  "game_body_height": 26,
+  "mode_gate": "PENELOPE form==1 (Odysseus after escape)",
+  "slot_count": 1,
+  "board_model": "assets/models/odysseus_pedal/mounted.scn"
+}

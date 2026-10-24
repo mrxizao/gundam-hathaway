@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://clvprobe1a30"]
+
+[ext_resource type="Script" path="res://tools/_launch_view_probe.gd" id="1_lv"]
+
+[node name="LaunchViewProbe" type="Node"]
+script = ExtResource("1_lv")

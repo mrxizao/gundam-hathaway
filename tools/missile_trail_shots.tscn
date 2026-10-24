@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/missile_trail_shots.gd" id="1_r40_trail"]
+
+[node name="MissileTrailShots" type="Node"]
+script = ExtResource("1_r40_trail")

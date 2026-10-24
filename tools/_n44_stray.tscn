@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_n44_stray.gd" id="1_n44stray"]
+
+[node name="N44Stray" type="Node3D"]
+script = ExtResource("1_n44stray")

@@ -1,0 +1,33 @@
+{
+  "meshes": 253,
+  "triangles": 3855888,
+  "max_vertex_error": 5.9127807761072404e-08,
+  "deleted_meshes": 0,
+  "deleted_triangles": 3889,
+  "only_authorized_primary_components_removed": true,
+  "bones": 62,
+  "lod_triangles": 56144,
+  "source_sha256": "49a74a0d2698c364b8d2655c99a06425d97a44f7125ad9abd8020b5a8c70474b",
+  "authorized_removed": [
+    "tripo_part_89:primary_component",
+    "tripo_part_90:primary_component"
+  ],
+  "old_model_preserved": "assets/models/xi_final/xi_final_rigged.scn",
+  "leg_binding_correction": {
+    "Thigh.L": [
+      117
+    ],
+    "Thigh.R": [
+      190
+    ],
+    "Shin.L": [
+      145,
+      156,
+      138
+    ],
+    "Shin.R": [
+      80,
+      191
+    ]
+  }
+}

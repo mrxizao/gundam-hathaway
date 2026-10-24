@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "grass_ground",
+    "source": "https://polyhaven.com/a/grass_ground",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "type": 1,
+      "name": "Grass Ground",
+      "categories": [
+        "outdoor",
+        "natural",
+        "terrain",
+        "dirty"
+      ],
+      "category": "Ground & Terrain/Grass & Vegetation/Dry & Sparse Grass",
+      "attributes": {
+        "surface_use": "ground",
+        "origin": "natural",
+        "setting": "outdoor",
+        "condition": [
+          "dirty"
+        ]
+      },
+      "tags": [
+        "grass",
+        "dry grass",
+        "dirt",
+        "root",
+        "dead grass",
+        "turf",
+        "dry"
+      ],
+      "description": "Free 16K texture of worn grass on soil, matte and rough, with fine micro-bumps, subtle height, and natural brown-green variation.",
+      "authors": {
+        "Charlotte Baglioni": "All"
+      },
+      "category_id": "e9516d71-1efd-51d6-b3c4-ce945ee92604",
+      "max_resolution": [
+        16384,
+        16384
+      ],
+      "dimensions": [
+        2509.999990463257,
+        2509.999990463257
+      ],
+      "files_hash": "0835c92f7cacee85b306c2a35d2c006be11ea3c2",
+      "date_published": 1789689600,
+      "img_version": "6fb7fdcf",
+      "sponsors": [
+        "121968951"
+      ],
+      "download_count": 9388,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/grass_ground.png?width=256&height=256&format=webp&v=6fb7fdcf"
+    },
+    "maps": {
+      "nor_gl": {
+        "file": "grass_ground_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/grass_ground/grass_ground_nor_gl_2k.png",
+        "md5": "5792932be9f2695195f5f38dd14046d8",
+        "sha256": "d215b1ef91e7fddaef060064b3a9219551bdec51c64a14deed8aa7ce0e68d012",
+        "bytes": 24557731,
+        "runtime_sha256": "c31baeecff525b2637112d64d2ac7ed16c136614047c783a3b3e2f645b764427",
+        "runtime_note": "2K RGB8 PNG; source preserved separately; colour is adjusted only in shader"
+      },
+      "diff": {
+        "file": "grass_ground_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/grass_ground/grass_ground_diff_2k.png",
+        "md5": "a80a7eb329bc77fddbc885793ff268c1",
+        "sha256": "711341bcef8c1e7317a70e6bb39e1e63878e3946e26c93b78e3835f26bd26620",
+        "bytes": 23017857,
+        "runtime_sha256": "91270e2de07233d7098adbc9b516de130b0253b85270f9b1a96963a6586ca470",
+        "runtime_note": "2K RGB8 PNG; source preserved separately; colour is adjusted only in shader"
+      },
+      "arm": {
+        "file": "grass_ground_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/grass_ground/grass_ground_arm_2k.png",
+        "md5": "0b0114136ec5d64aaeac73bcaaa73450",
+        "sha256": "6ae824ff1205510685481890a01aa2e5c27386721ca0b900cad23d15c1f02c51",
+        "bytes": 17399472,
+        "runtime_sha256": "7d50bda9defa7ea4b252ee7d0c826b1a49f17dfa150d5df6e28f3fcacdabe829",
+        "runtime_note": "2K RGB8 PNG; source preserved separately; colour is adjusted only in shader"
+      }
+    }
+  },
+  {
+    "id": "asphalt_floor",
+    "source": "https://polyhaven.com/a/asphalt_floor",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "donated": true,
+      "name": "Asphalt Floor",
+      "type": 1,
+      "authors": {
+        "eye-candy.xyz": "All"
+      },
+      "tags": [
+        "flat",
+        "asphalt",
+        "brown",
+        "even",
+        "dry",
+        "smooth",
+        "ground"
+      ],
+      "info": null,
+      "dimensions": [
+        2349.9999046325684,
+        2349.9999046325684
+      ],
+      "date_published": 1669248000,
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "files_hash": "12f555317411ad74c385f67210226d20ac73c262",
+      "sponsors": [
+        "84390067"
+      ],
+      "description": "Free 8K asphalt texture with an even, dry brown surface, fine-grained aggregate, subtle roughness and a smooth, clean man-made appearance.",
+      "categories": [
+        "outdoor",
+        "man made",
+        "floor",
+        "clean",
+        "concrete",
+        "road",
+        "asphalt",
+        "plaster-concrete"
+      ],
+      "category_id": "bc174825-be31-5e80-9911-2eb9128cfee9",
+      "category": "Asphalt & Bitumen/Asphalt/Fresh Asphalt",
+      "attributes": {
+        "surface_use": "floor",
+        "origin": "man_made",
+        "setting": "outdoor",
+        "condition": [
+          "clean"
+        ]
+      },
+      "img_version": "581f44ef",
+      "download_count": 32368,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/asphalt_floor.png?width=256&height=256&format=webp&v=581f44ef"
+    },
+    "maps": {
+      "diff": {
+        "file": "asphalt_floor_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/asphalt_floor/asphalt_floor_diff_2k.png",
+        "md5": "50b0e1ed08eb5a49409ade0c9c5be7ee",
+        "sha256": "a70d0e94231e31bd015127e53e9de9fdac74c0abe046958255a527972edb8f83",
+        "bytes": 24134690,
+        "runtime_sha256": "9d40bab440fa831c6be89ece68a47a14478cb61532c9d85e616d81acdc08a622",
+        "runtime_note": "2K RGB8 PNG; source preserved separately; colour is adjusted only in shader"
+      },
+      "nor_gl": {
+        "file": "asphalt_floor_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/asphalt_floor/asphalt_floor_nor_gl_2k.png",
+        "md5": "2fa6e8803da770a73bf95807406d50ba",
+        "sha256": "258acc67ac95316c68aa962f6ec7ddcf8d626d7a3a060ca96f5a7a18ba1aa888",
+        "bytes": 23920294,
+        "runtime_sha256": "46b8609c6b04727a561d6824b0ecc0f36b32c65b123117b70f794ef7c21315dc",
+        "runtime_note": "2K RGB8 PNG; source preserved separately; colour is adjusted only in shader"
+      },
+      "arm": {
+        "file": "asphalt_floor_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/asphalt_floor/asphalt_floor_arm_2k.png",
+        "md5": "afea2e5105d40e26162fbfdb9fb1bf9b",
+        "sha256": "f4d1c60976dbbe7e3b45fd9c6b4e368300f5e3a52614286edab93e21c86c9d72",
+        "bytes": 17804265,
+        "runtime_sha256": "11745600266a280593f8b733579e881ec95563e9ff76e5da9b5870d97a1976ea",
+        "runtime_note": "2K RGB8 PNG; source preserved separately; colour is adjusted only in shader"
+      }
+    }
+  },
+  {
+    "id": "leafy_grass",
+    "source": "https://polyhaven.com/a/leafy_grass",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "date_published": 1685145600,
+      "name": "Leafy Grass",
+      "categories": [
+        "outdoor",
+        "floor"
+      ],
+      "type": 1,
+      "staging": null,
+      "tags": [
+        "grass",
+        "green",
+        "nature",
+        "ground",
+        "foliage",
+        "leaves",
+        "plants",
+        "outdoors",
+        "twigs",
+        "sticks",
+        "trampled"
+      ],
+      "authors": {
+        "Charlotte Baglioni": "All"
+      },
+      "info": null,
+      "dimensions": [
+        2000,
+        2000
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "files_hash": "90fd49a21ddface404d32d9956c3a9f3ca8e0679",
+      "description": "Free 8K leafy grass texture: trampled green blades with scattered brown leaves and twigs, low-relief rough soil surface with a natural matte finish.",
+      "attributes": {
+        "surface_use": "ground",
+        "origin": "natural",
+        "setting": "outdoor"
+      },
+      "category_id": "21e06d88-2ab6-5bdd-ad11-869b7ff0b573",
+      "category": "Ground & Terrain/Grass & Vegetation/Lush & Green Grass",
+      "img_version": "8866acdc",
+      "download_count": 94790,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/leafy_grass.png?width=256&height=256&format=webp&v=8866acdc"
+    },
+    "maps": {
+      "diff": {
+        "file": "leafy_grass_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/leafy_grass/leafy_grass_diff_2k.png",
+        "md5": "91c82271318a5bbe69182404c6dff730",
+        "sha256": "9ae7994a36a7aedf5fe65dac49d5e096e9a8ff1d8a8e8ccb28df0c9c3a7a2d34",
+        "runtime_sha256": "791e03f97c435a51a5d0de679b983dc7c939bad46f0c1ecf07f85e3ef9e85e57",
+        "bytes": 23606854,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      },
+      "nor_gl": {
+        "file": "leafy_grass_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/leafy_grass/leafy_grass_nor_gl_2k.png",
+        "md5": "99b68312712462595976eb2baef58c6b",
+        "sha256": "476a34f2f60186f51644c3b9560d7659531a033f993b01f274f939e447f3de25",
+        "runtime_sha256": "4424104c1372ccb449686a523801f0aa05705cc9dac3a9a43af780ade321bc93",
+        "bytes": 24430051,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      },
+      "arm": {
+        "file": "leafy_grass_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/leafy_grass/leafy_grass_arm_2k.png",
+        "md5": "1ea54cc3044070188a5b524cec83dac2",
+        "sha256": "ae94a44475b5793ca72cc8f9ad26f0ccd03bc5f72b0992e5070a38f923ea0bf9",
+        "runtime_sha256": "6fc331e68b289cc078ad47f78d48ee7cf0bd71a248d34f547146bae84a91c92a",
+        "bytes": 18216000,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      }
+    }
+  },
+  {
+    "id": "withered_grass",
+    "source": "https://polyhaven.com/a/withered_grass",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "name": "Withered Grass",
+      "categories": [
+        "natural",
+        "outdoor",
+        "floor"
+      ],
+      "type": 1,
+      "tags": [
+        "old",
+        "weathered",
+        "grass",
+        "dead grass",
+        "discolored",
+        "driedup",
+        "dry"
+      ],
+      "authors": {
+        "Charlotte Baglioni": "All"
+      },
+      "info": null,
+      "dimensions": [
+        1999.9996423721313,
+        1999.9996423721313
+      ],
+      "date_published": 1694044800,
+      "staging": null,
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "files_hash": "eb88811d5af353e86750f73f412bf5aea3f7c8ab",
+      "description": "Free 8K texture of withered grass: brittle, fibrous, sun-bleached blades in muted brown and tan with scattered debris and compacted earth tones.",
+      "attributes": {
+        "surface_use": "ground",
+        "condition": [
+          "weathered"
+        ],
+        "origin": "natural",
+        "setting": "outdoor"
+      },
+      "category_id": "e9516d71-1efd-51d6-b3c4-ce945ee92604",
+      "category": "Ground & Terrain/Grass & Vegetation/Dry & Sparse Grass",
+      "img_version": "9de71eae",
+      "download_count": 8377,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/withered_grass.png?width=256&height=256&format=webp&v=9de71eae"
+    },
+    "maps": {
+      "diff": {
+        "file": "withered_grass_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/withered_grass/withered_grass_diff_2k.png",
+        "md5": "38a66a21db92da34acdd78a1e6c70b3a",
+        "sha256": "ca1600e92cb82ba4c579d54f9b02a36c5fd1d55174c5732c6031ba5885f8323f",
+        "runtime_sha256": "e792e2bf76ceed2cd0dca1011d50a86079a77b7feda9bc4cc097bccf401e2a59",
+        "bytes": 24016498,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      },
+      "nor_gl": {
+        "file": "withered_grass_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/withered_grass/withered_grass_nor_gl_2k.png",
+        "md5": "791991d1cad93f304e090d514ddc4186",
+        "sha256": "5b4be863674ec322952cc3e0aa2a33980b194ad65d83ff012e348ae4bd38849f",
+        "runtime_sha256": "2cc7b7655d6e1cb1a35802fd2742b5dcf4b4a55a1d6d2d8efcab1c17a1e5b5fb",
+        "bytes": 24597734,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      },
+      "arm": {
+        "file": "withered_grass_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/withered_grass/withered_grass_arm_2k.png",
+        "md5": "8f82a947ac2db42befe1bce04b7ab0f1",
+        "sha256": "b8024b66c3740240ab6ef222f0efa45c5f1563e6d03cf7d5d75e0ab09f1d707d",
+        "runtime_sha256": "d91b18eec542ccd000d02fbfa825c7d3de94789da666892be2957e64554f7d15",
+        "bytes": 19132870,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      }
+    }
+  },
+  {
+    "id": "dirt",
+    "source": "https://polyhaven.com/a/dirt",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "name": "Dirt",
+      "categories": [
+        "floor",
+        "dirty",
+        "sand"
+      ],
+      "type": 1,
+      "tags": [
+        "dirt",
+        "dirty",
+        "ground",
+        "nature",
+        "earth",
+        "dusty",
+        "rocky",
+        "debris",
+        "footprints"
+      ],
+      "authors": {
+        "Charlotte Baglioni": "All"
+      },
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "dimensions": [
+        2000,
+        2000
+      ],
+      "date_published": 1721692800,
+      "staging": null,
+      "files_hash": "fe7ab433626bec3f3bdc5a478b06eed2eb12572e",
+      "description": "Free 8K dirt texture showing dusty, compacted earth with small rocks, debris and subtle footprints; rough, low-gloss surface with detailed soil variation.",
+      "category_id": "d9215ca1-f9af-578a-a269-6cd2338bdba6",
+      "category": "Ground & Terrain/Soil & Mud/Bare Dirt & Soil",
+      "attributes": {
+        "surface_use": "ground",
+        "origin": "natural",
+        "setting": "outdoor",
+        "condition": [
+          "clean"
+        ]
+      },
+      "img_version": "efbb8f04",
+      "download_count": 31781,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/dirt.png?width=256&height=256&format=webp&v=efbb8f04"
+    },
+    "maps": {
+      "diff": {
+        "file": "dirt_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_diff_2k.png",
+        "md5": "e9dcab81dc501ab2ee3238783af014e7",
+        "sha256": "f0fee6965209d08fd073067c9c61cefc815fecdede90070b361e3f8c47c87801",
+        "runtime_sha256": "54f3b44c6dd5bb06ffcbf1ee4cb733d4c6c50438ea7c29dc52809a222a42bdf7",
+        "bytes": 22041709,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      },
+      "nor_gl": {
+        "file": "dirt_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_nor_gl_2k.png",
+        "md5": "532cc425ffeef26eca43ef638ef4fb9c",
+        "sha256": "d269f7e4c8f113474735c1d9e346f48272dcb5c2cba72c3976b0181a0867d7aa",
+        "runtime_sha256": "b5638c942ea3765f3548141c223a77ccc076e61fbc4c809e51517b0428fbc3a3",
+        "bytes": 23484882,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      },
+      "arm": {
+        "file": "dirt_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dirt/dirt_arm_2k.png",
+        "md5": "fb77fd512bf0e12ec7fd9627fdbed5fb",
+        "sha256": "cf789a361ac42d4d7b6a3c44fd81e23573168c3e3665a49f6e7bca31069975c3",
+        "runtime_sha256": "67aecfc69ab804befdda4b946239c021bb9ebca3b29ea63aec748c315dcf7439",
+        "bytes": 16069882,
+        "runtime_note": "2K RGB8 PNG; complete source retained in day2 source_assets; sRGB albedo, linear OpenGL normal and ORM; tint only in shader"
+      }
+    }
+  },
+  {
+    "id": "clean_asphalt",
+    "source": "https://polyhaven.com/a/clean_asphalt",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "type": 1,
+      "name": "Clean Asphalt",
+      "categories": [
+        "floor",
+        "asphalt"
+      ],
+      "tags": [
+        "rough",
+        "asphalt",
+        "grey",
+        "gray",
+        "course",
+        "gritty",
+        "fine-grained",
+        "road",
+        "asphalt road",
+        "roadway",
+        "tarmac road",
+        "tar",
+        "scratches",
+        "racing",
+        "bitumen",
+        "speedway",
+        "race track",
+        "pit lane"
+      ],
+      "description": "Free 8k asphalt texture: clean dark-gray surface with fine rough grain, subtle micro-roughness and faint seam line, low sheen and even tonality.",
+      "authors": {
+        "Dimitrios Savva": "All"
+      },
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "dimensions": [
+        2099.9999046325684,
+        2099.9999046325684
+      ],
+      "files_hash": "402035bf9077d331e5de76b938c8b6d818aed6a0",
+      "staging": null,
+      "date_published": 1768262400,
+      "category_id": "bc174825-be31-5e80-9911-2eb9128cfee9",
+      "category": "Asphalt & Bitumen/Asphalt/Fresh Asphalt",
+      "attributes": {
+        "surface_use": "floor",
+        "origin": "man_made",
+        "setting": "outdoor",
+        "condition": [
+          "clean"
+        ]
+      },
+      "img_version": "547f00f6",
+      "download_count": 28432,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/clean_asphalt.png?width=256&height=256&format=webp&v=547f00f6"
+    },
+    "maps": {
+      "diff": {
+        "file": "clean_asphalt_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/clean_asphalt/clean_asphalt_diff_2k.png",
+        "source_md5": "05b7b0221d78523b26dfd1679aed3ac0",
+        "source_sha256": "8531aa831e6346e7d5a20711454a32588f56013de41156b18cce30bb4c6edcf5",
+        "runtime_sha256": "2edde259b544efc377b5614e164f2f49e5b56be33ac813fd4ef1e2d5c2a109e6"
+      },
+      "nor_gl": {
+        "file": "clean_asphalt_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/clean_asphalt/clean_asphalt_nor_gl_2k.png",
+        "source_md5": "bed7ba9c47e0ebd986772f6015dc9300",
+        "source_sha256": "eb1bb30f0d906ea8b38543cb6add6854ef5bd0fce0ef073b2f83e0d2d3e9ca8a",
+        "runtime_sha256": "0d8bd1e5ae3b24e69a94055553802635734aa0892d76e796caa6e657934fcae0"
+      },
+      "arm": {
+        "file": "clean_asphalt_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/clean_asphalt/clean_asphalt_arm_2k.png",
+        "source_md5": "8a007316ca9723c1ae72de38d73640aa",
+        "source_sha256": "e22a84aba8c4fb664bf12c00a0f736de08f74803bbc587936a9eb103b1f4be3a",
+        "runtime_sha256": "9c8a20d7c183ced266c214d649dd14bfc15c028074a05c4781437978b247b47c"
+      }
+    }
+  },
+  {
+    "id": "concrete_floor_01",
+    "source": "https://polyhaven.com/a/concrete_floor_01",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "type": 1,
+      "date_published": 1531734768,
+      "name": "Concrete Floor 01",
+      "old_id": 148,
+      "categories": [
+        "concrete",
+        "clean",
+        "plaster-concrete",
+        "man made",
+        "outdoor"
+      ],
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "dimensions": [
+        2000,
+        2000
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "sponsors": [
+        "4714267",
+        "3237733"
+      ],
+      "files_hash": "dd25145843a1f743897b3188e42822705db331e6",
+      "tags": [
+        "rough",
+        "park",
+        "concrete",
+        "cement",
+        "rough  ",
+        "stone embedded",
+        "gravel embedded",
+        "weathered",
+        "granular"
+      ],
+      "description": "Free 8K texture: weathered outdoor concrete floor with granular, rough surface and embedded stones and gravel, matte and slightly worn.",
+      "category_id": "70d3bf8f-46b0-5250-a419-61cbf068f448",
+      "category": "Concrete/Cast Walls & Floors/Exposed Aggregate",
+      "attributes": {
+        "surface_use": "floor",
+        "condition": [
+          "weathered",
+          "worn"
+        ],
+        "origin": "man_made",
+        "setting": "outdoor"
+      },
+      "img_version": "ac7567fd",
+      "download_count": 101169,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_floor_01.png?width=256&height=256&format=webp&v=ac7567fd"
+    },
+    "maps": {
+      "diff": {
+        "file": "concrete_floor_01_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_floor_01/concrete_floor_01_diff_2k.png",
+        "source_md5": "09182f711f22922dc73c8abcb758cfbf",
+        "source_sha256": "cd2d338a8632c7c89bbb8ec365a05638d24f828e92f27963ee7c2d1e47c1d99d",
+        "runtime_sha256": "a2efaa460c7bf504dc540c16868f57b367524a5f1eae8b07fad1f251f0003de8"
+      },
+      "nor_gl": {
+        "file": "concrete_floor_01_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_floor_01/concrete_floor_01_nor_gl_2k.png",
+        "source_md5": "dc23533ce7469b6c464eaf9dbd30f461",
+        "source_sha256": "38fa64042bf57cd56cbaa92093d13fb09547d620c1ba5ce906512021c80d512e",
+        "runtime_sha256": "edc7992178d6a9c75db410c29620053becf35989f20ac84e0b9d35d29e020cb9"
+      },
+      "arm": {
+        "file": "concrete_floor_01_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_floor_01/concrete_floor_01_arm_2k.png",
+        "source_md5": "7a02228bbc57b525f1d60fc4d8f15c82",
+        "source_sha256": "b33a84cd7f48c7ec5c716bc0754e756981cb4d07ffbff93c161e4396d795f148",
+        "runtime_sha256": "04e15551864b3dd57bc0f04e8009ca42541dd2681203c778d5de2062707fe645"
+      }
+    }
+  },
+  {
+    "id": "concrete_wall_003",
+    "source": "https://polyhaven.com/a/concrete_wall_003",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "type": 1,
+      "tags": [
+        "worn",
+        "painted",
+        "discolored",
+        "dirty",
+        "yellow",
+        "white",
+        "weathered",
+        "cracked",
+        "scratched",
+        "chipped",
+        "rough"
+      ],
+      "date_published": 1629763200,
+      "name": "Concrete Wall 003",
+      "categories": [
+        "man made",
+        "wall",
+        "concrete",
+        "plaster",
+        "outdoor",
+        "dirty",
+        "plaster-concrete"
+      ],
+      "staging": null,
+      "dimensions": [
+        3000,
+        3000.000238418579
+      ],
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "max_resolution": [
+        16384,
+        16384
+      ],
+      "files_hash": "3ed549016391b1c6c6ffc9ec8a250ed3eff69097",
+      "description": "Free 16K texture of a worn painted concrete wall: rough plaster surface with yellow-white discoloration, cracks, chips, scratches and weathered dirt.",
+      "category_id": "9d3c7da3-4959-5d42-8abc-5c31017a2fd4",
+      "category": "Concrete/Plaster & Stucco/Painted Plaster",
+      "attributes": {
+        "surface_use": "wall",
+        "condition": [
+          "painted",
+          "weathered",
+          "cracked",
+          "worn",
+          "damaged"
+        ],
+        "origin": "man_made",
+        "setting": "outdoor"
+      },
+      "img_version": "11b4a929",
+      "download_count": 107982,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/concrete_wall_003.png?width=256&height=256&format=webp&v=11b4a929"
+    },
+    "maps": {
+      "diff": {
+        "file": "concrete_wall_003_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_wall_003/concrete_wall_003_diff_2k.png",
+        "source_md5": "365737df1f0aad2087fa38cd35ad7644",
+        "source_sha256": "21f12fccfa211be4efb2d0581125e4f2262506755b1d12a7310a2fea637ce096",
+        "runtime_sha256": "cd046de6703b3094c6d111cd481462028e8726496bc02a6e1ca9ea71d1fcaafc"
+      },
+      "nor_gl": {
+        "file": "concrete_wall_003_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_wall_003/concrete_wall_003_nor_gl_2k.png",
+        "source_md5": "5900a0dbc2fdf290995000c579fbb88d",
+        "source_sha256": "64c8156389b7b43d8a6528dea199683fcb140d4f3d6d5a5e59dd2a345d61e13e",
+        "runtime_sha256": "99870107df45d8e5829025744830802c1f3495c03dc2a85a0aed5eed2ca13f7c"
+      },
+      "arm": {
+        "file": "concrete_wall_003_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_wall_003/concrete_wall_003_arm_2k.png",
+        "source_md5": "c01a077cbe17bdcf25da154969e27ac0",
+        "source_sha256": "d7b93c2cd15979d0266fddaf740bfcd64d88d80ff2e2703dfe3161137e1a2f31",
+        "runtime_sha256": "1d9448e444e570815e4cae866d45cc913797ee6bd92f93e2d5be1334fde31140"
+      }
+    }
+  },
+  {
+    "id": "brick_wall_001",
+    "source": "https://polyhaven.com/a/brick_wall_001",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "scale": "1.5x1.5",
+      "type": 1,
+      "tags": [
+        "red",
+        "rough",
+        "industrial",
+        "plain",
+        "baked"
+      ],
+      "date_published": 1615640913,
+      "name": "Brick Wall 001",
+      "old_id": 308,
+      "categories": [
+        "brick",
+        "man made",
+        "outdoor",
+        "indoor",
+        "clean",
+        "wall"
+      ],
+      "authors": {
+        "Rob Tuytel": "Processing",
+        "Dimitrios Savva": "Photography"
+      },
+      "dimensions": [
+        3000,
+        3000
+      ],
+      "sponsors": [
+        "4714267",
+        "25436656",
+        "11167855"
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "files_hash": "fd60577b22b011e4f5ae6ac5b2ffddd8dacf9b3d",
+      "description": "Free 8K texture of a red, rough industrial brick wall with baked-in grime, chipped edges, varied mortar tones and pronounced surface relief.",
+      "category_id": "9ef0955b-87fa-5826-aa87-98b047ad9143",
+      "category": "Brick & Block/Clay Brick/Running-Bond",
+      "attributes": {
+        "surface_use": "wall",
+        "condition": [
+          "weathered",
+          "worn",
+          "damaged"
+        ],
+        "origin": "man_made",
+        "setting": "either"
+      },
+      "img_version": "99965586",
+      "download_count": 115061,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/brick_wall_001.png?width=256&height=256&format=webp&v=99965586"
+    },
+    "maps": {
+      "diff": {
+        "file": "brick_wall_001_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/brick_wall_001/brick_wall_001_diffuse_2k.png",
+        "source_md5": "5389c8dd00a522e135646fd07239629c",
+        "source_sha256": "6c4646b0322d5c60a62a58474d4d1a594f8ee8a4741a241bba85d47f5ba31937",
+        "runtime_sha256": "88ecf30b17494ac94d0a95a9e692a2d0f95367ba21bd36507d832680f78bf104"
+      },
+      "nor_gl": {
+        "file": "brick_wall_001_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/brick_wall_001/brick_wall_001_nor_gl_2k.png",
+        "source_md5": "150673fc4074ae533f7a940ef7cf6ce5",
+        "source_sha256": "186647594418f425a3bb757f444144c01a1eda7a9f109c49b9a09400b3ff8607",
+        "runtime_sha256": "0f96273a2852e18c5caaeaf23036fdfe6348ed6b720da2d3af2671550594110b"
+      },
+      "arm": {
+        "file": "brick_wall_001_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/brick_wall_001/brick_wall_001_arm_2k.png",
+        "source_md5": "5cd7613a76461a1e9823b51162e5f1bd",
+        "source_sha256": "2aaca532406b37a92b20ce7c718560df535195a8eb0dcc2ef275154dccc69ce0",
+        "runtime_sha256": "c38d46c842eb4316231d78d8c0a7ea846d8548398ff5b4408d293dcf8ee2409b"
+      }
+    }
+  },
+  {
+    "id": "painted_metal_shutter",
+    "source": "https://polyhaven.com/a/painted_metal_shutter",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "date_published": 1660608000,
+      "name": "Painted Metal Shutter",
+      "categories": [
+        "man made",
+        "metal"
+      ],
+      "type": 1,
+      "staging": null,
+      "authors": {
+        "Dario Barresi": "Baking",
+        "Rico Cilliers": "Processing ",
+        "Charlotte Baglioni": "Photography"
+      },
+      "tags": [
+        "weathered",
+        "worn",
+        "dirty",
+        "stained",
+        "scratched",
+        "discolored",
+        "painted",
+        "metal",
+        "corrugated"
+      ],
+      "dimensions": [
+        2000,
+        2000
+      ],
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "files_hash": "10d2f71789c8dc02a4a0e6cbb20d021a6c032d42",
+      "description": "Free 8K texture of a painted corrugated metal shutter, weathered and worn with scratches, dirt, stains and subtle discoloration across ridged painted metal.",
+      "category_id": "da0d83ea-5e82-5d71-a933-ae328356e9d8",
+      "category": "Metal/Cladding & Shutters/Shutters & Doors",
+      "attributes": {
+        "surface_use": "wall",
+        "condition": [
+          "painted",
+          "weathered",
+          "worn",
+          "damaged"
+        ],
+        "origin": "man_made",
+        "setting": "outdoor"
+      },
+      "img_version": "6d7d385a",
+      "download_count": 55460,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/painted_metal_shutter.png?width=256&height=256&format=webp&v=6d7d385a"
+    },
+    "maps": {
+      "diff": {
+        "file": "painted_metal_shutter_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/painted_metal_shutter/painted_metal_shutter_diff_2k.png",
+        "source_md5": "27f8f3bc307db25dc197ab8b6daeae66",
+        "source_sha256": "6992a0aa5ffb20d9c6e7ac7b13a0bcc69a07d7df732f6004259759f9f3998fec",
+        "runtime_sha256": "62f562216fe4904f3623ca3b2201668f96ea3b7da2971997e670e97901bce5a5"
+      },
+      "nor_gl": {
+        "file": "painted_metal_shutter_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/painted_metal_shutter/painted_metal_shutter_nor_gl_2k.png",
+        "source_md5": "f1934dad4185642cf351804da3291e76",
+        "source_sha256": "d1d84510f0d831f088a7553b0407515945949c82fb32178d1de8614340db3ee9",
+        "runtime_sha256": "99226d17d7b000653b531e566098fa70c562b3716058bb59e76d56f839ee94bd"
+      },
+      "arm": {
+        "file": "painted_metal_shutter_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/painted_metal_shutter/painted_metal_shutter_arm_2k.png",
+        "source_md5": "9cb41be2c0ae4940e3bcb419a5e0c462",
+        "source_sha256": "78e4bb38b933859cb8142aba6b2019a324237298185a71455bde0fe34360e84d",
+        "runtime_sha256": "ca84f5cc00440260610ca2ae9c0de083583efce64ad6ed7add0fc72a8c03f72a"
+      }
+    }
+  },
+  {
+    "id": "adelaide_trim_atlas",
+    "provider": "project authored",
+    "license": "project original technical texture",
+    "description": "Deterministic eight-strip project-authored PBR atlas; no baked sunlight. Rebuild with tools/bake_adelaide_trim.py; seed 20261016.",
+    "maps": {
+      "diff": "44ad5ef0efab646a314a7d5d38e546925cd76645c0b6c116e7e746fe96b2a9ca",
+      "nor_gl": "90d37f39d03270c58f18a2856b4f6d8cade629135f2f2516fdbbd3117ab777da",
+      "arm": "131b27556a9b2814628977dccc2eeb5fa0d14fd3aa9ff2ac1ff5ae7114975dd3"
+    }
+  },
+  {
+    "id": "bitumen",
+    "source": "https://polyhaven.com/a/bitumen",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "name": "Bitumen",
+      "categories": [
+        "roofing"
+      ],
+      "type": 1,
+      "tags": [
+        "rough",
+        "cracked",
+        "cracks",
+        "dirty",
+        "bitumen",
+        "asphalt",
+        "roofing material",
+        "tar",
+        "gritty",
+        "rough  "
+      ],
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "max_resolution": [
+        8192,
+        8192
+      ],
+      "dimensions": [
+        19999.996185302734,
+        19999.996185302734
+      ],
+      "date_published": 1727913600,
+      "staging": null,
+      "files_hash": "ad7297dc54aa4276e383fda741e22d0e4b73be88",
+      "description": "Free 8K texture: dark, gritty bitumen roofing with rough, cracked tar surface, subtle horizontal streaks and weathered dirt.",
+      "sponsors": [
+        "26820710",
+        "101447488"
+      ],
+      "category_id": "f19fe70f-c62c-55f7-ba5a-77dce05be6ef",
+      "category": "Asphalt & Bitumen/Asphalt",
+      "attributes": {
+        "surface_use": "roof",
+        "condition": [
+          "weathered",
+          "cracked"
+        ],
+        "origin": "man_made",
+        "setting": "outdoor"
+      },
+      "img_version": "9f7ff89e",
+      "download_count": 14473,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/bitumen.png?width=256&height=256&format=webp&v=9f7ff89e"
+    },
+    "maps": {
+      "diff": {
+        "file": "bitumen_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/bitumen/bitumen_diff_2k.png",
+        "source_md5": "e654b97610c1fedf17157e6b353964c7",
+        "source_sha256": "a10fd7082827ecfa6da02c1d5c7f321ed8d48897794fd2bb6e817a8a474abadb",
+        "runtime_sha256": "c9351534d307010d02565579b1a013ebd7cb69a88ef7eb7f6ad1bcb9eade88dd"
+      },
+      "nor_gl": {
+        "file": "bitumen_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/bitumen/bitumen_nor_gl_2k.png",
+        "source_md5": "33650f46fecd484a10e3abbf12de3487",
+        "source_sha256": "95914ba4fbd0003373bcdbe08663456712d7fa5ffdad3dd695a403f1a6428e74",
+        "runtime_sha256": "cbf184681e30b1093f87415c9901bfce98cea7be55292c64d20dbd241db988a0"
+      },
+      "arm": {
+        "file": "bitumen_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/bitumen/bitumen_arm_2k.png",
+        "source_md5": "efcde8da193bf428a71cdc00365bce79",
+        "source_sha256": "a4d80de00aae812c8feab3f560c85d159696daf5a2a60c00458f63498e400acf",
+        "runtime_sha256": "6d04553463f45a035c75549088e5938005dd98d0a8771265a59fefe3bdae17f3"
+      }
+    }
+  },
+  {
+    "id": "corrugated_iron",
+    "source": "https://polyhaven.com/a/corrugated_iron",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "metadata": {
+      "name": "Corrugated Iron",
+      "categories": [
+        "man made",
+        "roofing",
+        "wall",
+        "metal"
+      ],
+      "type": 1,
+      "info": null,
+      "dimensions": [
+        1120.0000047683716,
+        1120.0000047683716
+      ],
+      "date_published": 1699488000,
+      "staging": null,
+      "max_resolution": [
+        16384,
+        16384
+      ],
+      "authors": {
+        "Jenelle van Heerden": "Processing",
+        "Dimitrios Savva": "Photography"
+      },
+      "tags": [
+        "metal",
+        "corrugated",
+        "roof",
+        "roofing",
+        "steel",
+        "metallic",
+        "sheet",
+        "metal sheet",
+        "weathered",
+        "rusty",
+        "iron",
+        "galvanized",
+        "corrugation",
+        "steel sheeting",
+        "rust",
+        "corrugated iron"
+      ],
+      "files_hash": "32412884f4522418b4598d9631610b2331e8ca58",
+      "description": "Free 16K corrugated iron texture - weathered galvanized steel roofing with deep ridges, subtle rust, gritty surface, metallic sheen for roofs/walls.",
+      "category_id": "c10ee76b-cb81-546f-bba9-095bf5a18a6d",
+      "category": "Metal/Sheet & Corrugated/Corrugated Iron",
+      "attributes": {
+        "surface_use": "roof",
+        "condition": [
+          "weathered",
+          "rusted"
+        ],
+        "origin": "man_made",
+        "setting": "outdoor"
+      },
+      "img_version": "99c60d8c",
+      "download_count": 100470,
+      "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/corrugated_iron.png?width=256&height=256&format=webp&v=99c60d8c"
+    },
+    "maps": {
+      "diff": {
+        "file": "corrugated_iron_diff_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_diff_2k.png",
+        "source_md5": "94457bfd1f8facd2f1da7c23a911d86d",
+        "source_sha256": "6e09eff32e75852f93787933d477544a4406e972da05693a5c8a2831bd131b88",
+        "runtime_sha256": "c14cac03d6dbb7093fea8b2648f850b9525556c8ae715cf26e3c02d3d630c58d"
+      },
+      "nor_gl": {
+        "file": "corrugated_iron_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_nor_gl_2k.png",
+        "source_md5": "c59cda425ee2fa541551d39e9d878d5a",
+        "source_sha256": "d9f1caa646736112ae7815e4b7fbb9252e0737922663b552bc7d069d5cafcd9c",
+        "runtime_sha256": "7262f7080af2751e5d593b0c511ea9e58a7103951706580ebe4120ac9059dd7d"
+      },
+      "arm": {
+        "file": "corrugated_iron_arm_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/corrugated_iron/corrugated_iron_arm_2k.png",
+        "source_md5": "2ef13b6fade2418cc775063ea588d3ad",
+        "source_sha256": "4118a19694e379bf50be8989bda398301edd4ad8ce2733b56f2fa9ab6ca49080",
+        "runtime_sha256": "acfdfc491a3abc8dfbecd1265b53aa8d064028e9379f6dff4cc8e2ed829a6482"
+      }
+    }
+  }
+]

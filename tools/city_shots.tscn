@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b21cityshots"]
+
+[ext_resource type="Script" path="res://tools/city_shots.gd" id="1_cs"]
+
+[node name="CityShots" type="Node"]
+script = ExtResource("1_cs")

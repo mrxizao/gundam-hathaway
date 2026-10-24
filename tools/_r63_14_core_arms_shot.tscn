@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_r63_14_core_arms_shot.gd" id="1_arms"]
+
+[node name="CoreArmsShot" type="Node3D"]
+script = ExtResource("1_arms")

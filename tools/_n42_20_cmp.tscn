@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_n42_20_cmp.gd" id="1_n4220"]
+
+[node name="N4220Cmp" type="Node3D"]
+script = ExtResource("1_n4220")

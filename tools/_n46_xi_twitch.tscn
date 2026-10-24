@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_n46_xi_twitch.gd" id="1_n46tw"]
+
+[node name="N46XiTwitch" type="Node3D"]
+script = ExtResource("1_n46tw")

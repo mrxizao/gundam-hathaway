@@ -1,0 +1,307 @@
+[
+  {
+    "id": "grass_green",
+    "label": "灰绿草地",
+    "status": "implemented_citywide",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "leafy_grass",
+    "url": "https://polyhaven.com/a/leafy_grass",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "tile_dimensions_m": [
+      2.0,
+      2.0
+    ],
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "grass_dry",
+    "label": "枯草",
+    "status": "implemented_citywide",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "withered_grass",
+    "url": "https://polyhaven.com/a/withered_grass",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "tile_dimensions_m": [
+      2.0,
+      2.0
+    ],
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "soil",
+    "label": "裸土",
+    "status": "implemented_citywide",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "dirt",
+    "url": "https://polyhaven.com/a/dirt",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "tile_dimensions_m": [
+      2.0,
+      2.0
+    ],
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "asphalt_old",
+    "label": "旧沥青",
+    "status": "implemented_three_city_road_library",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "asphalt_floor",
+    "url": "https://polyhaven.com/a/asphalt_floor",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "eye-candy.xyz": "All"
+    },
+    "tile_dimensions_m": [
+      2.3499999046325684,
+      2.3499999046325684
+    ],
+    "maps": [
+      "ADELAIDE",
+      "OENBELLI",
+      "DAVAO"
+    ]
+  },
+  {
+    "id": "asphalt_patch",
+    "label": "新修补沥青",
+    "status": "implemented_three_city_road_library",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "clean_asphalt",
+    "url": "https://polyhaven.com/a/clean_asphalt",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "tile_dimensions_m": [
+      2.0999999046325684,
+      2.0999999046325684
+    ],
+    "maps": [
+      "ADELAIDE",
+      "OENBELLI",
+      "DAVAO"
+    ]
+  },
+  {
+    "id": "curb",
+    "label": "路缘混凝土",
+    "status": "implemented_three_city_road_library",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "concrete_floor_01",
+    "url": "https://polyhaven.com/a/concrete_floor_01",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "tile_dimensions_m": [
+      2.0,
+      2.0
+    ],
+    "maps": [
+      "ADELAIDE",
+      "OENBELLI",
+      "DAVAO"
+    ]
+  },
+  {
+    "id": "wall_concrete",
+    "label": "建筑混凝土",
+    "status": "implemented_citywide_and_48_detailed_route_buildings",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "concrete_wall_003",
+    "url": "https://polyhaven.com/a/concrete_wall_003",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Dimitrios Savva": "Photography",
+      "Rico Cilliers": "Processing"
+    },
+    "tile_dimensions_m": [
+      3.0,
+      3.000000238418579
+    ],
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "wall_brick",
+    "label": "砖石立面",
+    "status": "implemented_citywide_and_48_detailed_route_buildings",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "brick_wall_001",
+    "url": "https://polyhaven.com/a/brick_wall_001",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Rob Tuytel": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "tile_dimensions_m": [
+      3.0,
+      3.0
+    ],
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "wall_metal",
+    "label": "涂装金属",
+    "status": "implemented_citywide_and_48_detailed_route_buildings",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "painted_metal_shutter",
+    "url": "https://polyhaven.com/a/painted_metal_shutter",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Dario Barresi": "Baking",
+      "Rico Cilliers": "Processing ",
+      "Charlotte Baglioni": "Photography"
+    },
+    "tile_dimensions_m": [
+      2.0,
+      2.0
+    ],
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "roof_membrane",
+    "label": "屋顶防水层",
+    "status": "implemented_citywide_and_detailed_roofs",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "bitumen",
+    "url": "https://polyhaven.com/a/bitumen",
+    "provider": "Poly Haven",
+    "license": "CC0",
+    "runtime_tile_m": 4.0,
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "roof_metal",
+    "label": "压型金属屋面",
+    "status": "implemented_citywide_and_detailed_roofs",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "candidate_asset": "corrugated_iron",
+    "url": "https://polyhaven.com/a/corrugated_iron",
+    "license": "CC0",
+    "provider": "Poly Haven",
+    "authors": {
+      "Jenelle van Heerden": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "tile_dimensions_m": [
+      1.1200000047683716,
+      1.1200000047683716
+    ],
+    "runtime_tile_m": 2.0,
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  },
+  {
+    "id": "trim",
+    "label": "建筑收边图集",
+    "status": "implemented_citywide_and_48_detailed_route_buildings",
+    "target_resolution": "2K; up to two hero sets at 4K later",
+    "channels": {
+      "albedo": "sRGB",
+      "normal": "OpenGL; linear",
+      "ORM": "R=AO,G=roughness,B=metallic; linear"
+    },
+    "source": "planned project-authored texture atlas; no external asset selected",
+    "runtime_resolution": [
+      2048,
+      2048
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c0r58podend"]
+
+[ext_resource type="Script" path="res://tools/pod_end_probe.gd" id="1_podend"]
+
+[node name="PodEndProbe" type="Node"]
+script = ExtResource("1_podend")

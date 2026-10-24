@@ -1,0 +1,20 @@
+Day-one ground material samples from Poly Haven (CC0).
+Grass Ground — Charlotte Baglioni — https://polyhaven.com/a/grass_ground
+Asphalt Floor — author metadata in sources.json — https://polyhaven.com/a/asphalt_floor
+Sources retain original map alignment. Runtime maps are RGB8 2048x2048.
+OpenGL normal map; ARM is used as ORM (AO / roughness / metallic).
+https://polyhaven.com/license
+
+Round2 Day2 (2026-10-16): Leafy Grass, Withered Grass, Dirt — Charlotte Baglioni / Poly Haven, CC0.
+https://polyhaven.com/a/leafy_grass
+https://polyhaven.com/a/withered_grass
+https://polyhaven.com/a/dirt
+https://polyhaven.com/license
+Runtime maps are 2K RGB8, OpenGL normals, ORM. Reflectance tint is in shader only.
+Adelaide layout mask and calibration are project-authored derivatives of the existing world geometry; no external imagery.
+
+Day3: clean_asphalt (Dimitrios Savva), concrete_floor_01 (Rob Tuytel), Poly Haven CC0. Source URLs, hashes and channels: sources.json. Runtime RGB8 2K PBR. Road junction mask is project generated from actual ground_layout.json.
+
+Day4: concrete_wall_003, brick_wall_001, painted_metal_shutter from Poly Haven CC0; exact author/channel/hash metadata in sources.json. Adelaide trim atlas is project authored technical PBR data; no generated photographic artwork.
+
+Day5: bitumen and corrugated_iron / Poly Haven CC0. Original metadata, author and source/runtime hashes retained in sources.json. Roof textures are RGB8 2K, OpenGL normal, ORM; no sunlight baked by the project. Twelve environment detail modules are project-authored procedural geometry.

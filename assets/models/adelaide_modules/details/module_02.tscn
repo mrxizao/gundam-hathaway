@@ -1,0 +1,101 @@
+[gd_scene format=4]
+
+[ext_resource type="Shader" path="res://shaders/adelaide_building.gdshader" id="1_ew02n"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/concrete_wall_003_diff_2k.png" id="2_0s77y"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/concrete_wall_003_nor_gl_2k.png" id="3_wvj5p"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/concrete_wall_003_arm_2k.png" id="4_gf7ii"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_diff_2k.png" id="5_snmkp"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_nor_gl_2k.png" id="6_ustrt"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_arm_2k.png" id="7_4q6mf"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/bitumen_diff_2k.png" id="8_ccis8"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/bitumen_nor_gl_2k.png" id="9_0gp5a"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/bitumen_arm_2k.png" id="10_16wnv"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7cn8i"]
+render_priority = 0
+shader = ExtResource("1_ew02n")
+shader_parameter/surface_role = 0
+shader_parameter/base_color = Color(0.52, 0.55, 0.55, 1)
+shader_parameter/color_gain = Vector3(1.5780045, 2.0076363, 2.7996652)
+shader_parameter/building_quality = 2
+shader_parameter/tile_m = 3.0
+shader_parameter/floor_m = 6.4
+shader_parameter/trim_means = PackedVector3Array(0.3143655, 0.33788595, 0.326002, 0.09345843, 0.1243817, 0.13821271, 0.008462517, 0.010712365, 0.012386561, 0.15290327, 0.17657728, 0.17657728, 0.24965844, 0.22999977, 0.1849102, 0.03922288, 0.05854322, 0.067555964, 0.1311868, 0.15289682, 0.16056731, 0.026909553, 0.032728747, 0.035890047)
+shader_parameter/bay_m = 12.0
+shader_parameter/surface_albedo = ExtResource("2_0s77y")
+shader_parameter/surface_normal = ExtResource("3_wvj5p")
+shader_parameter/surface_orm = ExtResource("4_gf7ii")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_d2aei"]
+render_priority = 0
+shader = ExtResource("1_ew02n")
+shader_parameter/surface_role = 2
+shader_parameter/base_color = Color(0.34, 0.39, 0.41, 1)
+shader_parameter/color_gain = Vector3(4.626408, 4.3542824, 4.1798635)
+shader_parameter/building_quality = 2
+shader_parameter/tile_m = 2.0
+shader_parameter/floor_m = 6.4
+shader_parameter/trim_means = PackedVector3Array(0.3143655, 0.33788595, 0.326002, 0.09345843, 0.1243817, 0.13821271, 0.008462517, 0.010712365, 0.012386561, 0.15290327, 0.17657728, 0.17657728, 0.24965844, 0.22999977, 0.1849102, 0.03922288, 0.05854322, 0.067555964, 0.1311868, 0.15289682, 0.16056731, 0.026909553, 0.032728747, 0.035890047)
+shader_parameter/bay_m = 12.0
+shader_parameter/surface_albedo = ExtResource("5_snmkp")
+shader_parameter/surface_normal = ExtResource("6_ustrt")
+shader_parameter/surface_orm = ExtResource("7_4q6mf")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_y2vut"]
+render_priority = 0
+shader = ExtResource("1_ew02n")
+shader_parameter/surface_role = 5
+shader_parameter/base_color = Color(0.22, 0.24, 0.25, 1)
+shader_parameter/color_gain = Vector3(23.116364, 26.789156, 28.267141)
+shader_parameter/building_quality = 2
+shader_parameter/tile_m = 4.0
+shader_parameter/floor_m = 6.4
+shader_parameter/trim_means = PackedVector3Array(0.3143655, 0.33788595, 0.326002, 0.09345843, 0.1243817, 0.13821271, 0.008462517, 0.010712365, 0.012386561, 0.15290327, 0.17657728, 0.17657728, 0.24965844, 0.22999977, 0.1849102, 0.03922288, 0.05854322, 0.067555964, 0.1311868, 0.15289682, 0.16056731, 0.026909553, 0.032728747, 0.035890047)
+shader_parameter/bay_m = 12.0
+shader_parameter/surface_albedo = ExtResource("8_ccis8")
+shader_parameter/surface_normal = ExtResource("9_0gp5a")
+shader_parameter/surface_orm = ExtResource("10_16wnv")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xjts6"]
+_surfaces = [{
+"aabb": AABB(-5, 0, -4.5, 10, 4, 9),
+"attribute_data": PackedByteArray("AAAA/wAAoMAAAAAAAAAAAAAAAAAAAAD/AACgQAAAgEAAAAAAAACAPwAAAP8AAKDAAACAQAAAAAAAAIA/AAAA/wAAoMAAAAAAAAAAAAAAAAAAAAD/AACgQAAAAAAAAAAAAAAAAAAAAP8AAKBAAACAQAAAAAAAAIA/AAAA/wAAoMAAAAAAAAAAAAAAAAAAAAD/AACgQAAAgEAAAAAAAACAPwAAAP8AAKBAAAAAAAAAAAAAAAAAAAAA/wAAoMAAAAAAAAAAAAAAAAAAAAD/AACgwAAAgEAAAAAAAACAPwAAAP8AAKBAAACAQAAAAAAAAIA/AAAA/wAAkMAAAAAAAAAAAAAAAAAAAAD/AACQQAAAgEAAAAAAAACAPwAAAP8AAJBAAAAAAAAAAAAAAAAAAAAA/wAAkMAAAAAAAAAAAAAAAAAAAAD/AACQwAAAgEAAAAAAAACAPwAAAP8AAJBAAACAQAAAAAAAAIA/AAAA/wAAkMAAAAAAAAAAAAAAAAAAAAD/AACQQAAAgEAAAAAAAACAPwAAAP8AAJDAAACAQAAAAAAAAIA/AAAA/wAAkMAAAAAAAAAAAAAAAAAAAAD/AACQQAAAAAAAAAAAAAAAAAAAAP8AAJBAAACAQAAAAAAAAIA/AAAA/wAAoMAAAJDAAAAAAAAAAAAAAAD/AACgQAAAkEAAAAAAAACAPwAAAP8AAKDAAACQQAAAAAAAAIA/AAAA/wAAoMAAAJDAAAAAAAAAAAAAAAD/AACgQAAAkMAAAAAAAAAAAAAAAP8AAKBAAACQQAAAAAAAAIA/AAAA/wAAoMAAAJDAAAAAAAAAAAAAAAD/AACgQAAAkEAAAAAAAACAPwAAAP8AAKBAAACQwAAAAAAAAAAAAAAA/wAAoMAAAJDAAAAAAAAAAAAAAAD/AACgwAAAkEAAAAAAAACAPwAAAP8AAKBAAACQQAAAAAAAAIA/"),
+"format": 34359738431,
+"material": SubResource("ShaderMaterial_7cn8i"),
+"name": "0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("AACgwAAAAAAAAJDAAACgQAAAgEAAAJDAAACgwAAAgEAAAJDAAACgwAAAAAAAAJDAAACgQAAAAAAAAJDAAACgQAAAgEAAAJDAAACgwAAAAAAAAJBAAACgQAAAgEAAAJBAAACgQAAAAAAAAJBAAACgwAAAAAAAAJBAAACgwAAAgEAAAJBAAACgQAAAgEAAAJBAAACgwAAAAAAAAJDAAACgwAAAgEAAAJBAAACgwAAAAAAAAJBAAACgwAAAAAAAAJDAAACgwAAAgEAAAJDAAACgwAAAgEAAAJBAAACgQAAAAAAAAJDAAACgQAAAgEAAAJBAAACgQAAAgEAAAJDAAACgQAAAAAAAAJDAAACgQAAAAAAAAJBAAACgQAAAgEAAAJBAAACgwAAAgEAAAJDAAACgQAAAgEAAAJBAAACgwAAAgEAAAJBAAACgwAAAgEAAAJDAAACgQAAAgEAAAJDAAACgQAAAgEAAAJBAAACgwAAAAAAAAJDAAACgQAAAAAAAAJBAAACgQAAAAAAAAJDAAACgwAAAAAAAAJDAAACgwAAAAAAAAJBAAACgQAAAAAAAAJBA/////////7//////////v/////////+//////////7//////////v/////////+//3//f////z//f/9/////P/9//3////8//3//f////z//f/9/////P/9//3////8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/////f/9//7////9//3//v////3//f/+/////f/9//7////9//3//v////3//f/+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//38AAP///z//fwAA////P/9/AAD///8//38AAP///z//fwAA////P/9/AAD///8/")
+}, {
+"aabb": AABB(-1.5, 0, -4.725, 3, 3.6, 0.25),
+"attribute_data": PackedByteArray("AAAA/wAAwL8AAAAAAAAAAAAAAAAAAAD/AADAP2ZmZkAAAAAAAACAPwAAAP8AAMC/ZmZmQAAAAAAAAIA/AAAA/wAAwL8AAAAAAAAAAAAAAAAAAAD/AADAPwAAAAAAAAAAAAAAAAAAAP8AAMA/ZmZmQAAAAAAAAIA/AAAA/wAAwL8AAAAAAAAAAAAAAAAAAAD/AADAP2ZmZkAAAAAAAACAPwAAAP8AAMA/AAAAAAAAAAAAAAAAAAAA/wAAwL8AAAAAAAAAAAAAAAAAAAD/AADAv2ZmZkAAAAAAAACAPwAAAP8AAMA/ZmZmQAAAAAAAAIA/AAAA/zMzl8AAAAAAAAAAAAAAAAAAAAD/MzOPwGZmZkAAAAAAAACAPwAAAP8zM4/AAAAAAAAAAAAAAAAAAAAA/zMzl8AAAAAAAAAAAAAAAAAAAAD/MzOXwGZmZkAAAAAAAACAPwAAAP8zM4/AZmZmQAAAAAAAAIA/AAAA/zMzl8AAAAAAAAAAAAAAAAAAAAD/MzOPwGZmZkAAAAAAAACAPwAAAP8zM5fAZmZmQAAAAAAAAIA/AAAA/zMzl8AAAAAAAAAAAAAAAAAAAAD/MzOPwAAAAAAAAAAAAAAAAAAAAP8zM4/AZmZmQAAAAAAAAIA/AAAA/wAAwL8zM5fAAAAAAAAAAAAAAAD/AADAPzMzj8AAAAAAAACAPwAAAP8AAMC/MzOPwAAAAAAAAIA/AAAA/wAAwL8zM5fAAAAAAAAAAAAAAAD/AADAPzMzl8AAAAAAAAAAAAAAAP8AAMA/MzOPwAAAAAAAAIA/AAAA/wAAwL8zM5fAAAAAAAAAAAAAAAD/AADAPzMzj8AAAAAAAACAPwAAAP8AAMA/MzOXwAAAAAAAAAAAAAAA/wAAwL8zM5fAAAAAAAAAAAAAAAD/AADAvzMzj8AAAAAAAACAPwAAAP8AAMA/MzOPwAAAAAAAAIA/"),
+"format": 34359738431,
+"material": SubResource("ShaderMaterial_d2aei"),
+"name": "2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("AADAvwAAAAAzM5fAAADAP2ZmZkAzM5fAAADAv2ZmZkAzM5fAAADAvwAAAAAzM5fAAADAPwAAAAAzM5fAAADAP2ZmZkAzM5fAAADAvwAAAAAzM4/AAADAP2ZmZkAzM4/AAADAPwAAAAAzM4/AAADAvwAAAAAzM4/AAADAv2ZmZkAzM4/AAADAP2ZmZkAzM4/AAADAvwAAAAAzM5fAAADAv2ZmZkAzM4/AAADAvwAAAAAzM4/AAADAvwAAAAAzM5fAAADAv2ZmZkAzM5fAAADAv2ZmZkAzM4/AAADAPwAAAAAzM5fAAADAP2ZmZkAzM4/AAADAP2ZmZkAzM5fAAADAPwAAAAAzM5fAAADAPwAAAAAzM4/AAADAP2ZmZkAzM4/AAADAv2ZmZkAzM5fAAADAP2ZmZkAzM4/AAADAv2ZmZkAzM4/AAADAv2ZmZkAzM5fAAADAP2ZmZkAzM5fAAADAP2ZmZkAzM4/AAADAvwAAAAAzM5fAAADAPwAAAAAzM4/AAADAPwAAAAAzM5fAAADAvwAAAAAzM5fAAADAvwAAAAAzM4/AAADAPwAAAAAzM4/A/////////7//////////v/////////+//////////7//////////v/////////+//3//f////z//f/9/////P/9//3////8//3//f////z//f/9/////P/9//3////8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/////f/9//7////9//3//v////3//f/+/////f/9//7////9//3//v////3//f/+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//38AAP///z//fwAA////P/9/AAD///8//38AAP///z//fwAA////P/9/AAD///8/")
+}, {
+"aabb": AABB(-5.5, 4, -5, 11, 0.6000004, 10),
+"attribute_data": PackedByteArray("AAAA/wAAsMAAAIBAAAAAAAAAAAAAAAD/AACwQDQzk0AAAAAAAACAPwAAAP8AALDANDOTQAAAAAAAAIA/AAAA/wAAsMAAAIBAAAAAAAAAAAAAAAD/AACwQAAAgEAAAAAAAAAAAAAAAP8AALBANDOTQAAAAAAAAIA/AAAA/wAAsMAAAIBAAAAAAAAAAAAAAAD/AACwQDQzk0AAAAAAAACAPwAAAP8AALBAAACAQAAAAAAAAAAAAAAA/wAAsMAAAIBAAAAAAAAAAAAAAAD/AACwwDQzk0AAAAAAAACAPwAAAP8AALBANDOTQAAAAAAAAIA/AAAA/wAAoMAAAIBAAAAAAAAAAAAAAAD/AACgQDQzk0AAAAAAAACAPwAAAP8AAKBAAACAQAAAAAAAAAAAAAAA/wAAoMAAAIBAAAAAAAAAAAAAAAD/AACgwDQzk0AAAAAAAACAPwAAAP8AAKBANDOTQAAAAAAAAIA/AAAA/wAAoMAAAIBAAAAAAAAAAAAAAAD/AACgQDQzk0AAAAAAAACAPwAAAP8AAKDANDOTQAAAAAAAAIA/AAAA/wAAoMAAAIBAAAAAAAAAAAAAAAD/AACgQAAAgEAAAAAAAAAAAAAAAP8AAKBANDOTQAAAAAAAAIA/AAAA/wAAsMAAAKDAAAAAAAAAAAAAAAD/AACwQAAAoEAAAAAAAACAPwAAAP8AALDAAACgQAAAAAAAAIA/AAAA/wAAsMAAAKDAAAAAAAAAAAAAAAD/AACwQAAAoMAAAAAAAAAAAAAAAP8AALBAAACgQAAAAAAAAIA/AAAA/wAAsMAAAKDAAAAAAAAAAAAAAAD/AACwQAAAoEAAAAAAAACAPwAAAP8AALBAAACgwAAAAAAAAAAAAAAA/wAAsMAAAKDAAAAAAAAAAAAAAAD/AACwwAAAoEAAAAAAAACAPwAAAP8AALBAAACgQAAAAAAAAIA/"),
+"format": 34359738431,
+"material": SubResource("ShaderMaterial_y2vut"),
+"name": "5",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("AACwwAAAgEAAAKDAAACwQDQzk0AAAKDAAACwwDQzk0AAAKDAAACwwAAAgEAAAKDAAACwQAAAgEAAAKDAAACwQDQzk0AAAKDAAACwwAAAgEAAAKBAAACwQDQzk0AAAKBAAACwQAAAgEAAAKBAAACwwAAAgEAAAKBAAACwwDQzk0AAAKBAAACwQDQzk0AAAKBAAACwwAAAgEAAAKDAAACwwDQzk0AAAKBAAACwwAAAgEAAAKBAAACwwAAAgEAAAKDAAACwwDQzk0AAAKDAAACwwDQzk0AAAKBAAACwQAAAgEAAAKDAAACwQDQzk0AAAKBAAACwQDQzk0AAAKDAAACwQAAAgEAAAKDAAACwQAAAgEAAAKBAAACwQDQzk0AAAKBAAACwwDQzk0AAAKDAAACwQDQzk0AAAKBAAACwwDQzk0AAAKBAAACwwDQzk0AAAKDAAACwQDQzk0AAAKDAAACwQDQzk0AAAKBAAACwwAAAgEAAAKDAAACwQAAAgEAAAKBAAACwQAAAgEAAAKDAAACwwAAAgEAAAKDAAACwwAAAgEAAAKBAAACwQAAAgEAAAKBA/////////7//////////v/////////+//////////7//////////v/////////+//3//f////z//f/9/////P/9//3////8//3//f////z//f/9/////P/9//3////8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/////f/9//7////9//3//v////3//f/+/////f/9//7////9//3//v////3//f/+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//38AAP///z//fwAA////P/9/AAD///8//38AAP///z//fwAA////P/9/AAD///8/")
+}]
+metadata/style = 0
+metadata/lod = 0
+metadata/dimensions = Vector3(1, 1, 1)
+metadata/floor_m = 6.4
+metadata/triangles = 36
+
+[node name="Module_02" type="Node3D" unique_id=191413757]
+metadata/module_name = "检修舱"
+
+[node name="Geometry" type="MeshInstance3D" parent="." unique_id=1555663054]
+mesh = SubResource("ArrayMesh_xjts6")

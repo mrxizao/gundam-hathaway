@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b22pedalsizeshots"]
+
+[ext_resource type="Script" path="res://tools/pedal_size_shots.gd" id="1_ps"]
+
+[node name="PedalSizeShots" type="Node"]
+script = ExtResource("1_ps")

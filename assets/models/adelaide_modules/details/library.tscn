@@ -1,0 +1,63 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_00.tscn" id="1_pflqb"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_01.tscn" id="2_bvq6s"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_02.tscn" id="3_66dih"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_03.tscn" id="4_ecpha"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_04.tscn" id="5_5h2is"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_05.tscn" id="6_w4ovt"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_06.tscn" id="7_8uxto"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_07.tscn" id="8_qowh5"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_08.tscn" id="9_j0mnr"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_09.tscn" id="10_1pns5"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_10.tscn" id="11_fsh12"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/details/module_11.tscn" id="12_m5bof"]
+
+[node name="DetailModuleLibrary" type="Node3D" unique_id=1577106969]
+
+[node name="Module_00" type="Node3D" parent="." unique_id=2147261261 instance=ExtResource("1_pflqb")]
+metadata/module_name = "空调机组"
+
+[node name="Module_01" type="Node3D" parent="." unique_id=300382872 instance=ExtResource("2_bvq6s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 0, 0)
+metadata/module_name = "风管"
+
+[node name="Module_02" type="Node3D" parent="." unique_id=191413757 instance=ExtResource("3_66dih")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70, 0, 0)
+metadata/module_name = "检修舱"
+
+[node name="Module_03" type="Node3D" parent="." unique_id=640683915 instance=ExtResource("4_ecpha")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105, 0, 0)
+metadata/module_name = "天线"
+
+[node name="Module_04" type="Node3D" parent="." unique_id=2083700656 instance=ExtResource("5_5h2is")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 35)
+metadata/module_name = "栏杆"
+
+[node name="Module_05" type="Node3D" parent="." unique_id=400160059 instance=ExtResource("6_w4ovt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 0, 35)
+metadata/module_name = "落水管"
+
+[node name="Module_06" type="Node3D" parent="." unique_id=856862114 instance=ExtResource("7_8uxto")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70, 0, 35)
+metadata/module_name = "门框"
+
+[node name="Module_07" type="Node3D" parent="." unique_id=1276443696 instance=ExtResource("8_qowh5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105, 0, 35)
+metadata/module_name = "遮檐"
+
+[node name="Module_08" type="Node3D" parent="." unique_id=1415129018 instance=ExtResource("9_j0mnr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 70)
+metadata/module_name = "护柱"
+
+[node name="Module_09" type="Node3D" parent="." unique_id=433638525 instance=ExtResource("10_1pns5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 0, 70)
+metadata/module_name = "排水口"
+
+[node name="Module_10" type="Node3D" parent="." unique_id=1600272472 instance=ExtResource("11_fsh12")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70, 0, 70)
+metadata/module_name = "维修盖"
+
+[node name="Module_11" type="Node3D" parent="." unique_id=1799170839 instance=ExtResource("12_m5bof")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105, 0, 70)
+metadata/module_name = "配电箱"

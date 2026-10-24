@@ -1,0 +1,40 @@
+[gd_scene format=3]
+
+[sub_resource type="Environment" id="Environment_ec5cb"]
+background_mode = 1
+background_color = Color(0.12, 0.16, 0.21, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.67, 0.76, 0.88, 1)
+ambient_light_energy = 0.8
+tonemap_mode = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e5pkl"]
+albedo_color = Color(0.23, 0.25, 0.25, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ee5e4"]
+size = Vector2(12000, 10000)
+
+[node name="OriginalBuildingLibraryPreview" type="Node3D" unique_id=878000899]
+
+[node name="OriginalBuildingLibrary" type="Node3D" parent="." unique_id=1433884286]
+
+[node name="PreviewEnvironment" type="WorldEnvironment" parent="." unique_id=1715820088]
+environment = SubResource("Environment_ec5cb")
+
+[node name="PreviewKeyLight" type="DirectionalLight3D" parent="." unique_id=1819606944]
+transform = Transform3D(0.8480481, 0.3938068, -0.35458517, 0, 0.66913056, 0.74314487, 0.52991927, -0.63022256, 0.5674549, 0, 0, 0)
+light_color = Color(1, 0.87, 0.73, 1)
+light_energy = 2.2
+shadow_enabled = true
+directional_shadow_max_distance = 12000.0
+
+[node name="PreviewFloor" type="MeshInstance3D" parent="." unique_id=1983059103]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1700, -0.05, 900)
+material_override = SubResource("StandardMaterial3D_e5pkl")
+mesh = SubResource("PlaneMesh_ee5e4")
+
+[node name="PreviewCamera" type="Camera3D" parent="." unique_id=539945715]
+transform = Transform3D(-0.82060647, -0.22351521, 0.5259715, 0, 0.9203452, 0.39110705, -0.5714937, 0.32094496, -0.7552412, 5600, 3100, -4700)
+current = true
+fov = 55.0
+far = 20000.0

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cfarab01"]
+
+[ext_resource type="Script" path="res://tools/_far_ab.gd" id="1_fa"]
+
+[node name="FarAB" type="Node"]
+script = ExtResource("1_fa")

@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://tnmsl6h8086g"
+path="res://.godot/imported/spectrum_compute.glsl-16aefea1eb7f5f4e6bb6ed8fa08decbf.res"
+
+[deps]
+
+source_file="res://addons/environment_fft/shaders/compute/spectrum_compute.glsl"
+dest_files=["res://.godot/imported/spectrum_compute.glsl-16aefea1eb7f5f4e6bb6ed8fa08decbf.res"]
+
+[params]
+

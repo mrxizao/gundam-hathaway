@@ -1,0 +1,70 @@
+{
+  "author": "Project-authored deterministic technical masks",
+  "seed": 20261016,
+  "dimensions": [
+    2048,
+    1536
+  ],
+  "layout": [
+    4,
+    3
+  ],
+  "cell_pixels": 512,
+  "channels": {
+    "R": "deposit mask",
+    "G": "edge relief",
+    "B": "roughness change"
+  },
+  "colour_space": "linear data / no sRGB conversion",
+  "patterns": [
+    {
+      "index": 0,
+      "name": "雨水纵向流痕"
+    },
+    {
+      "index": 1,
+      "name": "墙脚积灰"
+    },
+    {
+      "index": 2,
+      "name": "混凝土板缝"
+    },
+    {
+      "index": 3,
+      "name": "细裂纹"
+    },
+    {
+      "index": 4,
+      "name": "维修补片"
+    },
+    {
+      "index": 5,
+      "name": "双轮胎印"
+    },
+    {
+      "index": 6,
+      "name": "机油沉积"
+    },
+    {
+      "index": 7,
+      "name": "检修足迹"
+    },
+    {
+      "index": 8,
+      "name": "金属氧化"
+    },
+    {
+      "index": 9,
+      "name": "烟熏边缘"
+    },
+    {
+      "index": 10,
+      "name": "排水泛碱"
+    },
+    {
+      "index": 11,
+      "name": "屋面搭接"
+    }
+  ],
+  "sha256": "84bec021c85edb323774b6fcc16ef8da1fbbae38406a639a84f47922e43517f8"
+}

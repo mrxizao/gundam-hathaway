@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b7isodiag"]
+
+[ext_resource type="Script" path="res://tools/_b7_iso.gd" id="1_iso"]
+
+[node name="B7Iso" type="Node"]
+script = ExtResource("1_iso")

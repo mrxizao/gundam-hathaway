@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://sfa6vgsg20jf"]
+
+[ext_resource type="Script" path="res://tools/plume_speed.gd" id="1_pls"]
+
+[node name="PlumeSpeed" type="Node"]
+script = ExtResource("1_pls")

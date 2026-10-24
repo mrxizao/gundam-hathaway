@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_m03_reach_probe.gd" id="1_m03reach"]
+
+[node name="M03ReachProbe" type="Node"]
+script = ExtResource("1_m03reach")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/probe_wing_tracks.gd" id="1_pwt"]
+
+[node name="ProbeWingTracks" type="Node"]
+script = ExtResource("1_pwt")

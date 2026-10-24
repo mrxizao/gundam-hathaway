@@ -1,0 +1,14 @@
+[remap]
+
+importer="glsl"
+type="RDShaderFile"
+uid="uid://bv8hjt852m33r"
+path="res://.godot/imported/iwave_operator.glsl-18ac248d81d94c4e68aac00fe2c92e0a.res"
+
+[deps]
+
+source_file="res://addons/environment_fft/shaders/compute/iwave_operator.glsl"
+dest_files=["res://.godot/imported/iwave_operator.glsl-18ac248d81d94c4e68aac00fe2c92e0a.res"]
+
+[params]
+

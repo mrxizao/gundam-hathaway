@@ -1,0 +1,28 @@
+{
+  "source_folder": "C:/Users/MSIPC/Desktop/游戏/闪哈游戏/英勇号",
+  "length_metres": 200,
+  "scaling": "uniform from native Z length; X/Y scale identical",
+  "source_mesh": "original geometry and original textures, with generated Godot surface LODs",
+  "coordinates": {
+    "valiant": [
+      34000,
+      0,
+      34000
+    ],
+    "seaweed": [
+      34800,
+      0,
+      34400
+    ],
+    "airbase": [
+      32200,
+      0,
+      35500
+    ]
+  },
+  "heading_degrees": 45,
+  "source_files": {
+    "valiant": "339623aaacc0c2cb70f7f2e629851e7003d9ba61eebee2561d55fb80e5ff1aa8",
+    "seaweed": "8d4dcce420385dd79be1bd706abfa8fcdbd07372485885d016f924494af29586"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "leafy_grass": {
+    "source_linear_mean": [
+      0.3259201277057575,
+      0.23911385194544188,
+      0.10823637002007214
+    ],
+    "target_linear_mean": [
+      0.12,
+      0.145,
+      0.065
+    ],
+    "gain": [
+      0.3681883682505692,
+      0.6064056884211139,
+      0.6005375086761126
+    ],
+    "tile_m": 2.0,
+    "note": "Source maps unchanged; mean reflectance calibrated in shader. No directional lighting baked."
+  },
+  "withered_grass": {
+    "source_linear_mean": [
+      0.43069092660636343,
+      0.30928314549074276,
+      0.20512126074277837
+    ],
+    "target_linear_mean": [
+      0.19,
+      0.165,
+      0.095
+    ],
+    "gain": [
+      0.4411516200192752,
+      0.5334917288757938,
+      0.4631406791084899
+    ],
+    "tile_m": 2.0,
+    "note": "Source maps unchanged; mean reflectance calibrated in shader. No directional lighting baked."
+  },
+  "dirt": {
+    "source_linear_mean": [
+      0.12601961701327702,
+      0.08563438075360674,
+      0.048854387890472195
+    ],
+    "target_linear_mean": [
+      0.105,
+      0.078,
+      0.052
+    ],
+    "gain": [
+      0.8332036113785168,
+      0.9108491158992214,
+      1.0643875042827273
+    ],
+    "tile_m": 2.0,
+    "note": "Source maps unchanged; mean reflectance calibrated in shader. No directional lighting baked."
+  }
+}

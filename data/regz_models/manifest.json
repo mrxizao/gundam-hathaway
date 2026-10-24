@@ -1,0 +1,34 @@
+{
+  "source_files": {
+    "灵格斯改.glb": "c84b366a15f7af367c719580b293f4452b913e5d2636e0d097c4e05282e927a4",
+    "灵格斯改巡航模式.glb": "09f386eb90480c1a3cb0862cbd7aa4ddbbb6430459f87e3777094aee6cea09a8"
+  },
+  "runtime": [
+    "res://data/regz_models/normal.scn",
+    "res://data/regz_models/cruise.scn"
+  ],
+  "normal_speed_ratio_to_xi": 0.65,
+  "cruise_speed_ratio_to_arizeus": 0.95,
+  "magazine": 30,
+  "countermeasures": 120,
+  "missiles": 0,
+  "charge_seconds": 2.5,
+  "precision_benchmark": {
+    "per_input_hits": 7,
+    "per_input_shots": 12,
+    "rate": 0.5833333333333334,
+    "ranges_m": [
+      1000,
+      3000,
+      5500
+    ],
+    "transverse_mps": [
+      300,
+      900,
+      1600,
+      2400
+    ],
+    "note": "Controlled real projectile tests, not a guaranteed human match rate."
+  },
+  "animation": "Original authored poses retained; imported GLBs contain no skeleton or animation clips."
+}

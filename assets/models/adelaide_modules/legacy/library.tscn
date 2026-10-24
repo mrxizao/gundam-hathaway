@@ -1,0 +1,55 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/legacy/brick_streetfront.tscn" id="1_0nu7i"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/legacy/variants/brick_streetfront_2.tscn" id="2_iiw43"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/legacy/variants/brick_streetfront_3.tscn" id="3_28j0q"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/legacy/industrial_factory.tscn" id="4_7i884"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/legacy/variants/industrial_factory_2.tscn" id="5_gb05d"]
+[ext_resource type="PackedScene" path="res://assets/models/adelaide_modules/legacy/variants/industrial_factory_3.tscn" id="6_d8g0u"]
+
+[node name="OriginalBuildingLibrary" type="Node3D" unique_id=1433884286]
+
+[node name="原版砖石沿街楼" type="Node3D" parent="." unique_id=698442151]
+
+[node name="brick_streetfront_original_1" type="Node3D" parent="原版砖石沿街楼" unique_id=1314237607 instance=ExtResource("1_0nu7i")]
+metadata/library_category = "原版砖石沿街楼"
+metadata/source_parcel = "parcel_24_22"
+metadata/source_world_origin = Vector3(344.95703, 25, -19861.053)
+metadata/original_appearance = true
+
+[node name="brick_streetfront_original_2" type="Node3D" parent="原版砖石沿街楼" unique_id=2019146848 instance=ExtResource("2_iiw43")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1700, 0, 0)
+metadata/library_category = "原版砖石沿街楼"
+metadata/source_parcel = "parcel_17_30"
+metadata/source_world_origin = Vector3(-9607.256, 25, -7882.037)
+metadata/original_appearance = true
+
+[node name="brick_streetfront_original_3" type="Node3D" parent="原版砖石沿街楼" unique_id=1043477829 instance=ExtResource("3_28j0q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3400, 0, 0)
+metadata/library_category = "原版砖石沿街楼"
+metadata/source_parcel = "parcel_17_33"
+metadata/source_world_origin = Vector3(-9576.666, 25, -3941.325)
+metadata/original_appearance = true
+
+[node name="原版工业厂房" type="Node3D" parent="." unique_id=882914735]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1800)
+
+[node name="industrial_factory_original_1" type="Node3D" parent="原版工业厂房" unique_id=2045445947 instance=ExtResource("4_7i884")]
+metadata/library_category = "原版工业厂房"
+metadata/source_parcel = "parcel_22_22"
+metadata/source_world_origin = Vector3(-2316.6304, 25, -19809.953)
+metadata/original_appearance = true
+
+[node name="industrial_factory_original_2" type="Node3D" parent="原版工业厂房" unique_id=1199727357 instance=ExtResource("5_gb05d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1700, 0, 0)
+metadata/library_category = "原版工业厂房"
+metadata/source_parcel = "parcel_23_23"
+metadata/source_world_origin = Vector3(-838.05176, 25, -18213.324)
+metadata/original_appearance = true
+
+[node name="industrial_factory_original_3" type="Node3D" parent="原版工业厂房" unique_id=1498847190 instance=ExtResource("6_d8g0u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3400, 0, 0)
+metadata/library_category = "原版工业厂房"
+metadata/source_parcel = "parcel_16_31"
+metadata/source_world_origin = Vector3(-11108.362, 25, -6898.1123)
+metadata/original_appearance = true

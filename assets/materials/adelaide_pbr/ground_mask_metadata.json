@@ -1,0 +1,25 @@
+{
+  "bounds_m": [
+    -65000,
+    -65000,
+    145000,
+    130000
+  ],
+  "size": [
+    4096,
+    4096
+  ],
+  "distance_range_m": 512,
+  "channels": {
+    "R": "nearest existing hardscape rectangle distance / 512; 0 inside",
+    "G": "nearest existing building parcel distance / 512; 0 inside",
+    "B": "riverbank dampness from actual river_z and bounds",
+    "A": "airport turf from actual airport reservation; 600m smooth transition"
+  },
+  "roads_hash": "127a88fae84c5ba3aec5afaaaaf7af704d19d7611fbbb2f10ae1b8c320e48656",
+  "buildings_hash": "a2e5919aa4099e7e76528148129d75c2945c7c06d1b24db1c9c8c2a95fbad196",
+  "collision_hash": "7c68ed731e57f1f796091dca32990d706f3765c6b4c260789d4c905e54768dd0",
+  "parcels_hash": "806c4a93004095e33135890e7757f51a2558c6369fc00cc033459e0fe8ebba79",
+  "hardscape_count": 1359,
+  "parcel_count": 1699
+}

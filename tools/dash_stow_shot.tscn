@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/dash_stow_shot.gd" id="1_dash_stow"]
+
+[node name="DashStowShot" type="Node"]
+script = ExtResource("1_dash_stow")

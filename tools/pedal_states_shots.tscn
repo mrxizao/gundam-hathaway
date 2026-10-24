@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b24pedalstatesshots"]
+
+[ext_resource type="Script" path="res://tools/pedal_states_shots.gd" id="1_st"]
+
+[node name="PedalStatesShots" type="Node"]
+script = ExtResource("1_st")

@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://tools/_launch_fov_probe.gd" id="1_lfp"]
+
+[node name="LaunchFovProbe" type="Node"]
+script = ExtResource("1_lfp")

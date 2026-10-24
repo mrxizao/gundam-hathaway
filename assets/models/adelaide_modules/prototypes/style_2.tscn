@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="ArrayMesh" path="res://assets/models/adelaide_modules/prototypes/style_2_lod_0.res" id="1_ht8bf"]
+[ext_resource type="ArrayMesh" path="res://assets/models/adelaide_modules/prototypes/style_2_lod_1.res" id="2_6ddtc"]
+[ext_resource type="ArrayMesh" path="res://assets/models/adelaide_modules/prototypes/style_2_lod_2.res" id="3_cxi6p"]
+
+[node name="BuildingStyle2" type="Node3D" unique_id=1005387476]
+
+[node name="LOD0" type="MeshInstance3D" parent="." unique_id=1387689954]
+mesh = ExtResource("1_ht8bf")
+
+[node name="LOD1" type="MeshInstance3D" parent="." unique_id=982815144]
+visible = false
+mesh = ExtResource("2_6ddtc")
+
+[node name="LOD2" type="MeshInstance3D" parent="." unique_id=11579994]
+visible = false
+mesh = ExtResource("3_cxi6p")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_r63_25_menu_bgm.gd" id="1_r6325menu"]
+
+[node name="R63_25MenuBgm" type="Node"]
+script = ExtResource("1_r6325menu")

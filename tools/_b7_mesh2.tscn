@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b7mesh2diag"]
+
+[ext_resource type="Script" path="res://tools/_b7_mesh2.gd" id="1_m2"]
+
+[node name="B7Mesh2" type="Node"]
+script = ExtResource("1_m2")

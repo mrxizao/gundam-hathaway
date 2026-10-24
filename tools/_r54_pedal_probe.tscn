@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/_r54_pedal_probe.gd" id="1_r54pedal"]
+
+[node name="R54PedalProbe" type="Node"]
+script = ExtResource("1_r54pedal")

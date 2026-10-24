@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7messerMenuShots"]
+
+[ext_resource type="Script" path="res://tools/_messer_menu_shots.gd" id="1_mms"]
+
+[node name="MesserMenuShots" type="Node"]
+script = ExtResource("1_mms")

@@ -1,0 +1,84 @@
+@tool
+@icon("res://addons/lit/icons/lit_canvas_modulate.svg")
+extends Node2D
+class_name LitCanvasModulate
+
+## Ambient / darkness source.
+##
+## Feeds ambient color and energy to receivers through the `lit_ambient_color` and
+## `lit_ambient_energy` global shader uniforms. Lights resolve together with ambient
+## inside the receiver, so they always punch through the darkness.
+##
+## This replaces the native CanvasModulate rather than accompanying it. A live native
+## CanvasModulate would multiply our already-correct output and double-darken, so we
+## warn at edit time and runtime if one is present.
+##
+## Only one active LitCanvasModulate is expected; if several exist, the last one to
+## enter the tree wins (each writes the globals on enter and on change).
+
+const GROUP := "lit_canvas_modulate"
+
+# Plugin version this node's saved data was authored under; see LitVersionStamp.
+@export_storage var lit_version := ""
+
+@export var color: Color = Color("#1a1a1a"):
+	set(value):
+		color = value
+		_apply()
+
+@export var ambient_energy: float = 1.0:
+	set(value):
+		ambient_energy = value
+		_apply()
+
+
+func _enter_tree() -> void:
+	add_to_group(GROUP)
+	LitVersionStamp.stamp(self)
+	_apply()
+	# Checked a frame later: level streaming legitimately overlaps the outgoing and
+	# incoming modulates within a swap frame, and only true coexistence should warn.
+	if not Engine.is_editor_hint() \
+			and not get_tree().process_frame.is_connected(_warn_if_conflicting):
+		get_tree().process_frame.connect(_warn_if_conflicting, CONNECT_ONE_SHOT)
+	update_configuration_warnings()
+
+
+func _exit_tree() -> void:
+	remove_from_group(GROUP)
+
+
+## Publish ambient to the global shader uniforms. Works at edit time too, tinting the
+## editor viewport for a live darkness preview.
+func _apply() -> void:
+	RenderingServer.global_shader_parameter_set("lit_ambient_color", color)
+	RenderingServer.global_shader_parameter_set("lit_ambient_energy", ambient_energy)
+
+
+# Runtime warns only for a native CanvasModulate (always a real double-darken bug).
+# Multiple Lit modulates are the normal level-streaming pattern - each level carries
+# its ambient and the last to enter wins - so only the editor configuration warning
+# mentions them, where a genuine authoring mistake is diagnosable.
+func _warn_if_conflicting() -> void:
+	if not is_inside_tree():
+		return
+	if _find_native_canvas_modulate():
+		push_warning("LitCanvasModulate: a native CanvasModulate is present and will double-darken Lit output. Remove it.")
+
+
+func _get_configuration_warnings() -> PackedStringArray:
+	var warnings: PackedStringArray = []
+	if not is_inside_tree():
+		return warnings
+	if _find_native_canvas_modulate():
+		warnings.append("A native CanvasModulate is present. It will multiply Lit's output and double-darken the scene. Remove it and let LitCanvasModulate own ambient/darkness.")
+	if get_tree().get_nodes_in_group(GROUP).size() > 1:
+		warnings.append("Multiple LitCanvasModulate nodes found. Only one is expected; the last one in the tree wins.")
+	return warnings
+
+
+func _find_native_canvas_modulate() -> bool:
+	var root := get_tree().get_edited_scene_root() if Engine.is_editor_hint() else get_tree().get_root()
+	if root == null:
+		return false
+	return root.find_children("*", "CanvasModulate", true, false).size() > 0

@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\MSIPC\\Desktop\\游戏\\闪哈游戏\\阿利宙斯\\常态2.0.glb",
+  "source_sha256": "b2bfbbf0a13b5204449c0f20e8bd015387084b58b4be88499faa527f37ddfef1",
+  "runtime": "res://assets/models/arizeus_v2/arizeus_v2_rigged.scn",
+  "bones": 47,
+  "skinned_parts": 104,
+  "native_height": 0.8477141,
+  "target_height": 40.05,
+  "old_archive": "C:\\Users\\MSIPC\\Documents\\gundam\\archive\\hidden_models\\arizeus_legacy_20261013",
+  "palms": {
+    "R": 58,
+    "L": 15
+  },
+  "lod": "f6ee57285f050130b1411808817ff753.res"
+}

@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://tests/gp03d_entry_route.gd" id="1"]
+[node name="GP03DEntryRouting" type="Node3D"]
+script=ExtResource("1")

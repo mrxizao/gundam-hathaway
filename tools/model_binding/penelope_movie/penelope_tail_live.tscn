@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://tools/model_binding/penelope_movie/penelope_tail_live.gd" id="1"]
+[node name="Live" type="Node"]
+script=ExtResource("1")

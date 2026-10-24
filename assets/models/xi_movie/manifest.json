@@ -1,0 +1,43 @@
+{
+  "source_folder": "C:\\Users\\MSIPC\\Desktop\\游戏\\闪哈游戏\\柯西与佩涅罗佩\\柯西模型\\柯西剧场版_最新模型与动画",
+  "sources": {
+    "01_基础模型.glb": "6de24486cbfd3d55a0bdbaab80116603354ec4e670880fe2963383976bc0d373",
+    "02_巡航模式.glb": "48bee680a25d426164c4b8de3750c51452af6a5d9392e8a818e20b22af292f47",
+    "03_巡航变形动画.glb": "a007cf0e7f763be2392f4c86a94666f297bfbe91aa438a9d3a76532c595dd534"
+  },
+  "runtime_scene": "res://assets/models/xi_movie/xi_movie_rigged.scn",
+  "runtime_sha256": "6e794932eeb3fdf5d6970968173807bae71e74a2b91b27f54142220336fb6859",
+  "mesh_parts": 113,
+  "bones": 78,
+  "legacy_compatible_bones": 51,
+  "mechanical_bones": 27,
+  "source_transform_seconds": 6.2,
+  "game_transform_clip_seconds": 0.4333333,
+  "game_cruise_morph_seconds": 0.45,
+  "legacy_archive": "archive/hidden_models/xi_legacy_20261013",
+  "note": "Source shape and mechanical timing proportions retained; combat, yaw, scale and gameplay transform duration preserved.",
+  "authoring_sha256": "08fd9d33f380fca07ac63458d4c200edfce5b9035a3e5e2eeea40750cd98d48c",
+  "runtime_actions_audited": 46,
+  "binding_repairs": {
+    "Shin.L": [
+      "tripo_part_28",
+      "tripo_part_66",
+      "tripo_part_73",
+      "tripo_part_84",
+      "tripo_part_86"
+    ],
+    "Chest": [
+      "tripo_part_17",
+      "tripo_part_38"
+    ],
+    "UpperArm.L": [
+      "tripo_part_43"
+    ],
+    "Shin.R": [
+      "tripo_part_72"
+    ],
+    "Shoulder.L": [
+      "tripo_part_107"
+    ]
+  }
+}

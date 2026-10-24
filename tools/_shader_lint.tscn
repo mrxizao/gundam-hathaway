@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cshaderlint"]
+
+[ext_resource type="Script" path="res://tools/_shader_lint.gd" id="1_lint"]
+
+[node name="ShaderLint" type="Node"]
+script = ExtResource("1_lint")

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://crocketshots"]
+
+[ext_resource type="Script" path="res://tools/_rocket_shots.gd" id="1_rk"]
+
+[node name="RocketShots" type="Node"]
+script = ExtResource("1_rk")

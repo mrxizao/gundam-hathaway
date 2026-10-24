@@ -1,0 +1,5176 @@
+{
+  "joints": [
+    {
+      "name": "Root",
+      "parent": null,
+      "point": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Hips",
+      "parent": "Root",
+      "point": [
+        0.0,
+        0.56,
+        0.2
+      ]
+    },
+    {
+      "name": "Spine",
+      "parent": "Hips",
+      "point": [
+        0.0,
+        0.6,
+        0.16
+      ]
+    },
+    {
+      "name": "Chest",
+      "parent": "Spine",
+      "point": [
+        0.0,
+        0.72,
+        0.18
+      ]
+    },
+    {
+      "name": "Backpack",
+      "parent": "Chest",
+      "point": [
+        0.0,
+        0.68,
+        -0.07
+      ]
+    },
+    {
+      "name": "Neck",
+      "parent": "Chest",
+      "point": [
+        0.0,
+        0.812,
+        0.24
+      ]
+    },
+    {
+      "name": "Head",
+      "parent": "Neck",
+      "point": [
+        0.0,
+        0.836,
+        0.27
+      ]
+    },
+    {
+      "name": "Shoulder.L",
+      "parent": "Chest",
+      "point": [
+        0.15,
+        0.8,
+        0.14
+      ]
+    },
+    {
+      "name": "UpperArm.L",
+      "parent": "Shoulder.L",
+      "point": [
+        0.15,
+        0.79,
+        0.14
+      ]
+    },
+    {
+      "name": "LowerArm.L",
+      "parent": "UpperArm.L",
+      "point": [
+        0.19,
+        0.665,
+        0.235
+      ]
+    },
+    {
+      "name": "Hand.L",
+      "parent": "LowerArm.L",
+      "point": [
+        0.12,
+        0.43,
+        0.225
+      ]
+    },
+    {
+      "name": "hand_L",
+      "parent": "Hand.L",
+      "point": [
+        0.125,
+        0.401,
+        0.21
+      ]
+    },
+    {
+      "name": "shield_L",
+      "parent": "LowerArm.L",
+      "point": [
+        0.28,
+        0.59,
+        0.24
+      ]
+    },
+    {
+      "name": "BinderFront.L",
+      "parent": "Shoulder.L",
+      "point": [
+        0.18,
+        0.79,
+        0.23
+      ]
+    },
+    {
+      "name": "BinderBack.L",
+      "parent": "Chest",
+      "point": [
+        0.07,
+        0.84,
+        -0.045
+      ]
+    },
+    {
+      "name": "Wing.L",
+      "parent": "Chest",
+      "point": [
+        0.07,
+        0.84,
+        -0.045
+      ]
+    },
+    {
+      "name": "RearHang.L",
+      "parent": "Hips",
+      "point": [
+        0.08,
+        0.47,
+        -0.08
+      ]
+    },
+    {
+      "name": "SideArmor.L",
+      "parent": "Hips",
+      "point": [
+        0.12,
+        0.45,
+        0.14
+      ]
+    },
+    {
+      "name": "Thruster.L",
+      "parent": "Backpack",
+      "point": [
+        0.075,
+        0.6,
+        -0.1
+      ]
+    },
+    {
+      "name": "Thigh.L",
+      "parent": "Hips",
+      "point": [
+        0.085,
+        0.545,
+        0.235
+      ]
+    },
+    {
+      "name": "Shin.L",
+      "parent": "Thigh.L",
+      "point": [
+        0.115,
+        0.405,
+        0.215
+      ]
+    },
+    {
+      "name": "Foot.L",
+      "parent": "Shin.L",
+      "point": [
+        0.16,
+        0.12,
+        0.18
+      ]
+    },
+    {
+      "name": "Toe.L",
+      "parent": "Foot.L",
+      "point": [
+        0.17,
+        0.07,
+        0.31
+      ]
+    },
+    {
+      "name": "ChestArmor.L",
+      "parent": "Chest",
+      "point": [
+        0.06,
+        0.71,
+        0.23
+      ]
+    },
+    {
+      "name": "thruster_L",
+      "parent": "Thruster.L",
+      "point": [
+        0.075,
+        0.6,
+        -0.1
+      ]
+    },
+    {
+      "name": "Shoulder.R",
+      "parent": "Chest",
+      "point": [
+        -0.15,
+        0.8,
+        0.14
+      ]
+    },
+    {
+      "name": "UpperArm.R",
+      "parent": "Shoulder.R",
+      "point": [
+        -0.15,
+        0.79,
+        0.14
+      ]
+    },
+    {
+      "name": "LowerArm.R",
+      "parent": "UpperArm.R",
+      "point": [
+        -0.17,
+        0.68,
+        0.22
+      ]
+    },
+    {
+      "name": "Hand.R",
+      "parent": "LowerArm.R",
+      "point": [
+        -0.12,
+        0.43,
+        0.225
+      ]
+    },
+    {
+      "name": "hand_R",
+      "parent": "Hand.R",
+      "point": [
+        -0.12,
+        0.406,
+        0.214
+      ]
+    },
+    {
+      "name": "shield_R",
+      "parent": "LowerArm.R",
+      "point": [
+        -0.28,
+        0.59,
+        0.24
+      ]
+    },
+    {
+      "name": "BinderFront.R",
+      "parent": "Shoulder.R",
+      "point": [
+        -0.18,
+        0.79,
+        0.23
+      ]
+    },
+    {
+      "name": "BinderBack.R",
+      "parent": "Chest",
+      "point": [
+        -0.07,
+        0.84,
+        -0.045
+      ]
+    },
+    {
+      "name": "Wing.R",
+      "parent": "Chest",
+      "point": [
+        -0.07,
+        0.84,
+        -0.045
+      ]
+    },
+    {
+      "name": "RearHang.R",
+      "parent": "Hips",
+      "point": [
+        -0.08,
+        0.47,
+        -0.08
+      ]
+    },
+    {
+      "name": "SideArmor.R",
+      "parent": "Hips",
+      "point": [
+        -0.12,
+        0.45,
+        0.14
+      ]
+    },
+    {
+      "name": "Thruster.R",
+      "parent": "Backpack",
+      "point": [
+        -0.075,
+        0.6,
+        -0.1
+      ]
+    },
+    {
+      "name": "Thigh.R",
+      "parent": "Hips",
+      "point": [
+        -0.085,
+        0.545,
+        0.235
+      ]
+    },
+    {
+      "name": "Shin.R",
+      "parent": "Thigh.R",
+      "point": [
+        -0.115,
+        0.405,
+        0.215
+      ]
+    },
+    {
+      "name": "Foot.R",
+      "parent": "Shin.R",
+      "point": [
+        -0.16,
+        0.12,
+        0.18
+      ]
+    },
+    {
+      "name": "Toe.R",
+      "parent": "Foot.R",
+      "point": [
+        -0.17,
+        0.07,
+        0.31
+      ]
+    },
+    {
+      "name": "ChestArmor.R",
+      "parent": "Chest",
+      "point": [
+        -0.06,
+        0.71,
+        0.23
+      ]
+    },
+    {
+      "name": "thruster_R",
+      "parent": "Thruster.R",
+      "point": [
+        -0.075,
+        0.6,
+        -0.1
+      ]
+    },
+    {
+      "name": "Weapon.R",
+      "parent": "Hand.R",
+      "point": [
+        -0.17,
+        0.42,
+        0.26
+      ]
+    },
+    {
+      "name": "muzzle_R",
+      "parent": "Weapon.R",
+      "point": [
+        -0.175,
+        0.23,
+        0.31
+      ]
+    },
+    {
+      "name": "muzzle_L",
+      "parent": "Weapon.R",
+      "point": [
+        -0.175,
+        0.23,
+        0.31
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "Head",
+      "point": [
+        0.0,
+        0.836,
+        0.27
+      ]
+    },
+    {
+      "name": "vulcan_port",
+      "parent": "Head",
+      "point": [
+        0.045,
+        0.85,
+        0.31
+      ]
+    },
+    {
+      "name": "vulcan_stbd",
+      "parent": "Head",
+      "point": [
+        -0.045,
+        0.85,
+        0.31
+      ]
+    },
+    {
+      "name": "chest",
+      "parent": "Chest",
+      "point": [
+        0.0,
+        0.72,
+        0.18
+      ]
+    },
+    {
+      "name": "ChestVent",
+      "parent": "Chest",
+      "point": [
+        0.0,
+        0.67,
+        0.25
+      ]
+    },
+    {
+      "name": "waist",
+      "parent": "Hips",
+      "point": [
+        0.0,
+        0.56,
+        0.2
+      ]
+    },
+    {
+      "name": "Tail",
+      "parent": "Backpack",
+      "point": [
+        0.0,
+        0.5,
+        -0.08
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "part": "tripo_part_17",
+      "primary_bone": "Wing.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 26807,
+          "bone": "Wing.L"
+        },
+        {
+          "component": 1,
+          "vertices": 4,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 18,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_18",
+      "primary_bone": "Wing.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7353,
+          "bone": "Wing.L"
+        },
+        {
+          "component": 1,
+          "vertices": 4,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 21,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_19",
+      "primary_bone": "Wing.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 904,
+          "bone": "Wing.L"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 16,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_20",
+      "primary_bone": "Wing.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 701,
+          "bone": "Wing.L"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 18,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_21",
+      "primary_bone": "Wing.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 207,
+          "bone": "Wing.L"
+        },
+        {
+          "component": 1,
+          "vertices": 14,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_22",
+      "primary_bone": "Wing.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 144,
+          "bone": "Wing.L"
+        },
+        {
+          "component": 1,
+          "vertices": 3,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 15,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_248",
+      "primary_bone": "Wing.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5343,
+          "bone": "Wing.L"
+        },
+        {
+          "component": 1,
+          "vertices": 17,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_249",
+      "primary_bone": "Wing.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1124,
+          "bone": "Wing.L"
+        },
+        {
+          "component": 1,
+          "vertices": 13,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_53",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 21884,
+          "bone": "Wing.R"
+        },
+        {
+          "component": 2,
+          "vertices": 17,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_54",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 7720,
+          "bone": "Wing.R"
+        },
+        {
+          "component": 2,
+          "vertices": 17,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_55",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1297,
+          "bone": "Wing.R"
+        },
+        {
+          "component": 1,
+          "vertices": 16,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_59",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 55,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 221,
+          "bone": "Wing.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_60",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 4,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 36,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 173,
+          "bone": "Wing.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_61",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 32,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 185,
+          "bone": "Wing.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_62",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 25,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 158,
+          "bone": "Wing.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_63",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 141,
+          "bone": "Wing.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_66",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 8,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 59,
+          "bone": "Wing.R"
+        },
+        {
+          "component": 2,
+          "vertices": 46,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_67",
+      "primary_bone": "Wing.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 59,
+          "bone": "Wing.R"
+        },
+        {
+          "component": 2,
+          "vertices": 26,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_0",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 106841,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 382,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_1",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6966,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 114,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_2",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3977,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 105,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_3",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7227,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 125,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_4",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6929,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 103,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_5",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2718,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 72,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_6",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1386,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 5,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 54,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_7",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 451,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 43,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_8",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 347,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 37,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_9",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 221,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 38,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_29",
+      "primary_bone": "Hand.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 63,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 138,
+          "bone": "Hand.R"
+        },
+        {
+          "component": 2,
+          "vertices": 12,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_30",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5782,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 49,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 64,
+          "bone": "Shin.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_86",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6745,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 23,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 14,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_87",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1238,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 16,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 14,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_89",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1143,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 15,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 82,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_90",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1422,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 57,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_93",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 26,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 9,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 13,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_94",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 23,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 9,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 18,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_95",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 20,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 12,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_96",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 28,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 3,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 10,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_155",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7081,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 7,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_228",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7598,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 17,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_236",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6621,
+          "bone": "Tail"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_237",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7498,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 5,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_246",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6362,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 20,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_247",
+      "primary_bone": "Tail",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 182,
+          "bone": "Tail"
+        },
+        {
+          "component": 1,
+          "vertices": 17,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_10",
+      "primary_bone": "shield_L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 24615,
+          "bone": "shield_L"
+        },
+        {
+          "component": 1,
+          "vertices": 4,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 29,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_11",
+      "primary_bone": "shield_L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 13036,
+          "bone": "shield_L"
+        },
+        {
+          "component": 1,
+          "vertices": 5,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 30,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_12",
+      "primary_bone": "shield_L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 7931,
+          "bone": "shield_L"
+        },
+        {
+          "component": 2,
+          "vertices": 33,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_13",
+      "primary_bone": "shield_L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 313,
+          "bone": "shield_L"
+        },
+        {
+          "component": 1,
+          "vertices": 22,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_14",
+      "primary_bone": "shield_L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 111,
+          "bone": "shield_L"
+        },
+        {
+          "component": 1,
+          "vertices": 27,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 5,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_15",
+      "primary_bone": "shield_L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 4,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 98,
+          "bone": "shield_L"
+        },
+        {
+          "component": 2,
+          "vertices": 19,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_16",
+      "primary_bone": "shield_L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 105,
+          "bone": "shield_L"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 20,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_23",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1856,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 21718,
+          "bone": "Movie_Final_tripo_part_23"
+        },
+        {
+          "component": 2,
+          "vertices": 11,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_24",
+      "primary_bone": "Weapon.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1470,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 11,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 24489,
+          "bone": "Weapon.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_25",
+      "primary_bone": "LowerArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 290,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 22236,
+          "bone": "LowerArm.R"
+        },
+        {
+          "component": 2,
+          "vertices": 11,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_26",
+      "primary_bone": "LowerArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 24,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 219,
+          "bone": "LowerArm.R"
+        },
+        {
+          "component": 2,
+          "vertices": 11,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_27",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 21,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 23758,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 2,
+          "vertices": 9,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_28",
+      "primary_bone": "Hand.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 75,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 3009,
+          "bone": "Hand.R"
+        },
+        {
+          "component": 2,
+          "vertices": 10,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_31",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 24,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 14210,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 2,
+          "vertices": 5654,
+          "bone": "Foot.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_32",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 20,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 5428,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 2956,
+          "bone": "Chest"
+        },
+        {
+          "component": 3,
+          "vertices": 10514,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_33",
+      "primary_bone": "Thigh.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 15,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 260,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 13676,
+          "bone": "Thigh.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_34",
+      "primary_bone": "Thigh.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 15,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 70,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 256,
+          "bone": "Thigh.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_35",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 14,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 15,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 48,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_36",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 11,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 4909,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 46,
+          "bone": "Thigh.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_37",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 12,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 4772,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 13526,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_38",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 154,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 6675,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_39",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 66,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 71,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_40",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 12,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 32,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 58,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_41",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 23,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 38,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_42",
+      "primary_bone": "LowerArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 17605,
+          "bone": "LowerArm.R"
+        },
+        {
+          "component": 2,
+          "vertices": 18,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_43",
+      "primary_bone": "LowerArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 158,
+          "bone": "LowerArm.R"
+        },
+        {
+          "component": 2,
+          "vertices": 15,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_44",
+      "primary_bone": "LowerArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 176,
+          "bone": "LowerArm.R"
+        },
+        {
+          "component": 2,
+          "vertices": 15,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_45",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 8,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 16,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 19240,
+          "bone": "Movie_Final_tripo_part_45"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_47",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 8,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 204,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 260,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_48",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 37,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 3,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 15413,
+          "bone": "Movie_Final_tripo_part_48"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_49",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 15,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 3189,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_50",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 17,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 562,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_51",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 4489,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 2,
+          "vertices": 118,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_52",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 4,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 23,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 2,
+          "vertices": 52,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_57",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 439,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 4146,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_64",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 13,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 73,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 1855,
+          "bone": "Foot.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_65",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 67,
+          "bone": "Backpack"
+        },
+        {
+          "component": 2,
+          "vertices": 1622,
+          "bone": "Movie_Final_tripo_part_65"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_68",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3189,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 10982,
+          "bone": "LowerArm.L"
+        },
+        {
+          "component": 2,
+          "vertices": 18,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_69",
+      "primary_bone": "Head",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 582,
+          "bone": "Head"
+        },
+        {
+          "component": 1,
+          "vertices": 147,
+          "bone": "LowerArm.L"
+        },
+        {
+          "component": 2,
+          "vertices": 14,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_70",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 63,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 66,
+          "bone": "LowerArm.L"
+        },
+        {
+          "component": 2,
+          "vertices": 14,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_71",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 48,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 62,
+          "bone": "LowerArm.L"
+        },
+        {
+          "component": 2,
+          "vertices": 15,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_72",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 74,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 57,
+          "bone": "LowerArm.L"
+        },
+        {
+          "component": 2,
+          "vertices": 9,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_73",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 59,
+          "bone": "LowerArm.L"
+        },
+        {
+          "component": 1,
+          "vertices": 53,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 11,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_74",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 47,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 32,
+          "bone": "LowerArm.L"
+        },
+        {
+          "component": 2,
+          "vertices": 8,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_76",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 56,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 6443,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 6,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_77",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 60,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 4940,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 6,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_78",
+      "primary_bone": "Head",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 56,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 63,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 6,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_79",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 50,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 31,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 6,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_80",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 44,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 16358,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 2,
+          "vertices": 3,
+          "bone": "Shoulder.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_81",
+      "primary_bone": "UpperArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 16681,
+          "bone": "Movie_Final_tripo_part_81"
+        },
+        {
+          "component": 1,
+          "vertices": 1833,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 2,
+          "vertices": 33,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_82",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 19108,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 1,
+          "vertices": 32,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_83",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 381,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 1,
+          "vertices": 20,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 1103,
+          "bone": "Movie_Final_tripo_part_83"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_84",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 69,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 1,
+          "vertices": 28,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 245,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_85",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 18,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 54,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 2,
+          "vertices": 15,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_88",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 38,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 11,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 93,
+          "bone": "Movie_Final_tripo_part_88"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_91",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 30,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 11,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 64,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_92",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 20,
+          "bone": "Backpack"
+        },
+        {
+          "component": 1,
+          "vertices": 10,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 42,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_97",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 14765,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 10,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_98",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 4,
+          "bone": "Head"
+        },
+        {
+          "component": 1,
+          "vertices": 245,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 2,
+          "vertices": 8,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_99",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3,
+          "bone": "Head"
+        },
+        {
+          "component": 1,
+          "vertices": 255,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 2,
+          "vertices": 7,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_100",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Head"
+        },
+        {
+          "component": 1,
+          "vertices": 157,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 5,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_101",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3343,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 44,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 8,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_102",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 345,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 4,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 2,
+          "vertices": 39,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_103",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 38,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 33,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_104",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 46,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 3,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 2,
+          "vertices": 34,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_105",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 32,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 27,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_106",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 18110,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 12,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 4,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_107",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3689,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 17,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 5,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_108",
+      "primary_bone": "Hand.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 658,
+          "bone": "Hand.L"
+        },
+        {
+          "component": 1,
+          "vertices": 15,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_109",
+      "primary_bone": "Hand.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 328,
+          "bone": "Hand.L"
+        },
+        {
+          "component": 1,
+          "vertices": 12,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 3,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_110",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 239,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 9,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 5,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_111",
+      "primary_bone": "Hand.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 71,
+          "bone": "Hand.L"
+        },
+        {
+          "component": 1,
+          "vertices": 10,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 6,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_112",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 8591,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_113",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 9278,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_114",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 4810,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 2154,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_115",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1219,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 252,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 5,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_116",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 26,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 38,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 6,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_117",
+      "primary_bone": "Thigh.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 31,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 12595,
+          "bone": "Thigh.L"
+        },
+        {
+          "component": 2,
+          "vertices": 4,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_118",
+      "primary_bone": "Thigh.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 11651,
+          "bone": "Thigh.R"
+        },
+        {
+          "component": 1,
+          "vertices": 18,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_119",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 12,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 175,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_120",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 11,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 141,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_121",
+      "primary_bone": "LowerArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 120,
+          "bone": "LowerArm.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_122",
+      "primary_bone": "LowerArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 87,
+          "bone": "LowerArm.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_123",
+      "primary_bone": "Hips",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 8,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 69,
+          "bone": "Hips"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_124",
+      "primary_bone": "Hips",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 66,
+          "bone": "Hips"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_125",
+      "primary_bone": "Hips",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 55,
+          "bone": "Hips"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_126",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 43,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_127",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 40,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 3,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_128",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 43,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 9,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_129",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 42,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_130",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3545,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 1,
+          "vertices": 37,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_131",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 28,
+          "bone": "Thigh.R"
+        },
+        {
+          "component": 1,
+          "vertices": 58,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 2,
+          "vertices": 3,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_132",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 115,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 1,
+          "vertices": 29,
+          "bone": "Hips"
+        },
+        {
+          "component": 2,
+          "vertices": 3,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_133",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 26,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 40,
+          "bone": "Foot.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_134",
+      "primary_bone": "Hips",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 34,
+          "bone": "Hips"
+        },
+        {
+          "component": 1,
+          "vertices": 18,
+          "bone": "Foot.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_135",
+      "primary_bone": "LowerArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 26,
+          "bone": "LowerArm.R"
+        },
+        {
+          "component": 1,
+          "vertices": 10,
+          "bone": "Foot.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_136",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 11,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 1,
+          "vertices": 15230,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_137",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6438,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 10,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 2,
+          "vertices": 3,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_138",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3016,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 2970,
+          "bone": "Shin.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_139",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3068,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 9610,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_140",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 45,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 47,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_141",
+      "primary_bone": "LowerArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 25,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 29,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_142",
+      "primary_bone": "Head",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 73,
+          "bone": "Head"
+        },
+        {
+          "component": 1,
+          "vertices": 25,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_143",
+      "primary_bone": "Head",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 23,
+          "bone": "Head"
+        },
+        {
+          "component": 1,
+          "vertices": 16,
+          "bone": "LowerArm.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_144",
+      "primary_bone": "Head",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 18,
+          "bone": "Head"
+        },
+        {
+          "component": 1,
+          "vertices": 15,
+          "bone": "LowerArm.L"
+        },
+        {
+          "component": 2,
+          "vertices": 3,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_145",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 16,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 14485,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 2,
+          "vertices": 3,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_146",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 15,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 194,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_147",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 8136,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 15,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_148",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 248,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 13,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 6,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_149",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6103,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 1636,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 2,
+          "vertices": 17,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_150",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3828,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 1,
+          "vertices": 1502,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 15,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_151",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 41,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 11,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 88,
+          "bone": "Shoulder.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_152",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 17,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 35,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_153",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 38,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 17,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_154",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 16,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 16,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_156",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 8,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 8920,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 2,
+          "vertices": 8,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_157",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 24325,
+          "bone": "Movie_Final_tripo_part_157"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 3,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_158",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7979,
+          "bone": "Shoulder.R"
+        },
+        {
+          "component": 1,
+          "vertices": 5,
+          "bone": "Head"
+        },
+        {
+          "component": 2,
+          "vertices": 5,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_159",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3098,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 2414,
+          "bone": "LowerArm.R"
+        },
+        {
+          "component": 2,
+          "vertices": 4,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_160",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1537,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 1262,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 349,
+          "bone": "LowerArm.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_161",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2683,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 2029,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 57,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_162",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 85,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 1819,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 30,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_163",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 27,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 2293,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 15,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_164",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 44,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 1143,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 2,
+          "vertices": 5,
+          "bone": "Shin.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_165",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 107,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 26,
+          "bone": "Chest"
+        },
+        {
+          "component": 2,
+          "vertices": 1324,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_166",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 51,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 24,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 70,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_167",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 29,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 13,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 2,
+          "vertices": 59,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_168",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 20,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 37,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 2,
+          "vertices": 8,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_169",
+      "primary_bone": "UpperArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 17606,
+          "bone": "Movie_Final_tripo_part_169"
+        },
+        {
+          "component": 1,
+          "vertices": 14,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_170",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 12449,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_171",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 15,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 5379,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_172",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 372,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_173",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 9,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 183,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_174",
+      "primary_bone": "Hips",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 57,
+          "bone": "Hips"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_175",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 9,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 71,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_176",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 66,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_177",
+      "primary_bone": "Hips",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 45,
+          "bone": "Hips"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_178",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 4,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 45,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_179",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 33,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_180",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 31,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_181",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 28,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 2200,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_182",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 31,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 111,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_183",
+      "primary_bone": "UpperArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 4993,
+          "bone": "UpperArm.L"
+        },
+        {
+          "component": 1,
+          "vertices": 25,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_184",
+      "primary_bone": "UpperArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2898,
+          "bone": "UpperArm.L"
+        },
+        {
+          "component": 1,
+          "vertices": 27,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_185",
+      "primary_bone": "UpperArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2967,
+          "bone": "UpperArm.L"
+        },
+        {
+          "component": 1,
+          "vertices": 15,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_186",
+      "primary_bone": "UpperArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2000,
+          "bone": "UpperArm.L"
+        },
+        {
+          "component": 1,
+          "vertices": 15,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_187",
+      "primary_bone": "UpperArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1303,
+          "bone": "UpperArm.L"
+        },
+        {
+          "component": 1,
+          "vertices": 11,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_188",
+      "primary_bone": "UpperArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 30,
+          "bone": "UpperArm.L"
+        },
+        {
+          "component": 1,
+          "vertices": 13,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_189",
+      "primary_bone": "UpperArm.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 37,
+          "bone": "UpperArm.L"
+        },
+        {
+          "component": 1,
+          "vertices": 14,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_190",
+      "primary_bone": "Thigh.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 10614,
+          "bone": "Thigh.R"
+        },
+        {
+          "component": 1,
+          "vertices": 11,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_191",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2382,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 9,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_192",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 12376,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_193",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 73,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 9,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_194",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 80,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 10,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_195",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 67,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 9,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_196",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 39,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_197",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 39,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_198",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 36,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_199",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 45,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_200",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 43,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 5,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_201",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 40,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_202",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 24,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_203",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 28,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 6,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_204",
+      "primary_bone": "UpperArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3678,
+          "bone": "UpperArm.R"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_205",
+      "primary_bone": "UpperArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3332,
+          "bone": "UpperArm.R"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_206",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1166,
+          "bone": "Shoulder.R"
+        },
+        {
+          "component": 1,
+          "vertices": 5,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_207",
+      "primary_bone": "UpperArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1292,
+          "bone": "UpperArm.R"
+        },
+        {
+          "component": 1,
+          "vertices": 3,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_208",
+      "primary_bone": "UpperArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 516,
+          "bone": "UpperArm.R"
+        },
+        {
+          "component": 1,
+          "vertices": 5,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_209",
+      "primary_bone": "UpperArm.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 32,
+          "bone": "UpperArm.R"
+        },
+        {
+          "component": 1,
+          "vertices": 3,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_210",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2066,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 18,
+          "bone": "UpperArm.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_211",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3935,
+          "bone": "Shoulder.R"
+        },
+        {
+          "component": 1,
+          "vertices": 55,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_212",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3850,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 14,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_213",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2297,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 19,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_214",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5018,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 1,
+          "vertices": 20,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_215",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 3092,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 16,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_216",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 19,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 740,
+          "bone": "Shin.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_217",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 18,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 494,
+          "bone": "Shin.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_218",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 16,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 34,
+          "bone": "Foot.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_219",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 13,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 23,
+          "bone": "Foot.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_220",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 19,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 16,
+          "bone": "Foot.R"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_221",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 8231,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_222",
+      "primary_bone": "Hips",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 131,
+          "bone": "Hips"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_223",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 45,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_224",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 33,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_225",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 2438,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 8238,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_226",
+      "primary_bone": "Foot.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7800,
+          "bone": "Foot.R"
+        },
+        {
+          "component": 1,
+          "vertices": 2110,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_227",
+      "primary_bone": "Shin.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7736,
+          "bone": "Shin.R"
+        },
+        {
+          "component": 1,
+          "vertices": 20,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_229",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7124,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 11,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_230",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 129,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 9,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_231",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 31,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_232",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 23,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_233",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7130,
+          "bone": "Shoulder.R"
+        },
+        {
+          "component": 1,
+          "vertices": 8,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_234",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6763,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 1,
+          "vertices": 3,
+          "bone": "Head"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_235",
+      "primary_bone": "Shoulder.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6748,
+          "bone": "Shoulder.L"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_238",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 5929,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 1860,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_239",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 524,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 79,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_240",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 58,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 63,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_241",
+      "primary_bone": "Shin.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 144,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 7,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_242",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 51,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 55,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_243",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 26,
+          "bone": "Hips"
+        },
+        {
+          "component": 1,
+          "vertices": 41,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_244",
+      "primary_bone": "Foot.L",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 26,
+          "bone": "Shin.L"
+        },
+        {
+          "component": 1,
+          "vertices": 29,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_245",
+      "primary_bone": "Shoulder.R",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 6499,
+          "bone": "Shoulder.R"
+        },
+        {
+          "component": 1,
+          "vertices": 26,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_250",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 12,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 2100,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_251",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 9,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 2447,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_252",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 11,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 1028,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_253",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 285,
+          "bone": "Chest"
+        },
+        {
+          "component": 1,
+          "vertices": 11,
+          "bone": "Foot.L"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_254",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 8,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 236,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_part_255",
+      "primary_bone": "Chest",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 7,
+          "bone": "Foot.L"
+        },
+        {
+          "component": 1,
+          "vertices": 236,
+          "bone": "Chest"
+        }
+      ]
+    },
+    {
+      "part": "tripo_node_2e8b25ef-ce5b-48b1-baa8-97cc0a892bbe",
+      "primary_bone": "Head",
+      "components": [
+        {
+          "component": 0,
+          "vertices": 1174685,
+          "bone": "Head"
+        }
+      ]
+    }
+  ],
+  "mesh_parts": 253,
+  "triangles": 3855888,
+  "rest_transform_error": 0.0,
+  "removed_triangles": 3889,
+  "removed_parts": 0,
+  "authorized_exclusions": [
+    "tripo_part_89:primary_component",
+    "tripo_part_90:primary_component"
+  ],
+  "bones": 62
+}

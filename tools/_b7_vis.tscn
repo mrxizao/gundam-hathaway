@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b7visdiag"]
+
+[ext_resource type="Script" path="res://tools/_b7_vis.gd" id="1_vis"]
+
+[node name="B7Vis" type="Node"]
+script = ExtResource("1_vis")

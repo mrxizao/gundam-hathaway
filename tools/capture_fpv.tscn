@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/capture_fpv.gd" id="1_capfpv"]
+
+[node name="CaptureFPV" type="Node"]
+script = ExtResource("1_capfpv")

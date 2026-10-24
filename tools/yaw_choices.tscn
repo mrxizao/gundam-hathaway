@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b2ayawchoices"]
+
+[ext_resource type="Script" path="res://tools/yaw_choices.gd" id="1_ycl"]
+
+[node name="YawChoices" type="Node"]
+script = ExtResource("1_ycl")

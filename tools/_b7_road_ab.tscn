@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b7roadab"]
+
+[ext_resource type="Script" path="res://tools/_b7_road_ab.gd" id="1_ab"]
+
+[node name="B7RoadAB" type="Node"]
+script = ExtResource("1_ab")

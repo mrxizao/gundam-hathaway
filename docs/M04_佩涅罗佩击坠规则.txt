@@ -1,0 +1,24 @@
+M04 重力：佩涅罗佩击坠规则
+2026-10-16
+
+仅M04的敌方佩涅罗佩本体关闭战损脱出：
+1. 本体低于1%耐久时仍保持佩涅罗佩，不提前爆壳。
+2. 本体耐久归零时直接走原有destroy流程，生成爆炸并记录击坠。
+3. 不启动脱出计时、无敌掩护或奥德修斯高达第二条血量。
+4. 沿原有波次和胜利判定立即进入关卡完成结算。
+
+实现：scripts/main.gd的_spawn_wave为M04新生成的佩涅罗佩实例设置
+transform_hull_ratio=0.0、transform_to_form=-1。
+不修改通用机体数据，不修改FlightBody伤害、爆炸或脱出实现。
+其他关卡、普通对战中的佩涅罗佩保留原有脱出机制。
+M04出击演出、视频插入和XI/car5p3音乐安排保留。
+
+验证：
+suite_m04_no_escape：26 PASS / 0 FAIL。
+覆盖真实波次生成、低于1%耐久、后续致命命中、直接一击打空、
+爆炸节点、击坠计数、WIN状态及真实结算处理；其他模式为反例。
+suite_pod_strike：5513 PASS / 0 FAIL。
+suite_mission_bgm：43 PASS / 0 FAIL。
+为相关套件定向回归，不代表全工程完整回归。
+GPU预览PASS：正常佩涅罗佩模型在低耐久时保留，归零后消失并进入MISSION COMPLETE。
+探针：tools/m04_no_escape_preview.tscn。

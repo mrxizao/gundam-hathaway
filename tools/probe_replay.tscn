@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/probe_replay.gd" id="1_pr"]
+
+[node name="ProbeReplay" type="Node"]
+script = ExtResource("1_pr")

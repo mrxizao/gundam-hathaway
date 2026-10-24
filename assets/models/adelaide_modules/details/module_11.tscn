@@ -1,0 +1,73 @@
+[gd_scene format=4]
+
+[ext_resource type="Shader" path="res://shaders/adelaide_building.gdshader" id="1_sfksi"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_diff_2k.png" id="2_7nmxt"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_nor_gl_2k.png" id="3_ua280"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/painted_metal_shutter_arm_2k.png" id="4_5a2dx"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/adelaide_trim_atlas_diff_2k.png" id="5_ojcqe"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/adelaide_trim_atlas_nor_gl_2k.png" id="6_md84j"]
+[ext_resource type="Texture2D" path="res://assets/materials/adelaide_pbr/adelaide_trim_atlas_arm_2k.png" id="7_l2r3b"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_g8y14"]
+render_priority = 0
+shader = ExtResource("1_sfksi")
+shader_parameter/surface_role = 2
+shader_parameter/base_color = Color(0.34, 0.39, 0.41, 1)
+shader_parameter/color_gain = Vector3(4.626408, 4.3542824, 4.1798635)
+shader_parameter/building_quality = 2
+shader_parameter/tile_m = 2.0
+shader_parameter/floor_m = 6.4
+shader_parameter/trim_means = PackedVector3Array(0.3143655, 0.33788595, 0.326002, 0.09345843, 0.1243817, 0.13821271, 0.008462517, 0.010712365, 0.012386561, 0.15290327, 0.17657728, 0.17657728, 0.24965844, 0.22999977, 0.1849102, 0.03922288, 0.05854322, 0.067555964, 0.1311868, 0.15289682, 0.16056731, 0.026909553, 0.032728747, 0.035890047)
+shader_parameter/bay_m = 12.0
+shader_parameter/surface_albedo = ExtResource("2_7nmxt")
+shader_parameter/surface_normal = ExtResource("3_ua280")
+shader_parameter/surface_orm = ExtResource("4_5a2dx")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_repdx"]
+render_priority = 0
+shader = ExtResource("1_sfksi")
+shader_parameter/surface_role = 3
+shader_parameter/base_color = Color(0.92, 0.95, 0.96, 1)
+shader_parameter/color_gain = Vector3(1, 1, 1)
+shader_parameter/building_quality = 2
+shader_parameter/tile_m = 8.0
+shader_parameter/floor_m = 6.4
+shader_parameter/trim_means = PackedVector3Array(0.3143655, 0.33788595, 0.326002, 0.09345843, 0.1243817, 0.13821271, 0.008462517, 0.010712365, 0.012386561, 0.15290327, 0.17657728, 0.17657728, 0.24965844, 0.22999977, 0.1849102, 0.03922288, 0.05854322, 0.067555964, 0.1311868, 0.15289682, 0.16056731, 0.026909553, 0.032728747, 0.035890047)
+shader_parameter/bay_m = 12.0
+shader_parameter/surface_albedo = ExtResource("5_ojcqe")
+shader_parameter/surface_normal = ExtResource("6_md84j")
+shader_parameter/surface_orm = ExtResource("7_l2r3b")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_b0nwp"]
+_surfaces = [{
+"aabb": AABB(-2.5, 0, -1, 5, 4.8, 2),
+"attribute_data": PackedByteArray("AAAA/wAAIMAAAAAAAAAAAAAAAAAAAAD/AAAgQJqZmUAAAAAAAACAPwAAAP8AACDAmpmZQAAAAAAAAIA/AAAA/wAAIMAAAAAAAAAAAAAAAAAAAAD/AAAgQAAAAAAAAAAAAAAAAAAAAP8AACBAmpmZQAAAAAAAAIA/AAAA/wAAIMAAAAAAAAAAAAAAAAAAAAD/AAAgQJqZmUAAAAAAAACAPwAAAP8AACBAAAAAAAAAAAAAAAAAAAAA/wAAIMAAAAAAAAAAAAAAAAAAAAD/AAAgwJqZmUAAAAAAAACAPwAAAP8AACBAmpmZQAAAAAAAAIA/AAAA/wAAgL8AAAAAAAAAAAAAAAAAAAD/AACAP5qZmUAAAAAAAACAPwAAAP8AAIA/AAAAAAAAAAAAAAAAAAAA/wAAgL8AAAAAAAAAAAAAAAAAAAD/AACAv5qZmUAAAAAAAACAPwAAAP8AAIA/mpmZQAAAAAAAAIA/AAAA/wAAgL8AAAAAAAAAAAAAAAAAAAD/AACAP5qZmUAAAAAAAACAPwAAAP8AAIC/mpmZQAAAAAAAAIA/AAAA/wAAgL8AAAAAAAAAAAAAAAAAAAD/AACAPwAAAAAAAAAAAAAAAAAAAP8AAIA/mpmZQAAAAAAAAIA/AAAA/wAAIMAAAIC/AAAAAAAAAAAAAAD/AAAgQAAAgD8AAAAAAACAPwAAAP8AACDAAACAPwAAAAAAAIA/AAAA/wAAIMAAAIC/AAAAAAAAAAAAAAD/AAAgQAAAgL8AAAAAAAAAAAAAAP8AACBAAACAPwAAAAAAAIA/AAAA/wAAIMAAAIC/AAAAAAAAAAAAAAD/AAAgQAAAgD8AAAAAAACAPwAAAP8AACBAAACAvwAAAAAAAAAAAAAA/wAAIMAAAIC/AAAAAAAAAAAAAAD/AAAgwAAAgD8AAAAAAACAPwAAAP8AACBAAACAPwAAAAAAAIA/"),
+"format": 34359738431,
+"material": SubResource("ShaderMaterial_g8y14"),
+"name": "2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("AAAgwAAAAAAAAIC/AAAgQJqZmUAAAIC/AAAgwJqZmUAAAIC/AAAgwAAAAAAAAIC/AAAgQAAAAAAAAIC/AAAgQJqZmUAAAIC/AAAgwAAAAAAAAIA/AAAgQJqZmUAAAIA/AAAgQAAAAAAAAIA/AAAgwAAAAAAAAIA/AAAgwJqZmUAAAIA/AAAgQJqZmUAAAIA/AAAgwAAAAAAAAIC/AAAgwJqZmUAAAIA/AAAgwAAAAAAAAIA/AAAgwAAAAAAAAIC/AAAgwJqZmUAAAIC/AAAgwJqZmUAAAIA/AAAgQAAAAAAAAIC/AAAgQJqZmUAAAIA/AAAgQJqZmUAAAIC/AAAgQAAAAAAAAIC/AAAgQAAAAAAAAIA/AAAgQJqZmUAAAIA/AAAgwJqZmUAAAIC/AAAgQJqZmUAAAIA/AAAgwJqZmUAAAIA/AAAgwJqZmUAAAIC/AAAgQJqZmUAAAIC/AAAgQJqZmUAAAIA/AAAgwAAAAAAAAIC/AAAgQAAAAAAAAIA/AAAgQAAAAAAAAIC/AAAgwAAAAAAAAIC/AAAgwAAAAAAAAIA/AAAgQAAAAAAAAIA//////////7//////////v/////////+//////////7//////////v/////////+//3//f////z//f/9/////P/9//3////8//3//f////z//f/9/////P/9//3////8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/////f/9//7////9//3//v////3//f/+/////f/9//7////9//3//v////3//f/+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//38AAP///z//fwAA////P/9/AAD///8//38AAP///z//fwAA////P/9/AAD///8/")
+}, {
+"aabb": AABB(-2, 0.6999999, -1.225, 4, 3.8000002, 0.25),
+"attribute_data": PackedByteArray("JAAA/wAAAMAyMzM/AAAAAAAAAAAkAAD/AAAAQAAAkEAAAAAAAACAPyQAAP8AAADAAACQQAAAAAAAAIA/JAAA/wAAAMAyMzM/AAAAAAAAAAAkAAD/AAAAQDIzMz8AAAAAAAAAACQAAP8AAABAAACQQAAAAAAAAIA/JAAA/wAAAMAyMzM/AAAAAAAAAAAkAAD/AAAAQAAAkEAAAAAAAACAPyQAAP8AAABAMjMzPwAAAAAAAAAAJAAA/wAAAMAyMzM/AAAAAAAAAAAkAAD/AAAAwAAAkEAAAAAAAACAPyQAAP8AAABAAACQQAAAAAAAAIA/JAAA/83MnL8yMzM/AAAAAAAAAAAkAAD/mpl5vwAAkEAAAAAAAACAPyQAAP+amXm/MjMzPwAAAAAAAAAAJAAA/83MnL8yMzM/AAAAAAAAAAAkAAD/zcycvwAAkEAAAAAAAACAPyQAAP+amXm/AACQQAAAAAAAAIA/JAAA/83MnL8yMzM/AAAAAAAAAAAkAAD/mpl5vwAAkEAAAAAAAACAPyQAAP/NzJy/AACQQAAAAAAAAIA/JAAA/83MnL8yMzM/AAAAAAAAAAAkAAD/mpl5vzIzMz8AAAAAAAAAACQAAP+amXm/AACQQAAAAAAAAIA/JAAA/wAAAMDNzJy/AAAAAAAAAAAkAAD/AAAAQJqZeb8AAAAAAACAPyQAAP8AAADAmpl5vwAAAAAAAIA/JAAA/wAAAMDNzJy/AAAAAAAAAAAkAAD/AAAAQM3MnL8AAAAAAAAAACQAAP8AAABAmpl5vwAAAAAAAIA/JAAA/wAAAMDNzJy/AAAAAAAAAAAkAAD/AAAAQJqZeb8AAAAAAACAPyQAAP8AAABAzcycvwAAAAAAAAAAJAAA/wAAAMDNzJy/AAAAAAAAAAAkAAD/AAAAwJqZeb8AAAAAAACAPyQAAP8AAABAmpl5vwAAAAAAAIA/"),
+"format": 34359738431,
+"material": SubResource("ShaderMaterial_repdx"),
+"name": "3",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("AAAAwDIzMz/NzJy/AAAAQAAAkEDNzJy/AAAAwAAAkEDNzJy/AAAAwDIzMz/NzJy/AAAAQDIzMz/NzJy/AAAAQAAAkEDNzJy/AAAAwDIzMz+amXm/AAAAQAAAkECamXm/AAAAQDIzMz+amXm/AAAAwDIzMz+amXm/AAAAwAAAkECamXm/AAAAQAAAkECamXm/AAAAwDIzMz/NzJy/AAAAwAAAkECamXm/AAAAwDIzMz+amXm/AAAAwDIzMz/NzJy/AAAAwAAAkEDNzJy/AAAAwAAAkECamXm/AAAAQDIzMz/NzJy/AAAAQAAAkECamXm/AAAAQAAAkEDNzJy/AAAAQDIzMz/NzJy/AAAAQDIzMz+amXm/AAAAQAAAkECamXm/AAAAwAAAkEDNzJy/AAAAQAAAkECamXm/AAAAwAAAkECamXm/AAAAwAAAkEDNzJy/AAAAQAAAkEDNzJy/AAAAQAAAkECamXm/AAAAwDIzMz/NzJy/AAAAQDIzMz+amXm/AAAAQDIzMz/NzJy/AAAAwDIzMz/NzJy/AAAAwDIzMz+amXm/AAAAQDIzMz+amXm//////////7//////////v/////////+//////////7//////////v/////////+//3//f////z//f/9/////P/9//3////8//3//f////z//f/9/////P/9//3////8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/AAD/f/9//z8AAP9//3//PwAA/3//f/8/////f/9//7////9//3//v////3//f/+/////f/9//7////9//3//v////3//f/+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//38AAP///z//fwAA////P/9/AAD///8//38AAP///z//fwAA////P/9/AAD///8/")
+}]
+metadata/style = 0
+metadata/lod = 0
+metadata/dimensions = Vector3(1, 1, 1)
+metadata/floor_m = 6.4
+metadata/triangles = 24
+
+[node name="Module_11" type="Node3D" unique_id=1799170839]
+metadata/module_name = "配电箱"
+
+[node name="Geometry" type="MeshInstance3D" parent="." unique_id=1381844746]
+mesh = SubResource("ArrayMesh_b0nwp")

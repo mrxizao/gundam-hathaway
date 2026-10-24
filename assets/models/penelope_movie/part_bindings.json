@@ -1,0 +1,882 @@
+[
+  {
+    "part": "tripo_part_0",
+    "joint": "Movie_tripo_part_0",
+    "vertices": 47303
+  },
+  {
+    "part": "tripo_part_1",
+    "joint": "Movie_tripo_part_1",
+    "vertices": 27757
+  },
+  {
+    "part": "tripo_part_10",
+    "joint": "Movie_tripo_part_10",
+    "vertices": 15694
+  },
+  {
+    "part": "tripo_part_100",
+    "joint": "Movie_tripo_part_100",
+    "vertices": 3467
+  },
+  {
+    "part": "tripo_part_101",
+    "joint": "Movie_tripo_part_101",
+    "vertices": 3492
+  },
+  {
+    "part": "tripo_part_102",
+    "joint": "Movie_tripo_part_102",
+    "vertices": 3404
+  },
+  {
+    "part": "tripo_part_103",
+    "joint": "Movie_tripo_part_103",
+    "vertices": 3416
+  },
+  {
+    "part": "tripo_part_104",
+    "joint": "Movie_tripo_part_104",
+    "vertices": 3360
+  },
+  {
+    "part": "tripo_part_105",
+    "joint": "Movie_tripo_part_105",
+    "vertices": 3684
+  },
+  {
+    "part": "tripo_part_106",
+    "joint": "Movie_tripo_part_106",
+    "vertices": 3525
+  },
+  {
+    "part": "tripo_part_107",
+    "joint": "Movie_tripo_part_107",
+    "vertices": 3278
+  },
+  {
+    "part": "tripo_part_108",
+    "joint": "Movie_tripo_part_108",
+    "vertices": 3369
+  },
+  {
+    "part": "tripo_part_109",
+    "joint": "Movie_tripo_part_109",
+    "vertices": 3061
+  },
+  {
+    "part": "tripo_part_11",
+    "joint": "Movie_tripo_part_11",
+    "vertices": 18079
+  },
+  {
+    "part": "tripo_part_110",
+    "joint": "Movie_tripo_part_110",
+    "vertices": 2988
+  },
+  {
+    "part": "tripo_part_111",
+    "joint": "Movie_tripo_part_111",
+    "vertices": 3131
+  },
+  {
+    "part": "tripo_part_112",
+    "joint": "Movie_tripo_part_112",
+    "vertices": 3052
+  },
+  {
+    "part": "tripo_part_113",
+    "joint": "Movie_tripo_part_113",
+    "vertices": 3162
+  },
+  {
+    "part": "tripo_part_114",
+    "joint": "Movie_tripo_part_114",
+    "vertices": 3108
+  },
+  {
+    "part": "tripo_part_115",
+    "joint": "Movie_tripo_part_115",
+    "vertices": 2850
+  },
+  {
+    "part": "tripo_part_116",
+    "joint": "Movie_tripo_part_116",
+    "vertices": 2962
+  },
+  {
+    "part": "tripo_part_117",
+    "joint": "Movie_tripo_part_117",
+    "vertices": 2900
+  },
+  {
+    "part": "tripo_part_118",
+    "joint": "Movie_tripo_part_118",
+    "vertices": 2744
+  },
+  {
+    "part": "tripo_part_119",
+    "joint": "Movie_tripo_part_119",
+    "vertices": 2967
+  },
+  {
+    "part": "tripo_part_12",
+    "joint": "Movie_tripo_part_12",
+    "vertices": 13861
+  },
+  {
+    "part": "tripo_part_120",
+    "joint": "Movie_tripo_part_120",
+    "vertices": 2851
+  },
+  {
+    "part": "tripo_part_121",
+    "joint": "Movie_tripo_part_121",
+    "vertices": 2758
+  },
+  {
+    "part": "tripo_part_122",
+    "joint": "Movie_tripo_part_122",
+    "vertices": 2933
+  },
+  {
+    "part": "tripo_part_123",
+    "joint": "Movie_tripo_part_123",
+    "vertices": 2585
+  },
+  {
+    "part": "tripo_part_124",
+    "joint": "Movie_tripo_part_124",
+    "vertices": 2847
+  },
+  {
+    "part": "tripo_part_125",
+    "joint": "Movie_tripo_part_125",
+    "vertices": 2713
+  },
+  {
+    "part": "tripo_part_126",
+    "joint": "Movie_tripo_part_126",
+    "vertices": 3037
+  },
+  {
+    "part": "tripo_part_127",
+    "joint": "Movie_tripo_part_127",
+    "vertices": 2589
+  },
+  {
+    "part": "tripo_part_128",
+    "joint": "Movie_tripo_part_128",
+    "vertices": 2650
+  },
+  {
+    "part": "tripo_part_129",
+    "joint": "Movie_tripo_part_129",
+    "vertices": 2675
+  },
+  {
+    "part": "tripo_part_13",
+    "joint": "Movie_tripo_part_13",
+    "vertices": 11486
+  },
+  {
+    "part": "tripo_part_130",
+    "joint": "Movie_tripo_part_130",
+    "vertices": 2552
+  },
+  {
+    "part": "tripo_part_131",
+    "joint": "Movie_tripo_part_131",
+    "vertices": 2607
+  },
+  {
+    "part": "tripo_part_132",
+    "joint": "Movie_tripo_part_132",
+    "vertices": 2556
+  },
+  {
+    "part": "tripo_part_133",
+    "joint": "Movie_tripo_part_133",
+    "vertices": 2419
+  },
+  {
+    "part": "tripo_part_134",
+    "joint": "Movie_tripo_part_134",
+    "vertices": 2341
+  },
+  {
+    "part": "tripo_part_135",
+    "joint": "Movie_tripo_part_135",
+    "vertices": 2337
+  },
+  {
+    "part": "tripo_part_136",
+    "joint": "Movie_tripo_part_136",
+    "vertices": 2438
+  },
+  {
+    "part": "tripo_part_137",
+    "joint": "Movie_tripo_part_137",
+    "vertices": 2289
+  },
+  {
+    "part": "tripo_part_138",
+    "joint": "Movie_tripo_part_138",
+    "vertices": 2739
+  },
+  {
+    "part": "tripo_part_139",
+    "joint": "Movie_tripo_part_139",
+    "vertices": 2214
+  },
+  {
+    "part": "tripo_part_14",
+    "joint": "Movie_tripo_part_14",
+    "vertices": 11025
+  },
+  {
+    "part": "tripo_part_140",
+    "joint": "Movie_tripo_part_140",
+    "vertices": 2501
+  },
+  {
+    "part": "tripo_part_141",
+    "joint": "Movie_tripo_part_141",
+    "vertices": 2341
+  },
+  {
+    "part": "tripo_part_142",
+    "joint": "Movie_tripo_part_142",
+    "vertices": 2329
+  },
+  {
+    "part": "tripo_part_143",
+    "joint": "Movie_tripo_part_143",
+    "vertices": 2189
+  },
+  {
+    "part": "tripo_part_144",
+    "joint": "Movie_tripo_part_144",
+    "vertices": 2132
+  },
+  {
+    "part": "tripo_part_145",
+    "joint": "Movie_tripo_part_145",
+    "vertices": 2017
+  },
+  {
+    "part": "tripo_part_146",
+    "joint": "Movie_tripo_part_146",
+    "vertices": 2095
+  },
+  {
+    "part": "tripo_part_147",
+    "joint": "Movie_tripo_part_147",
+    "vertices": 2287
+  },
+  {
+    "part": "tripo_part_148",
+    "joint": "Movie_tripo_part_148",
+    "vertices": 2091
+  },
+  {
+    "part": "tripo_part_149",
+    "joint": "Movie_tripo_part_149",
+    "vertices": 2069
+  },
+  {
+    "part": "tripo_part_15",
+    "joint": "Movie_tripo_part_15",
+    "vertices": 12865
+  },
+  {
+    "part": "tripo_part_150",
+    "joint": "Movie_tripo_part_150",
+    "vertices": 2126
+  },
+  {
+    "part": "tripo_part_151",
+    "joint": "Movie_tripo_part_151",
+    "vertices": 1966
+  },
+  {
+    "part": "tripo_part_152",
+    "joint": "Movie_tripo_part_152",
+    "vertices": 2078
+  },
+  {
+    "part": "tripo_part_153",
+    "joint": "Movie_tripo_part_153",
+    "vertices": 1957
+  },
+  {
+    "part": "tripo_part_154",
+    "joint": "Movie_tripo_part_154",
+    "vertices": 2074
+  },
+  {
+    "part": "tripo_part_155",
+    "joint": "Movie_tripo_part_155",
+    "vertices": 1957
+  },
+  {
+    "part": "tripo_part_156",
+    "joint": "Movie_tripo_part_156",
+    "vertices": 1890
+  },
+  {
+    "part": "tripo_part_157",
+    "joint": "Movie_tripo_part_157",
+    "vertices": 1871
+  },
+  {
+    "part": "tripo_part_158",
+    "joint": "Movie_tripo_part_158",
+    "vertices": 1937
+  },
+  {
+    "part": "tripo_part_159",
+    "joint": "Movie_tripo_part_159",
+    "vertices": 1977
+  },
+  {
+    "part": "tripo_part_16",
+    "joint": "Movie_tripo_part_16",
+    "vertices": 16361
+  },
+  {
+    "part": "tripo_part_160",
+    "joint": "Movie_tripo_part_160",
+    "vertices": 1857
+  },
+  {
+    "part": "tripo_part_161",
+    "joint": "Movie_tripo_part_161",
+    "vertices": 1898
+  },
+  {
+    "part": "tripo_part_162",
+    "joint": "Movie_tripo_part_162",
+    "vertices": 1838
+  },
+  {
+    "part": "tripo_part_163",
+    "joint": "Movie_tripo_part_163",
+    "vertices": 1818
+  },
+  {
+    "part": "tripo_part_164",
+    "joint": "Movie_tripo_part_164",
+    "vertices": 1688
+  },
+  {
+    "part": "tripo_part_165",
+    "joint": "Movie_tripo_part_165",
+    "vertices": 1569
+  },
+  {
+    "part": "tripo_part_166",
+    "joint": "Movie_tripo_part_166",
+    "vertices": 1533
+  },
+  {
+    "part": "tripo_part_167",
+    "joint": "Movie_tripo_part_167",
+    "vertices": 1457
+  },
+  {
+    "part": "tripo_part_168",
+    "joint": "Movie_tripo_part_168",
+    "vertices": 1608
+  },
+  {
+    "part": "tripo_part_169",
+    "joint": "Movie_tripo_part_169",
+    "vertices": 1549
+  },
+  {
+    "part": "tripo_part_17",
+    "joint": "Movie_tripo_part_17",
+    "vertices": 11073
+  },
+  {
+    "part": "tripo_part_170",
+    "joint": "Movie_tripo_part_170",
+    "vertices": 1512
+  },
+  {
+    "part": "tripo_part_171",
+    "joint": "Movie_tripo_part_171",
+    "vertices": 1503
+  },
+  {
+    "part": "tripo_part_172",
+    "joint": "Movie_tripo_part_172",
+    "vertices": 1384
+  },
+  {
+    "part": "tripo_part_173",
+    "joint": "Movie_tripo_part_173",
+    "vertices": 1261
+  },
+  {
+    "part": "tripo_part_174",
+    "joint": "Movie_tripo_part_174",
+    "vertices": 1297
+  },
+  {
+    "part": "tripo_part_175",
+    "joint": "Movie_tripo_part_175",
+    "vertices": 1151
+  },
+  {
+    "part": "tripo_part_18",
+    "joint": "Movie_tripo_part_18",
+    "vertices": 8224
+  },
+  {
+    "part": "tripo_part_19",
+    "joint": "Movie_tripo_part_19",
+    "vertices": 11365
+  },
+  {
+    "part": "tripo_part_2",
+    "joint": "Movie_tripo_part_2",
+    "vertices": 17385
+  },
+  {
+    "part": "tripo_part_20",
+    "joint": "Movie_tripo_part_20",
+    "vertices": 9043
+  },
+  {
+    "part": "tripo_part_21",
+    "joint": "Movie_tripo_part_21",
+    "vertices": 14917
+  },
+  {
+    "part": "tripo_part_22",
+    "joint": "Movie_tripo_part_22",
+    "vertices": 12336
+  },
+  {
+    "part": "tripo_part_23",
+    "joint": "Movie_tripo_part_23",
+    "vertices": 9336
+  },
+  {
+    "part": "tripo_part_24",
+    "joint": "Movie_tripo_part_24",
+    "vertices": 6528
+  },
+  {
+    "part": "tripo_part_25",
+    "joint": "Movie_tripo_part_25",
+    "vertices": 10559
+  },
+  {
+    "part": "tripo_part_26",
+    "joint": "Movie_tripo_part_26",
+    "vertices": 13884
+  },
+  {
+    "part": "tripo_part_27",
+    "joint": "Movie_tripo_part_27",
+    "vertices": 23607
+  },
+  {
+    "part": "tripo_part_28",
+    "joint": "Movie_tripo_part_28",
+    "vertices": 8915
+  },
+  {
+    "part": "tripo_part_29",
+    "joint": "Movie_tripo_part_29",
+    "vertices": 8848
+  },
+  {
+    "part": "tripo_part_3",
+    "joint": "Movie_tripo_part_3",
+    "vertices": 13189
+  },
+  {
+    "part": "tripo_part_30",
+    "joint": "Movie_tripo_part_30",
+    "vertices": 6930
+  },
+  {
+    "part": "tripo_part_31",
+    "joint": "Movie_tripo_part_31",
+    "vertices": 8402
+  },
+  {
+    "part": "tripo_part_32",
+    "joint": "Movie_tripo_part_32",
+    "vertices": 10824
+  },
+  {
+    "part": "tripo_part_33",
+    "joint": "Movie_tripo_part_33",
+    "vertices": 8751
+  },
+  {
+    "part": "tripo_part_34",
+    "joint": "Movie_tripo_part_34",
+    "vertices": 25163
+  },
+  {
+    "part": "tripo_part_35",
+    "joint": "Movie_tripo_part_35",
+    "vertices": 20367
+  },
+  {
+    "part": "tripo_part_36",
+    "joint": "Movie_tripo_part_36",
+    "vertices": 15067
+  },
+  {
+    "part": "tripo_part_37",
+    "joint": "Movie_tripo_part_37",
+    "vertices": 12917
+  },
+  {
+    "part": "tripo_part_38",
+    "joint": "Movie_tripo_part_38",
+    "vertices": 11392
+  },
+  {
+    "part": "tripo_part_39",
+    "joint": "Movie_tripo_part_39",
+    "vertices": 11273
+  },
+  {
+    "part": "tripo_part_4",
+    "joint": "Movie_tripo_part_4",
+    "vertices": 24686
+  },
+  {
+    "part": "tripo_part_40",
+    "joint": "Movie_tripo_part_40",
+    "vertices": 11441
+  },
+  {
+    "part": "tripo_part_41",
+    "joint": "Movie_tripo_part_41",
+    "vertices": 11454
+  },
+  {
+    "part": "tripo_part_42",
+    "joint": "Movie_tripo_part_42",
+    "vertices": 11110
+  },
+  {
+    "part": "tripo_part_43",
+    "joint": "Movie_tripo_part_43",
+    "vertices": 11178
+  },
+  {
+    "part": "tripo_part_44",
+    "joint": "Movie_tripo_part_44",
+    "vertices": 11124
+  },
+  {
+    "part": "tripo_part_45",
+    "joint": "Movie_tripo_part_45",
+    "vertices": 10722
+  },
+  {
+    "part": "tripo_part_46",
+    "joint": "Movie_tripo_part_46",
+    "vertices": 9542
+  },
+  {
+    "part": "tripo_part_47",
+    "joint": "Movie_tripo_part_47",
+    "vertices": 8936
+  },
+  {
+    "part": "tripo_part_48",
+    "joint": "Movie_tripo_part_48",
+    "vertices": 8910
+  },
+  {
+    "part": "tripo_part_49",
+    "joint": "Movie_tripo_part_49",
+    "vertices": 8885
+  },
+  {
+    "part": "tripo_part_5",
+    "joint": "Movie_tripo_part_5",
+    "vertices": 17253
+  },
+  {
+    "part": "tripo_part_50",
+    "joint": "Movie_tripo_part_50",
+    "vertices": 8810
+  },
+  {
+    "part": "tripo_part_51",
+    "joint": "Movie_tripo_part_51",
+    "vertices": 8518
+  },
+  {
+    "part": "tripo_part_52",
+    "joint": "Movie_tripo_part_52",
+    "vertices": 7831
+  },
+  {
+    "part": "tripo_part_53",
+    "joint": "Movie_tripo_part_53",
+    "vertices": 8172
+  },
+  {
+    "part": "tripo_part_54",
+    "joint": "Movie_tripo_part_54",
+    "vertices": 7706
+  },
+  {
+    "part": "tripo_part_55",
+    "joint": "Movie_tripo_part_55",
+    "vertices": 7043
+  },
+  {
+    "part": "tripo_part_56",
+    "joint": "Movie_tripo_part_56",
+    "vertices": 6754
+  },
+  {
+    "part": "tripo_part_57",
+    "joint": "Movie_tripo_part_57",
+    "vertices": 6594
+  },
+  {
+    "part": "tripo_part_58",
+    "joint": "Movie_tripo_part_58",
+    "vertices": 6641
+  },
+  {
+    "part": "tripo_part_59",
+    "joint": "Movie_tripo_part_59",
+    "vertices": 6415
+  },
+  {
+    "part": "tripo_part_6",
+    "joint": "Movie_tripo_part_6",
+    "vertices": 15275
+  },
+  {
+    "part": "tripo_part_60",
+    "joint": "Movie_tripo_part_60",
+    "vertices": 6152
+  },
+  {
+    "part": "tripo_part_61",
+    "joint": "Movie_tripo_part_61",
+    "vertices": 6005
+  },
+  {
+    "part": "tripo_part_62",
+    "joint": "Movie_tripo_part_62",
+    "vertices": 5955
+  },
+  {
+    "part": "tripo_part_63",
+    "joint": "Movie_tripo_part_63",
+    "vertices": 5588
+  },
+  {
+    "part": "tripo_part_64",
+    "joint": "Movie_tripo_part_64",
+    "vertices": 5461
+  },
+  {
+    "part": "tripo_part_65",
+    "joint": "Movie_tripo_part_65",
+    "vertices": 5256
+  },
+  {
+    "part": "tripo_part_66",
+    "joint": "Movie_tripo_part_66",
+    "vertices": 5642
+  },
+  {
+    "part": "tripo_part_67",
+    "joint": "Movie_tripo_part_67",
+    "vertices": 5106
+  },
+  {
+    "part": "tripo_part_68",
+    "joint": "Movie_tripo_part_68",
+    "vertices": 5110
+  },
+  {
+    "part": "tripo_part_69",
+    "joint": "Movie_tripo_part_69",
+    "vertices": 4741
+  },
+  {
+    "part": "tripo_part_7",
+    "joint": "Movie_tripo_part_7",
+    "vertices": 19233
+  },
+  {
+    "part": "tripo_part_70",
+    "joint": "Movie_tripo_part_70",
+    "vertices": 4707
+  },
+  {
+    "part": "tripo_part_71",
+    "joint": "Movie_tripo_part_71",
+    "vertices": 4517
+  },
+  {
+    "part": "tripo_part_72",
+    "joint": "Movie_tripo_part_72",
+    "vertices": 4573
+  },
+  {
+    "part": "tripo_part_73",
+    "joint": "Movie_tripo_part_73",
+    "vertices": 4538
+  },
+  {
+    "part": "tripo_part_74",
+    "joint": "Movie_tripo_part_74",
+    "vertices": 4395
+  },
+  {
+    "part": "tripo_part_75",
+    "joint": "Movie_tripo_part_75",
+    "vertices": 4524
+  },
+  {
+    "part": "tripo_part_76",
+    "joint": "Movie_tripo_part_76",
+    "vertices": 4469
+  },
+  {
+    "part": "tripo_part_77",
+    "joint": "Movie_tripo_part_77",
+    "vertices": 4382
+  },
+  {
+    "part": "tripo_part_78",
+    "joint": "Movie_tripo_part_78",
+    "vertices": 4252
+  },
+  {
+    "part": "tripo_part_79",
+    "joint": "Movie_tripo_part_79",
+    "vertices": 4205
+  },
+  {
+    "part": "tripo_part_8",
+    "joint": "Movie_tripo_part_8",
+    "vertices": 9753
+  },
+  {
+    "part": "tripo_part_80",
+    "joint": "Movie_tripo_part_80",
+    "vertices": 4457
+  },
+  {
+    "part": "tripo_part_81",
+    "joint": "Movie_tripo_part_81",
+    "vertices": 4519
+  },
+  {
+    "part": "tripo_part_82",
+    "joint": "Movie_tripo_part_82",
+    "vertices": 4090
+  },
+  {
+    "part": "tripo_part_83",
+    "joint": "Movie_tripo_part_83",
+    "vertices": 4072
+  },
+  {
+    "part": "tripo_part_84",
+    "joint": "Movie_tripo_part_84",
+    "vertices": 4055
+  },
+  {
+    "part": "tripo_part_85",
+    "joint": "Movie_tripo_part_85",
+    "vertices": 3932
+  },
+  {
+    "part": "tripo_part_86",
+    "joint": "Movie_tripo_part_86",
+    "vertices": 4105
+  },
+  {
+    "part": "tripo_part_87",
+    "joint": "Movie_tripo_part_87",
+    "vertices": 4028
+  },
+  {
+    "part": "tripo_part_88",
+    "joint": "Movie_tripo_part_88",
+    "vertices": 3871
+  },
+  {
+    "part": "tripo_part_89",
+    "joint": "Movie_tripo_part_89",
+    "vertices": 3884
+  },
+  {
+    "part": "tripo_part_9",
+    "joint": "Movie_tripo_part_9",
+    "vertices": 12281
+  },
+  {
+    "part": "tripo_part_90",
+    "joint": "Movie_tripo_part_90",
+    "vertices": 3832
+  },
+  {
+    "part": "tripo_part_91",
+    "joint": "Movie_tripo_part_91",
+    "vertices": 4055
+  },
+  {
+    "part": "tripo_part_92",
+    "joint": "Movie_tripo_part_92",
+    "vertices": 4089
+  },
+  {
+    "part": "tripo_part_93",
+    "joint": "Movie_tripo_part_93",
+    "vertices": 3596
+  },
+  {
+    "part": "tripo_part_94",
+    "joint": "Movie_tripo_part_94",
+    "vertices": 3584
+  },
+  {
+    "part": "tripo_part_95",
+    "joint": "Movie_tripo_part_95",
+    "vertices": 3751
+  },
+  {
+    "part": "tripo_part_96",
+    "joint": "Movie_tripo_part_96",
+    "vertices": 3511
+  },
+  {
+    "part": "tripo_part_97",
+    "joint": "Movie_tripo_part_97",
+    "vertices": 3563
+  },
+  {
+    "part": "tripo_part_98",
+    "joint": "Movie_tripo_part_98",
+    "vertices": 3687
+  },
+  {
+    "part": "tripo_part_99",
+    "joint": "Movie_tripo_part_99",
+    "vertices": 3376
+  }
+]

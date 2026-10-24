@@ -1,0 +1,567 @@
+[
+  {
+    "part": "tripo_part_0",
+    "joint": "Movie_tripo_part_0",
+    "vertices": 48949
+  },
+  {
+    "part": "tripo_part_1",
+    "joint": "Thruster.R",
+    "vertices": 45267
+  },
+  {
+    "part": "tripo_part_2",
+    "joint": "Thigh.L",
+    "vertices": 47161
+  },
+  {
+    "part": "tripo_part_3",
+    "joint": "Movie_tripo_part_3",
+    "vertices": 36709
+  },
+  {
+    "part": "tripo_part_4",
+    "joint": "Thigh.R",
+    "vertices": 43939
+  },
+  {
+    "part": "tripo_part_5",
+    "joint": "UpperArm.L",
+    "vertices": 27476
+  },
+  {
+    "part": "tripo_part_6",
+    "joint": "Movie_tripo_part_6",
+    "vertices": 24711
+  },
+  {
+    "part": "tripo_part_7",
+    "joint": "Thigh.R",
+    "vertices": 24775
+  },
+  {
+    "part": "tripo_part_8",
+    "joint": "Movie_tripo_part_8",
+    "vertices": 36541
+  },
+  {
+    "part": "tripo_part_9",
+    "joint": "LowerArm.L",
+    "vertices": 20348
+  },
+  {
+    "part": "tripo_part_10",
+    "joint": "LowerArm.L",
+    "vertices": 20700
+  },
+  {
+    "part": "tripo_part_11",
+    "joint": "Chest",
+    "vertices": 22354
+  },
+  {
+    "part": "tripo_part_12",
+    "joint": "ChestArmor.L",
+    "vertices": 18293
+  },
+  {
+    "part": "tripo_part_13",
+    "joint": "ChestArmor.R",
+    "vertices": 16254
+  },
+  {
+    "part": "tripo_part_14",
+    "joint": "Thigh.L",
+    "vertices": 22686
+  },
+  {
+    "part": "tripo_part_15",
+    "joint": "Movie_tripo_part_15",
+    "vertices": 20112
+  },
+  {
+    "part": "tripo_part_16",
+    "joint": "Movie_tripo_part_16",
+    "vertices": 20321
+  },
+  {
+    "part": "tripo_part_17",
+    "joint": "Chest",
+    "vertices": 13880
+  },
+  {
+    "part": "tripo_part_18",
+    "joint": "Movie_tripo_part_18",
+    "vertices": 10049
+  },
+  {
+    "part": "tripo_part_19",
+    "joint": "Thruster.R",
+    "vertices": 8101
+  },
+  {
+    "part": "tripo_part_20",
+    "joint": "Movie_tripo_part_20",
+    "vertices": 11601
+  },
+  {
+    "part": "tripo_part_21",
+    "joint": "Foot.R",
+    "vertices": 10704
+  },
+  {
+    "part": "tripo_part_22",
+    "joint": "UpperArm.R",
+    "vertices": 11590
+  },
+  {
+    "part": "tripo_part_23",
+    "joint": "Movie_tripo_part_23",
+    "vertices": 11272
+  },
+  {
+    "part": "tripo_part_24",
+    "joint": "LowerArm.R",
+    "vertices": 10837
+  },
+  {
+    "part": "tripo_part_25",
+    "joint": "Movie_tripo_part_25",
+    "vertices": 13456
+  },
+  {
+    "part": "tripo_part_26",
+    "joint": "Thruster.L",
+    "vertices": 15880
+  },
+  {
+    "part": "tripo_part_27",
+    "joint": "Movie_tripo_part_27",
+    "vertices": 11846
+  },
+  {
+    "part": "tripo_part_28",
+    "joint": "Shin.L",
+    "vertices": 11072
+  },
+  {
+    "part": "tripo_part_29",
+    "joint": "Shoulder.L",
+    "vertices": 7456
+  },
+  {
+    "part": "tripo_part_30",
+    "joint": "Thigh.L",
+    "vertices": 8152
+  },
+  {
+    "part": "tripo_part_31",
+    "joint": "Shin.L",
+    "vertices": 7887
+  },
+  {
+    "part": "tripo_part_32",
+    "joint": "Movie_tripo_part_32",
+    "vertices": 8044
+  },
+  {
+    "part": "tripo_part_33",
+    "joint": "Movie_tripo_part_33",
+    "vertices": 43253
+  },
+  {
+    "part": "tripo_part_34",
+    "joint": "Weapon.R",
+    "vertices": 18200
+  },
+  {
+    "part": "tripo_part_35",
+    "joint": "Shin.R",
+    "vertices": 15697
+  },
+  {
+    "part": "tripo_part_36",
+    "joint": "Foot.L",
+    "vertices": 15005
+  },
+  {
+    "part": "tripo_part_37",
+    "joint": "LowerArm.L",
+    "vertices": 14095
+  },
+  {
+    "part": "tripo_part_38",
+    "joint": "Chest",
+    "vertices": 13516
+  },
+  {
+    "part": "tripo_part_39",
+    "joint": "Movie_tripo_part_39",
+    "vertices": 12958
+  },
+  {
+    "part": "tripo_part_40",
+    "joint": "UpperArm.R",
+    "vertices": 10750
+  },
+  {
+    "part": "tripo_part_41",
+    "joint": "Chest",
+    "vertices": 10951
+  },
+  {
+    "part": "tripo_part_42",
+    "joint": "Chest",
+    "vertices": 10584
+  },
+  {
+    "part": "tripo_part_43",
+    "joint": "UpperArm.L",
+    "vertices": 9948
+  },
+  {
+    "part": "tripo_part_44",
+    "joint": "Movie_tripo_part_44",
+    "vertices": 9879
+  },
+  {
+    "part": "tripo_part_45",
+    "joint": "Thruster.R",
+    "vertices": 9254
+  },
+  {
+    "part": "tripo_part_46",
+    "joint": "Thigh.R",
+    "vertices": 8406
+  },
+  {
+    "part": "tripo_part_47",
+    "joint": "Movie_tripo_part_47",
+    "vertices": 7681
+  },
+  {
+    "part": "tripo_part_48",
+    "joint": "Shin.R",
+    "vertices": 7062
+  },
+  {
+    "part": "tripo_part_49",
+    "joint": "Movie_tripo_part_49",
+    "vertices": 6373
+  },
+  {
+    "part": "tripo_part_50",
+    "joint": "Movie_tripo_part_50",
+    "vertices": 6154
+  },
+  {
+    "part": "tripo_part_51",
+    "joint": "Thigh.R",
+    "vertices": 6316
+  },
+  {
+    "part": "tripo_part_52",
+    "joint": "Shin.L",
+    "vertices": 6099
+  },
+  {
+    "part": "tripo_part_53",
+    "joint": "Shin.L",
+    "vertices": 5913
+  },
+  {
+    "part": "tripo_part_54",
+    "joint": "Shoulder.R",
+    "vertices": 5824
+  },
+  {
+    "part": "tripo_part_55",
+    "joint": "Shin.R",
+    "vertices": 5502
+  },
+  {
+    "part": "tripo_part_56",
+    "joint": "Neck",
+    "vertices": 6118
+  },
+  {
+    "part": "tripo_part_57",
+    "joint": "UpperArm.L",
+    "vertices": 5783
+  },
+  {
+    "part": "tripo_part_58",
+    "joint": "Thigh.L",
+    "vertices": 4999
+  },
+  {
+    "part": "tripo_part_59",
+    "joint": "Hand.R",
+    "vertices": 4989
+  },
+  {
+    "part": "tripo_part_60",
+    "joint": "Weapon.R",
+    "vertices": 5078
+  },
+  {
+    "part": "tripo_part_61",
+    "joint": "Shin.L",
+    "vertices": 5143
+  },
+  {
+    "part": "tripo_part_62",
+    "joint": "Shin.L",
+    "vertices": 4415
+  },
+  {
+    "part": "tripo_part_63",
+    "joint": "Hand.L",
+    "vertices": 4326
+  },
+  {
+    "part": "tripo_part_64",
+    "joint": "Shin.R",
+    "vertices": 4334
+  },
+  {
+    "part": "tripo_part_65",
+    "joint": "LowerArm.R",
+    "vertices": 4651
+  },
+  {
+    "part": "tripo_part_66",
+    "joint": "Shin.L",
+    "vertices": 4459
+  },
+  {
+    "part": "tripo_part_68",
+    "joint": "Weapon.R",
+    "vertices": 4032
+  },
+  {
+    "part": "tripo_part_69",
+    "joint": "Movie_tripo_part_69",
+    "vertices": 4061
+  },
+  {
+    "part": "tripo_part_70",
+    "joint": "Shin.L",
+    "vertices": 4086
+  },
+  {
+    "part": "tripo_part_71",
+    "joint": "Shin.R",
+    "vertices": 3987
+  },
+  {
+    "part": "tripo_part_72",
+    "joint": "Shin.R",
+    "vertices": 3761
+  },
+  {
+    "part": "tripo_part_73",
+    "joint": "Shin.L",
+    "vertices": 3509
+  },
+  {
+    "part": "tripo_part_74",
+    "joint": "Shin.R",
+    "vertices": 3555
+  },
+  {
+    "part": "tripo_part_75",
+    "joint": "Movie_tripo_part_75",
+    "vertices": 3816
+  },
+  {
+    "part": "tripo_part_76",
+    "joint": "Shin.R",
+    "vertices": 3508
+  },
+  {
+    "part": "tripo_part_77",
+    "joint": "Neck",
+    "vertices": 3934
+  },
+  {
+    "part": "tripo_part_78",
+    "joint": "Neck",
+    "vertices": 3717
+  },
+  {
+    "part": "tripo_part_79",
+    "joint": "Shin.R",
+    "vertices": 3301
+  },
+  {
+    "part": "tripo_part_80",
+    "joint": "Neck",
+    "vertices": 3582
+  },
+  {
+    "part": "tripo_part_81",
+    "joint": "Chest",
+    "vertices": 3347
+  },
+  {
+    "part": "tripo_part_82",
+    "joint": "Shin.R",
+    "vertices": 3088
+  },
+  {
+    "part": "tripo_part_83",
+    "joint": "LowerArm.L",
+    "vertices": 3010
+  },
+  {
+    "part": "tripo_part_84",
+    "joint": "Shin.L",
+    "vertices": 3040
+  },
+  {
+    "part": "tripo_part_85",
+    "joint": "Chest",
+    "vertices": 3142
+  },
+  {
+    "part": "tripo_part_86",
+    "joint": "Shin.L",
+    "vertices": 2669
+  },
+  {
+    "part": "tripo_part_87",
+    "joint": "UpperArm.L",
+    "vertices": 2678
+  },
+  {
+    "part": "tripo_part_88",
+    "joint": "ChestArmor.L",
+    "vertices": 2590
+  },
+  {
+    "part": "tripo_part_89",
+    "joint": "Shin.R",
+    "vertices": 2582
+  },
+  {
+    "part": "tripo_part_90",
+    "joint": "Chest",
+    "vertices": 2793
+  },
+  {
+    "part": "tripo_part_91",
+    "joint": "Head",
+    "vertices": 2820
+  },
+  {
+    "part": "tripo_part_92",
+    "joint": "Shin.R",
+    "vertices": 2721
+  },
+  {
+    "part": "tripo_part_93",
+    "joint": "ChestArmor.R",
+    "vertices": 2507
+  },
+  {
+    "part": "tripo_part_96",
+    "joint": "Chest",
+    "vertices": 2298
+  },
+  {
+    "part": "tripo_part_97",
+    "joint": "Head",
+    "vertices": 2310
+  },
+  {
+    "part": "tripo_part_98",
+    "joint": "Neck",
+    "vertices": 2697
+  },
+  {
+    "part": "tripo_part_99",
+    "joint": "Neck",
+    "vertices": 2419
+  },
+  {
+    "part": "tripo_part_100",
+    "joint": "ChestArmor.L",
+    "vertices": 2112
+  },
+  {
+    "part": "tripo_part_101",
+    "joint": "ChestArmor.R",
+    "vertices": 2077
+  },
+  {
+    "part": "tripo_part_102",
+    "joint": "Movie_tripo_part_102",
+    "vertices": 1930
+  },
+  {
+    "part": "tripo_part_103",
+    "joint": "ChestArmor.R",
+    "vertices": 1822
+  },
+  {
+    "part": "tripo_part_104",
+    "joint": "Thigh.L",
+    "vertices": 1983
+  },
+  {
+    "part": "tripo_part_105",
+    "joint": "Movie_tripo_part_105",
+    "vertices": 1941
+  },
+  {
+    "part": "tripo_part_106",
+    "joint": "Movie_tripo_part_106",
+    "vertices": 1565
+  },
+  {
+    "part": "tripo_part_107",
+    "joint": "Shoulder.L",
+    "vertices": 1485
+  },
+  {
+    "part": "tripo_part_108",
+    "joint": "Thigh.L",
+    "vertices": 1507
+  },
+  {
+    "part": "tripo_part_109",
+    "joint": "Thigh.R",
+    "vertices": 1559
+  },
+  {
+    "part": "tripo_part_110",
+    "joint": "Movie_tripo_part_110",
+    "vertices": 1437
+  },
+  {
+    "part": "tripo_part_111",
+    "joint": "Chest",
+    "vertices": 1381
+  },
+  {
+    "part": "tripo_part_112",
+    "joint": "Neck",
+    "vertices": 3
+  },
+  {
+    "part": "tripo_node_29a3aadb-18df-4ecf-82f0-7bc1ab3a66e5",
+    "joint": "Head",
+    "vertices": 1055693
+  },
+  {
+    "part": "tripo_part_33_arm_preserved",
+    "joint": "UpperArm.R",
+    "vertices": 43253
+  },
+  {
+    "part": "RightSmallWingSeparated",
+    "joint": "Movie_RightSmallWingSeparated",
+    "vertices": 45267
+  }
+]

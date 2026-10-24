@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://r53shotsx"]
+
+[ext_resource type="Script" path="res://tools/_r53_shots.gd" id="1_r53"]
+
+[node name="R53Shots" type="Node"]
+script = ExtResource("1_r53")
